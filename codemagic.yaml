@@ -7,7 +7,7 @@ workflows:
         distribution_type: app_store
         bundle_identifier: com.magicfruitcasino.game
       groups:
-        - Unity-iPhone
+        - MagicFruit
     scripts:
       - name: Sanity check env
         script: |
