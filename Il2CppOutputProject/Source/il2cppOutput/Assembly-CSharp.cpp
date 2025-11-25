@@ -282,6 +282,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3B33482308C0D9274CA8D3EA9F0E41917FDCE6C6
 IL2CPP_EXTERN_C String_t* _stringLiteral412674BB517B2B2E115967E181E4F4926A6AA4D6;
 IL2CPP_EXTERN_C String_t* _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D;
 IL2CPP_EXTERN_C String_t* _stringLiteral448AD5F773B4D4A5BAF9FF79D3B993198E283138;
+IL2CPP_EXTERN_C String_t* _stringLiteral4B4C313358100B24ABC94A66752731B19FFCF352;
 IL2CPP_EXTERN_C String_t* _stringLiteral50863FE64FB84E5522BDDE89CF1B95FBD9FEBDCA;
 IL2CPP_EXTERN_C String_t* _stringLiteral514532A1F9FFDDED9C062B63738C4BABA78F9044;
 IL2CPP_EXTERN_C String_t* _stringLiteral54F48823060A5886D12558C4BBB0CDBB0E83F58A;
@@ -304,7 +305,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8739AB73E27D444291AAFE563DFBA8832AD5D722
 IL2CPP_EXTERN_C String_t* _stringLiteral8FE94193A3EF39943F898714AC9062F7EBD96279;
 IL2CPP_EXTERN_C String_t* _stringLiteral900D858FE9ABCD2ED2B25CD27110A78ADCC6EC6B;
 IL2CPP_EXTERN_C String_t* _stringLiteral91322B6BF3C494FF5989C3ADBC1F174AC5006D26;
-IL2CPP_EXTERN_C String_t* _stringLiteral93D33AFBE23883F9FA0B30CBD2BE0C9E603BD356;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F508BA59EFBED82F3DDC475CE4D8A7A425D4D89;
 IL2CPP_EXTERN_C String_t* _stringLiteralA5C464187A87908A44B5ECFDD1E494B855D8E6E7;
 IL2CPP_EXTERN_C String_t* _stringLiteralA62CC607C805A80A32BBD1FBF2260BFFC4BA8A58;
@@ -3531,7 +3531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:8>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:8>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_0 = ((AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_StaticFields*)il2cpp_codegen_static_fields_for(AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
 		return L_0;
 	}
@@ -3546,7 +3546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_set_Instance_m6F8BEEDBDA8BA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:8>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:8>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_0 = ___0_value;
 		((AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_StaticFields*)il2cpp_codegen_static_fields_for(AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_StaticFields*)il2cpp_codegen_static_fields_for(AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
@@ -3571,7 +3571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Awake_m8138BCED4D692C83C956
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:53>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_0;
 		L_0 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -3594,7 +3594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Awake_m8138BCED4D692C83C956
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:55>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:55>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
@@ -3604,25 +3604,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Awake_m8138BCED4D692C83C956
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9F508BA59EFBED82F3DDC475CE4D8A7A425D4D89, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:56>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:56>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_7, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:57>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:57>
 		return;
 	}
 
 IL_0040:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:60>
 		AudioManager_set_Instance_m6F8BEEDBDA8BADCA733A3B1B697331DCCE5CE33D_inline(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:61>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:61>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
 		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_8, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:62>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_9);
@@ -3632,7 +3632,7 @@ IL_0040:
 		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9F508BA59EFBED82F3DDC475CE4D8A7A425D4D89, L_10, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:65>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:65>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = __this->___musicSource;
 		bool L_13;
 		L_13 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -3642,7 +3642,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:67>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
 		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_14);
@@ -3650,11 +3650,11 @@ IL_0040:
 		L_15 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_14, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
 		__this->___musicSource = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___musicSource), (void*)L_15);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:68>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:68>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_16 = __this->___musicSource;
 		NullCheck(L_16);
 		AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949(L_16, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:69>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:69>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_17 = __this->___musicSource;
 		NullCheck(L_17);
 		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_17, (bool)1, NULL);
@@ -3662,7 +3662,7 @@ IL_0040:
 
 IL_00a2:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:72>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:72>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_18 = __this->___sfxSource;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -3673,7 +3673,7 @@ IL_00a2:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:74>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:74>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
 		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_20);
@@ -3681,11 +3681,11 @@ IL_00a2:
 		L_21 = GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14(L_20, GameObject_AddComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m0E8EFDB9B3D8DF1ADE10C56D3168A9C1BA19BF14_RuntimeMethod_var);
 		__this->___sfxSource = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sfxSource), (void*)L_21);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:75>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:75>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_22 = __this->___sfxSource;
 		NullCheck(L_22);
 		AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949(L_22, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:76>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_23 = __this->___sfxSource;
 		NullCheck(L_23);
 		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_23, (bool)0, NULL);
@@ -3693,22 +3693,22 @@ IL_00a2:
 
 IL_00d9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:80>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:80>
 		float L_24;
 		L_24 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteralB026E524DBB3836E6F55A5C70BC6E7A3D884569F, (1.0f), NULL);
 		__this->___musicVolume = L_24;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:81>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:81>
 		float L_25;
 		L_25 = PlayerPrefs_GetFloat_m4A9B511E92C8BDEBB64D9B2557126FB030895A4D(_stringLiteral5A2BCCCCB8A13C20189A54A712C465004400014B, (1.0f), NULL);
 		__this->___sfxVolume = L_25;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:83>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:83>
 		AudioManager_ApplyVolumesToSources_mE3AEB72255AEFADEFC29430047FDE3E012BB569C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:86>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:86>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_26 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_26, __this, (intptr_t)((void*)AudioManager_OnSceneLoaded_mBF1C94EE956DE45F0718F9F7F07579DFA90382A8_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_26, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:87>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:87>
 		return;
 	}
 }
@@ -3724,11 +3724,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Start_m3C0FEAF19F58B6D28A9E
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:92>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:92>
 		AudioManager_SetupVolumeSliders_m667B280A1BB29373E34890990711480B9DD4E066(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:95>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:95>
 		AudioManager_AttachClickSoundToAllButtons_mACE3356AAB930FDAD7A3F0D33C9D7A0477D6DD09(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:97>
 		bool L_0 = __this->___useSceneMusic;
 		if (!L_0)
 		{
@@ -3736,7 +3736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Start_m3C0FEAF19F58B6D28A9E
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:99>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:99>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_1;
 		L_1 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -3748,7 +3748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_Start_m3C0FEAF19F58B6D28A9E
 
 IL_0027:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:101>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:101>
 		return;
 	}
 }
@@ -3767,7 +3767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnDestroy_m94C7777178397644
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:105>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:105>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_0);
@@ -3777,7 +3777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnDestroy_m94C7777178397644
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral1683CD897A4BADBC12EC31C22A9DA81714668108, L_1, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:106>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:106>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_3;
 		L_3 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -3789,7 +3789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnDestroy_m94C7777178397644
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:108>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:108>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_5 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_5, __this, (intptr_t)((void*)AudioManager_OnSceneLoaded_mBF1C94EE956DE45F0718F9F7F07579DFA90382A8_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
@@ -3798,7 +3798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnDestroy_m94C7777178397644
 
 IL_0038:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:110>
 		return;
 	}
 }
@@ -3806,9 +3806,9 @@ IL_0038:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnSceneLoaded_mBF1C94EE956DE45F0718F9F7F07579DFA90382A8 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:115>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:115>
 		AudioManager_AttachClickSoundToAllButtons_mACE3356AAB930FDAD7A3F0D33C9D7A0477D6DD09(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:117>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:117>
 		bool L_0 = __this->___useSceneMusic;
 		if (!L_0)
 		{
@@ -3816,7 +3816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnSceneLoaded_mBF1C94EE956D
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:119>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:119>
 		String_t* L_1;
 		L_1 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&___0_scene), NULL);
 		AudioManager_AutoSelectMusicByScene_mB215194D14FE1652D6CF6DEF7973C84A8F1C7F19(__this, L_1, NULL);
@@ -3824,9 +3824,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnSceneLoaded_mBF1C94EE956D
 
 IL_001b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:123>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:123>
 		AudioManager_SetupVolumeSliders_m667B280A1BB29373E34890990711480B9DD4E066(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:124>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:124>
 		return;
 	}
 }
@@ -3847,7 +3847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_FindSlidersByTagIfNeeded_mB
 	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* V_2 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:140>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:140>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___musicVolumeSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3868,16 +3868,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_FindSlidersByTagIfNeeded_mB
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:141>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:141>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:144>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:144>
 		SliderU5BU5D_t8C370FEDFB2E9506398D536519F63CC0DE050E55* L_4;
 		L_4 = Resources_FindObjectsOfTypeAll_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mD1067F4EF5985883F711DA15FCD43C4E0451FA9D(Resources_FindObjectsOfTypeAll_TisSlider_t87EA570E3D6556CABF57456C2F3873FFD86E652F_mD1067F4EF5985883F711DA15FCD43C4E0451FA9D_RuntimeMethod_var);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:145>
 		V_0 = L_4;
 		V_1 = 0;
 		goto IL_00aa;
@@ -3885,14 +3885,14 @@ IL_001d:
 
 IL_002a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:145>
 		SliderU5BU5D_t8C370FEDFB2E9506398D536519F63CC0DE050E55* L_5 = V_0;
 		int32_t L_6 = V_1;
 		NullCheck(L_5);
 		int32_t L_7 = L_6;
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
 		V_2 = L_8;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:147>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:147>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -3903,13 +3903,13 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:149>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:149>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_11 = V_2;
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
 		V_3 = L_12;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:152>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = V_3;
 		NullCheck(L_13);
 		int32_t L_14;
@@ -3920,7 +3920,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:156>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:156>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_15 = __this->___musicVolumeSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -3941,7 +3941,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:158>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:158>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_19 = V_2;
 		__this->___musicVolumeSlider = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___musicVolumeSlider), (void*)L_19);
@@ -3949,7 +3949,7 @@ IL_002a:
 
 IL_0068:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:162>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:162>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_20 = __this->___sfxVolumeSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -3970,7 +3970,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:164>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:164>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_24 = V_2;
 		__this->___sfxVolumeSlider = L_24;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___sfxVolumeSlider), (void*)L_24);
@@ -3978,7 +3978,7 @@ IL_0068:
 
 IL_008a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:168>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:168>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_25 = __this->___musicVolumeSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -4007,7 +4007,7 @@ IL_00a6:
 
 IL_00aa:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:145>
 		int32_t L_30 = V_1;
 		SliderU5BU5D_t8C370FEDFB2E9506398D536519F63CC0DE050E55* L_31 = V_0;
 		NullCheck(L_31);
@@ -4019,7 +4019,7 @@ IL_00aa:
 
 IL_00b3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:171>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:171>
 		return;
 	}
 }
@@ -4038,9 +4038,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_SetupVolumeSliders_m667B280
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:176>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:176>
 		AudioManager_FindSlidersByTagIfNeeded_mBF92431966DA0D235215A10422415CBA99952FF0(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:179>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:179>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___musicVolumeSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4051,20 +4051,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_SetupVolumeSliders_m667B280
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:181>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:181>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_2 = __this->___musicVolumeSlider;
 		NullCheck(L_2);
 		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_2, (0.0f), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:182>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:182>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_3 = __this->___musicVolumeSlider;
 		NullCheck(L_3);
 		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_3, (1.0f), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:183>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:183>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_4 = __this->___musicVolumeSlider;
 		float L_5 = __this->___musicVolume;
 		NullCheck(L_4);
 		VirtualActionInvoker1< float >::Invoke(47, L_4, L_5);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:186>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:186>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_6 = __this->___musicVolumeSlider;
 		NullCheck(L_6);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_7;
@@ -4073,7 +4073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_SetupVolumeSliders_m667B280
 		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_8, __this, (intptr_t)((void*)AudioManager_OnMusicSliderChanged_mA4E0350EA8E225AE97B0F2C904D6AB5466651884_RuntimeMethod_var), NULL);
 		NullCheck(L_7);
 		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_7, L_8, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:187>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:187>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_9 = __this->___musicVolumeSlider;
 		NullCheck(L_9);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_10;
@@ -4086,7 +4086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_SetupVolumeSliders_m667B280
 
 IL_007d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:191>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:191>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_12 = __this->___sfxVolumeSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -4097,20 +4097,20 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:193>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:193>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_14 = __this->___sfxVolumeSlider;
 		NullCheck(L_14);
 		Slider_set_minValue_mC4D1F7709276A9A418F9284A04799FF767DEDC4F(L_14, (0.0f), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:194>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:194>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_15 = __this->___sfxVolumeSlider;
 		NullCheck(L_15);
 		Slider_set_maxValue_m43F3BF47C6D7063D80C578FD9B95AD88494203BE(L_15, (1.0f), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:195>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:195>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_16 = __this->___sfxVolumeSlider;
 		float L_17 = __this->___sfxVolume;
 		NullCheck(L_16);
 		VirtualActionInvoker1< float >::Invoke(47, L_16, L_17);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:197>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:197>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_18 = __this->___sfxVolumeSlider;
 		NullCheck(L_18);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_19;
@@ -4119,7 +4119,7 @@ IL_007d:
 		UnityAction_1__ctor_mF770070D0A4FE93F6E04DA37D2EC60429EA545E5(L_20, __this, (intptr_t)((void*)AudioManager_OnSfxSliderChanged_m55041C5ECB9D8F219857C2D8D0F1FD9D5857DCAA_RuntimeMethod_var), NULL);
 		NullCheck(L_19);
 		UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9(L_19, L_20, UnityEvent_1_RemoveListener_m6F51818308066F0E5EA7B37AC25ABDF12FADAEA9_RuntimeMethod_var);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:198>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:198>
 		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_21 = __this->___sfxVolumeSlider;
 		NullCheck(L_21);
 		SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* L_22;
@@ -4132,7 +4132,7 @@ IL_007d:
 
 IL_00f4:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:200>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:200>
 		return;
 	}
 }
@@ -4146,19 +4146,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnMusicSliderChanged_mA4E03
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:204>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:204>
 		float L_0 = ___0_value;
 		float L_1;
 		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
 		__this->___musicVolume = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:205>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:205>
 		AudioManager_ApplyVolumesToSources_mE3AEB72255AEFADEFC29430047FDE3E012BB569C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:206>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:206>
 		float L_2 = __this->___musicVolume;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteralB026E524DBB3836E6F55A5C70BC6E7A3D884569F, L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:207>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:207>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:208>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:208>
 		return;
 	}
 }
@@ -4172,19 +4172,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_OnSfxSliderChanged_m55041C5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:212>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:212>
 		float L_0 = ___0_value;
 		float L_1;
 		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
 		__this->___sfxVolume = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:213>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:213>
 		AudioManager_ApplyVolumesToSources_mE3AEB72255AEFADEFC29430047FDE3E012BB569C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:214>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:214>
 		float L_2 = __this->___sfxVolume;
 		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(_stringLiteral5A2BCCCCB8A13C20189A54A712C465004400014B, L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:215>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:215>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:216>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:216>
 		return;
 	}
 }
@@ -4198,7 +4198,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_ApplyVolumesToSources_mE3AE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:220>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:220>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___musicSource;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4209,7 +4209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_ApplyVolumesToSources_mE3AE
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:221>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:221>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___musicSource;
 		float L_3 = __this->___musicVolume;
 		NullCheck(L_2);
@@ -4218,7 +4218,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_ApplyVolumesToSources_mE3AE
 
 IL_001f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:223>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:223>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___sfxSource;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -4229,7 +4229,7 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:224>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:224>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6 = __this->___sfxSource;
 		float L_7 = __this->___sfxVolume;
 		NullCheck(L_6);
@@ -4238,7 +4238,7 @@ IL_001f:
 
 IL_003e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:225>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:225>
 		return;
 	}
 }
@@ -4258,11 +4258,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_AttachClickSoundToAllButton
 	int32_t V_1 = 0;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* V_2 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:233>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:233>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_0;
 		L_0 = Object_FindObjectsOfType_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mE82306D039D6865280E217C4CDC2C551679AAF34((bool)1, Object_FindObjectsOfType_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mE82306D039D6865280E217C4CDC2C551679AAF34_RuntimeMethod_var);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:235>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:235>
 		V_0 = L_0;
 		V_1 = 0;
 		goto IL_004a;
@@ -4270,14 +4270,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_AttachClickSoundToAllButton
 
 IL_000b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:235>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:235>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:237>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:237>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -4288,7 +4288,7 @@ IL_000b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:241>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:241>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = V_2;
 		NullCheck(L_7);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_8;
@@ -4297,7 +4297,7 @@ IL_000b:
 		UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131(L_9, NULL, (intptr_t)((void*)AudioManager_PlayClickStatic_mCF84DD35B770F98A46D04E33369504D01E0B60EA_RuntimeMethod_var), NULL);
 		NullCheck(L_8);
 		UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C(L_8, L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:242>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:242>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = V_2;
 		NullCheck(L_10);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_11;
@@ -4316,7 +4316,7 @@ IL_0046:
 
 IL_004a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:235>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:235>
 		int32_t L_14 = V_1;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_15 = V_0;
 		NullCheck(L_15);
@@ -4326,7 +4326,7 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:244>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:244>
 		return;
 	}
 }
@@ -4340,7 +4340,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayClickStatic_mCF84DD35B7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:249>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:249>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_0;
 		L_0 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -4352,7 +4352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayClickStatic_mCF84DD35B7
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:251>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:251>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_2;
 		L_2 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		NullCheck(L_2);
@@ -4361,7 +4361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayClickStatic_mCF84DD35B7
 
 IL_0017:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:253>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:253>
 		return;
 	}
 }
@@ -4369,10 +4369,10 @@ IL_0017:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayClick_m15201BA935BE3D0BF9FA8999FD75F5F508945C2E (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:257>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:257>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___clickSfx;
 		AudioManager_PlaySfx_m90C88E94095C516F23BB3AEEB5F698ACFB4216AC(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:258>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:258>
 		return;
 	}
 }
@@ -4386,7 +4386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlaySfx_m90C88E94095C516F23
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:263>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:263>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4409,18 +4409,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlaySfx_m90C88E94095C516F23
 
 IL_0017:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:263>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:263>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:264>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:264>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___sfxSource;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = ___0_clip;
 		NullCheck(L_4);
 		AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112(L_4, L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:265>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:265>
 		return;
 	}
 }
@@ -4428,10 +4428,10 @@ IL_0018:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayFieldWin_mAE2D9783E4C7DCC388B1B0A67ECB44D7AC2FD9A2 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:272>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:272>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___fieldWinSfx;
 		AudioManager_PlaySfx_m90C88E94095C516F23BB3AEEB5F698ACFB4216AC(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:273>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:273>
 		return;
 	}
 }
@@ -4439,10 +4439,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayFieldWin_mAE2D9783E4C7D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayCoinsAdd_m70E40AAE7E8B4B2D3B39663245252B605B1C1F39 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:277>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:277>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___coinsAddSfx;
 		AudioManager_PlaySfx_m90C88E94095C516F23BB3AEEB5F698ACFB4216AC(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:278>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:278>
 		return;
 	}
 }
@@ -4450,10 +4450,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayCoinsAdd_m70E40AAE7E8B4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayPreviewAppear_m6510ED8AE72FDCBC12A30D81449D720DFE791ED0 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:282>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:282>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___previewAppearSfx;
 		AudioManager_PlaySfx_m90C88E94095C516F23BB3AEEB5F698ACFB4216AC(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:283>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:283>
 		return;
 	}
 }
@@ -4461,10 +4461,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayPreviewAppear_m6510ED8A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayPlaceToField_mFC55EDE73E6057AEBB70EF9A93D1BAD7BDD5A9C6 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:287>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:287>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___placeToFieldSfx;
 		AudioManager_PlaySfx_m90C88E94095C516F23BB3AEEB5F698ACFB4216AC(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:288>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:288>
 		return;
 	}
 }
@@ -4472,10 +4472,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayPlaceToField_mFC55EDE73
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayWin_mB22688AE26138C52411D4276FD281D7284428B6C (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:292>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:292>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___winSfx;
 		AudioManager_PlaySfx_m90C88E94095C516F23BB3AEEB5F698ACFB4216AC(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:293>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:293>
 		return;
 	}
 }
@@ -4483,10 +4483,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayWin_mB22688AE26138C5241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayReelSpin_m96DA90812255DF71D9F88883B1CF9F2EDDE4D4D5 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:297>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:297>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___reelSpinSfx;
 		AudioManager_PlaySfx_m90C88E94095C516F23BB3AEEB5F698ACFB4216AC(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:298>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:298>
 		return;
 	}
 }
@@ -4494,10 +4494,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayReelSpin_m96DA90812255D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayLobbyMusic_m0CD1ADC979173AE11E3725D7FEBB6173B349CAD2 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:305>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:305>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = __this->___lobbyMusic;
 		AudioManager_PlayMusic_m430FF6F52449682F7E735631AAB163180F14864A(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:306>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:306>
 		return;
 	}
 }
@@ -4505,11 +4505,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayLobbyMusic_m0CD1ADC9791
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayGameMusic_m150503FD3F6E4D8235009C58C9F6AB43361EA65E (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:310>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:310>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0;
 		L_0 = AudioManager_GetGameMusicForCurrentGame_mDED317E0C816DA0D5595DB4AAFCE9AD2F33762A1(__this, NULL);
 		AudioManager_PlayMusic_m430FF6F52449682F7E735631AAB163180F14864A(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:311>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:311>
 		return;
 	}
 }
@@ -4523,7 +4523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_StopMusic_m7506515A806EC57D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:315>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:315>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___musicSource;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4534,7 +4534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_StopMusic_m7506515A806EC57D
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:316>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:316>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___musicSource;
 		NullCheck(L_2);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_2, NULL);
@@ -4542,7 +4542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_StopMusic_m7506515A806EC57D
 
 IL_0019:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:317>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:317>
 		return;
 	}
 }
@@ -4556,7 +4556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayMusic_m430FF6F52449682F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:321>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:321>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___musicSource;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4567,13 +4567,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_PlayMusic_m430FF6F52449682F
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:321>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:321>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:323>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:323>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_2 = ___0_clip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -4584,21 +4584,21 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:325>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:325>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4 = __this->___musicSource;
 		NullCheck(L_4);
 		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_4, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:326>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:326>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = __this->___musicSource;
 		NullCheck(L_5);
 		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_5, (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)NULL, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:327>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:327>
 		return;
 	}
 
 IL_0030:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:331>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:331>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6 = __this->___musicSource;
 		NullCheck(L_6);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_7;
@@ -4623,26 +4623,26 @@ IL_0030:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:332>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:332>
 		return;
 	}
 
 IL_0051:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:334>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:334>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_12 = __this->___musicSource;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_13 = ___0_clip;
 		NullCheck(L_12);
 		AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70(L_12, L_13, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:335>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:335>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_14 = __this->___musicSource;
 		NullCheck(L_14);
 		AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56(L_14, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:336>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:336>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_15 = __this->___musicSource;
 		NullCheck(L_15);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_15, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:337>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:337>
 		return;
 	}
 }
@@ -4657,7 +4657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:342>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:342>
 		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_0 = __this->___gameMusicByGame;
 		if (!L_0)
 		{
@@ -4675,17 +4675,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:343>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:343>
 		return (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:345>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:345>
 		il2cpp_codegen_runtime_class_init_inline(GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_StaticFields*)il2cpp_codegen_static_fields_for(GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_il2cpp_TypeInfo_var))->___GAME_NUMBER;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:346>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:346>
 		int32_t L_3 = V_0;
 		if ((((int32_t)L_3) >= ((int32_t)0)))
 		{
@@ -4693,13 +4693,13 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:346>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:346>
 		V_0 = 0;
 	}
 
 IL_0021:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:347>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:347>
 		int32_t L_4 = V_0;
 		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_5 = __this->___gameMusicByGame;
 		NullCheck(L_5);
@@ -4709,7 +4709,7 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:347>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:347>
 		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_6 = __this->___gameMusicByGame;
 		NullCheck(L_6);
 		V_0 = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_6)->max_length)), 1));
@@ -4717,7 +4717,7 @@ IL_0021:
 
 IL_0037:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:349>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:349>
 		AudioClipU5BU5D_t916722468F7EDCFA833318C35CD7D41097D75D31* L_7 = __this->___gameMusicByGame;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
@@ -4749,7 +4749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_AutoSelectMusicByScene_mB21
 		NullCheck(L_1);
 		L_1->___sceneName = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___sceneName), (void*)L_2);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:357>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:357>
 		bool L_3 = __this->___useSceneMusic;
 		if (!L_3)
 		{
@@ -4770,13 +4770,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager_AutoSelectMusicByScene_mB21
 
 IL_0022:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:358>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:358>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:361>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:361>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = __this->___lobbySceneNames;
 		if (!L_7)
 		{
@@ -4796,15 +4796,15 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:363>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:363>
 		AudioManager_PlayLobbyMusic_m0CD1ADC979173AE11E3725D7FEBB6173B349CAD2(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:364>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:364>
 		return;
 	}
 
 IL_004b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:368>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:368>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_12 = __this->___gameSceneNames;
 		if (!L_12)
 		{
@@ -4824,15 +4824,15 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:370>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:370>
 		AudioManager_PlayGameMusic_m150503FD3F6E4D8235009C58C9F6AB43361EA65E(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:371>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:371>
 		return;
 	}
 
 IL_0073:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:375>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:375>
 		return;
 	}
 }
@@ -4840,11 +4840,11 @@ IL_0073:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioManager__ctor_mA793A9DF6B975D03690B7C953972EFE41AE4D5E6 (AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:35>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:35>
 		__this->___useSceneMusic = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:47>
 		__this->___musicVolume = (1.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:48>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:48>
 		__this->___sfxVolume = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -4870,7 +4870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass48_0__ctor_mA4B4EA3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass48_0_U3CAutoSelectMusicBySceneU3Eb__0_m0CFA8FB3227B47A16E5828ADCA04500EC4C128EA (U3CU3Ec__DisplayClass48_0_t8B1B930C52521E3F4D128B63AA3F283D60B838E8* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:361>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:361>
 		String_t* L_0 = ___0_s;
 		String_t* L_1 = __this->___sceneName;
 		bool L_2;
@@ -4882,7 +4882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass48_0_U3CAutoSelectM
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass48_0_U3CAutoSelectMusicBySceneU3Eb__1_m0636AB958F530DB13CA82BB81B9EECA4B3B0CD61 (U3CU3Ec__DisplayClass48_0_t8B1B930C52521E3F4D128B63AA3F283D60B838E8* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:368>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:368>
 		String_t* L_0 = ___0_s;
 		String_t* L_1 = __this->___sceneName;
 		bool L_2;
@@ -4902,11 +4902,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass48_0_U3CAutoSelectM
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_Awake_mD0A33129B28DA4418E79879262957762E5498282 (CharacterSelector_t3FDA33FAF8CF21DF9FC1E34A558DA73D2FACB64E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:22>
 		CharacterSelector_LoadSelectedCharacter_mE69C188AC7F8CEFC7C6E25FC5A72E7E7B3E0B5B4(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:24>
 		CharacterSelector_ApplyCharacterSprite_m492FEB373405039200E7B1886BD142C5A3E3E3A1(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:25>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:25>
 		return;
 	}
 }
@@ -4920,11 +4920,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_LoadSelectedCharacter_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:32>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:32>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral23A04CFEF01BAE205666B1C376AF46C219FF8D33, 0, NULL);
 		__this->___currentIndex = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:34>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_1 = __this->___characterSprites;
 		if (!L_1)
 		{
@@ -4940,7 +4940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_LoadSelectedCharacter_
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:37>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:37>
 		int32_t L_3 = __this->___currentIndex;
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_4 = __this->___characterSprites;
 		NullCheck(L_4);
@@ -4952,9 +4952,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_LoadSelectedCharacter_
 
 IL_003f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:41>
 		__this->___currentIndex = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:43>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:43>
 		return;
 	}
 }
@@ -4968,12 +4968,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_SaveSelectedCharacter_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:50>
 		int32_t L_0 = __this->___currentIndex;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral23A04CFEF01BAE205666B1C376AF46C219FF8D33, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:51>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:51>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:52>
 		return;
 	}
 }
@@ -4989,7 +4989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_ApplyCharacterSprite_m
 	int32_t V_0 = 0;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:59>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:59>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___targetImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5000,13 +5000,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_ApplyCharacterSprite_m
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:59>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:59>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:60>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_2 = __this->___characterSprites;
 		if (!L_2)
 		{
@@ -5024,27 +5024,27 @@ IL_000f:
 
 IL_0020:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:60>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:62>
 		int32_t L_4 = __this->___currentIndex;
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_5 = __this->___characterSprites;
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_4, 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_5)->max_length)), 1)), NULL);
 		V_0 = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:63>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:63>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_7 = __this->___characterSprites;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		int32_t L_9 = L_8;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		V_1 = L_10;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:64>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:64>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_11 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -5055,7 +5055,7 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:66>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:66>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13 = __this->___targetImage;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_14 = V_1;
 		NullCheck(L_13);
@@ -5064,7 +5064,7 @@ IL_0021:
 
 IL_0056:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:68>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:68>
 		return;
 	}
 }
@@ -5072,7 +5072,7 @@ IL_0056:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_SelectCharacter_m403120C0D5513BCCA6537FBB2969F4CD50764C8E (CharacterSelector_t3FDA33FAF8CF21DF9FC1E34A558DA73D2FACB64E* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:76>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_0 = __this->___characterSprites;
 		if (!L_0)
 		{
@@ -5090,24 +5090,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_SelectCharacter_m40312
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:77>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:79>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:79>
 		int32_t L_2 = ___0_index;
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_3 = __this->___characterSprites;
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_2, 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_3)->max_length)), 1)), NULL);
 		__this->___currentIndex = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:80>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:80>
 		CharacterSelector_SaveSelectedCharacter_mD20FFF91D8888B0A26481882D772C9854F141DF0(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:81>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:81>
 		CharacterSelector_ApplyCharacterSprite_m492FEB373405039200E7B1886BD142C5A3E3E3A1(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:82>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:82>
 		return;
 	}
 }
@@ -5115,7 +5115,7 @@ IL_0012:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_SelectNextCharacter_mFDA12EA5E17AF3338E08A49D1EF24B8134F7C765 (CharacterSelector_t3FDA33FAF8CF21DF9FC1E34A558DA73D2FACB64E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:90>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:90>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_0 = __this->___characterSprites;
 		if (!L_0)
 		{
@@ -5133,16 +5133,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_SelectNextCharacter_mF
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:91>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:91>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:93>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:93>
 		int32_t L_2 = __this->___currentIndex;
 		__this->___currentIndex = ((int32_t)il2cpp_codegen_add(L_2, 1));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:94>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:94>
 		int32_t L_3 = __this->___currentIndex;
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_4 = __this->___characterSprites;
 		NullCheck(L_4);
@@ -5152,17 +5152,17 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:95>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:95>
 		__this->___currentIndex = 0;
 	}
 
 IL_0037:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:97>
 		CharacterSelector_SaveSelectedCharacter_mD20FFF91D8888B0A26481882D772C9854F141DF0(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:98>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:98>
 		CharacterSelector_ApplyCharacterSprite_m492FEB373405039200E7B1886BD142C5A3E3E3A1(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:99>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:99>
 		return;
 	}
 }
@@ -5170,7 +5170,7 @@ IL_0037:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_SelectPreviousCharacter_mE674DE251759ABD8580CC6718E8971FB8B7DEE95 (CharacterSelector_t3FDA33FAF8CF21DF9FC1E34A558DA73D2FACB64E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:107>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:107>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_0 = __this->___characterSprites;
 		if (!L_0)
 		{
@@ -5188,16 +5188,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharacterSelector_SelectPreviousCharacte
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:108>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:108>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:110>
 		int32_t L_2 = __this->___currentIndex;
 		__this->___currentIndex = ((int32_t)il2cpp_codegen_subtract(L_2, 1));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:111>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:111>
 		int32_t L_3 = __this->___currentIndex;
 		if ((((int32_t)L_3) >= ((int32_t)0)))
 		{
@@ -5205,7 +5205,7 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:112>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:112>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_4 = __this->___characterSprites;
 		NullCheck(L_4);
 		__this->___currentIndex = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_4)->max_length)), 1));
@@ -5213,11 +5213,11 @@ IL_0012:
 
 IL_0039:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:114>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:114>
 		CharacterSelector_SaveSelectedCharacter_mD20FFF91D8888B0A26481882D772C9854F141DF0(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:115>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:115>
 		CharacterSelector_ApplyCharacterSprite_m492FEB373405039200E7B1886BD142C5A3E3E3A1(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:116>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:116>
 		return;
 	}
 }
@@ -5225,7 +5225,7 @@ IL_0039:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterSelector_GetCurrentCharacterIndex_m0A14B04D28FE5A3D1DD6EA2DA59D094F816918CD (CharacterSelector_t3FDA33FAF8CF21DF9FC1E34A558DA73D2FACB64E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharacterSelector.cs:124>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharacterSelector.cs:124>
 		int32_t L_0 = __this->___currentIndex;
 		return L_0;
 	}
@@ -5263,15 +5263,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_Awake_mFE748FD75
 	int32_t V_0 = 0;
 	U3CU3Ec__DisplayClass7_0_tE445776E8E4818B7213FCACFC8295BCBA9348A11* V_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:36>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:36>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralC0C86C026038BA3CC5D3E02687112FB1B258CE90, 0, NULL);
 		__this->___currentLevel = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:37>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:37>
 		int32_t L_1;
 		L_1 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral23A04CFEF01BAE205666B1C376AF46C219FF8D33, 0, NULL);
 		__this->___selectedIndex = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:40>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:40>
 		int32_t L_2 = __this->___selectedIndex;
 		if ((((int32_t)L_2) >= ((int32_t)0)))
 		{
@@ -5279,13 +5279,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_Awake_mFE748FD75
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:40>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:40>
 		__this->___selectedIndex = 0;
 	}
 
 IL_0032:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:41>
 		int32_t L_3 = __this->___selectedIndex;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_4 = __this->___characterButtons;
 		NullCheck(L_4);
@@ -5295,13 +5295,13 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:41>
 		__this->___selectedIndex = 0;
 	}
 
 IL_0049:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:44>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:44>
 		V_0 = 0;
 		goto IL_00a5;
 	}
@@ -5315,12 +5315,12 @@ IL_004d:
 		NullCheck(L_6);
 		L_6->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___U3CU3E4__this), (void*)__this);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:46>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:46>
 		U3CU3Ec__DisplayClass7_0_tE445776E8E4818B7213FCACFC8295BCBA9348A11* L_7 = V_1;
 		int32_t L_8 = V_0;
 		NullCheck(L_7);
 		L_7->___idx = L_8;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:47>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_9 = __this->___characterButtons;
 		int32_t L_10 = V_0;
 		NullCheck(L_9);
@@ -5335,7 +5335,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:49>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:49>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_14 = __this->___characterButtons;
 		int32_t L_15 = V_0;
 		NullCheck(L_14);
@@ -5346,7 +5346,7 @@ IL_004d:
 		L_18 = Button_get_onClick_m701712A7F7F000CC80D517C4510697E15722C35C_inline(L_17, NULL);
 		NullCheck(L_18);
 		UnityEventBase_RemoveAllListeners_m6E68297189537543B0C72FE38804646CA204D076(L_18, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:50>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_19 = __this->___characterButtons;
 		int32_t L_20 = V_0;
 		NullCheck(L_19);
@@ -5364,14 +5364,14 @@ IL_004d:
 
 IL_00a1:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:44>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:44>
 		int32_t L_26 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_00a5:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:44>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:44>
 		int32_t L_27 = V_0;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_28 = __this->___characterButtons;
 		NullCheck(L_28);
@@ -5381,11 +5381,11 @@ IL_00a5:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:54>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:54>
 		CharactersUnlockManager_RefreshCharacters_mE03100552DC5775FC8A6E53911713B0F15C652FB(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:55>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:55>
 		CharactersUnlockManager_RefreshSelectedIndicators_mF8AA9F4588699776F3F117BF073A8478B8A8CAC4(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:56>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:56>
 		return;
 	}
 }
@@ -5404,25 +5404,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_RefreshCharacter
 	bool V_2 = false;
 	int32_t V_3 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:64>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:64>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralC0C86C026038BA3CC5D3E02687112FB1B258CE90, 0, NULL);
 		__this->___currentLevel = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:66>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:66>
 		V_0 = 0;
 		goto IL_004f;
 	}
 
 IL_0015:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:68>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:68>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_1 = __this->___characterButtons;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_1 = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:69>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:69>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -5433,7 +5433,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:73>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:73>
 		int32_t L_7 = V_0;
 		if (L_7)
 		{
@@ -5441,21 +5441,21 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:76>
 		V_2 = (bool)1;
 		goto IL_0044;
 	}
 
 IL_002e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:80>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:80>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_8 = __this->___requiredLevels;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		int32_t L_10 = L_9;
 		int32_t L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		V_3 = L_11;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:81>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:81>
 		int32_t L_12 = __this->___currentLevel;
 		int32_t L_13 = V_3;
 		V_2 = (bool)((((int32_t)((((int32_t)L_12) < ((int32_t)L_13))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -5463,7 +5463,7 @@ IL_002e:
 
 IL_0044:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:84>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:84>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = V_1;
 		bool L_15 = V_2;
 		NullCheck(L_14);
@@ -5472,14 +5472,14 @@ IL_0044:
 
 IL_004b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:66>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:66>
 		int32_t L_16 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_004f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:66>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:66>
 		int32_t L_17 = V_0;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_18 = __this->___characterButtons;
 		NullCheck(L_18);
@@ -5500,7 +5500,7 @@ IL_004f:
 
 IL_0065:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:88>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:88>
 		int32_t L_21 = __this->___selectedIndex;
 		bool L_22;
 		L_22 = CharactersUnlockManager_IsCharacterUnlocked_m55D8FE553363B2F2693CA33BBCF2B8AC51D48BF2(__this, L_21, NULL);
@@ -5510,15 +5510,15 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:90>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:90>
 		__this->___selectedIndex = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:91>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:91>
 		CharactersUnlockManager_SaveSelected_m72E1977D56B809F61501E632D52B2E9CF4BEB79A(__this, NULL);
 	}
 
 IL_0080:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:93>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:93>
 		return;
 	}
 }
@@ -5526,7 +5526,7 @@ IL_0080:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharactersUnlockManager_IsCharacterUnlocked_m55D8FE553363B2F2693CA33BBCF2B8AC51D48BF2 (CharactersUnlockManager_t4C59F1565684FE30D3571AEA0C5CB514B21579E2* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:97>
 		int32_t L_0 = ___0_index;
 		if ((((int32_t)L_0) > ((int32_t)0)))
 		{
@@ -5534,13 +5534,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CharactersUnlockManager_IsCharacterUnloc
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:97>
 		return (bool)1;
 	}
 
 IL_0006:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:98>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:98>
 		int32_t L_1 = ___0_index;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = __this->___requiredLevels;
 		NullCheck(L_2);
@@ -5550,13 +5550,13 @@ IL_0006:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:98>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:98>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:100>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:100>
 		int32_t L_3 = __this->___currentLevel;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = __this->___requiredLevels;
 		int32_t L_5 = ___0_index;
@@ -5579,7 +5579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_OnCharacterButto
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:106>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:106>
 		int32_t L_0 = ___0_index;
 		bool L_1;
 		L_1 = CharactersUnlockManager_IsCharacterUnlocked_m55D8FE553363B2F2693CA33BBCF2B8AC51D48BF2(__this, L_0, NULL);
@@ -5589,7 +5589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_OnCharacterButto
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:108>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:108>
 		int32_t L_2 = ___0_index;
 		int32_t L_3 = ((int32_t)il2cpp_codegen_add(L_2, 1));
 		RuntimeObject* L_4 = Box(il2cpp_defaults.int32_class, &L_3);
@@ -5597,20 +5597,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_OnCharacterButto
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral8384B2EF30D7CA5645ACD4DC9D3A1BFE0F55C862, L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:109>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:109>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:112>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:112>
 		int32_t L_6 = ___0_index;
 		__this->___selectedIndex = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:113>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:113>
 		CharactersUnlockManager_SaveSelected_m72E1977D56B809F61501E632D52B2E9CF4BEB79A(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:114>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:114>
 		CharactersUnlockManager_RefreshSelectedIndicators_mF8AA9F4588699776F3F117BF073A8478B8A8CAC4(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:116>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:116>
 		int32_t L_7 = ___0_index;
 		int32_t L_8 = ((int32_t)il2cpp_codegen_add(L_7, 1));
 		RuntimeObject* L_9 = Box(il2cpp_defaults.int32_class, &L_8);
@@ -5618,7 +5618,7 @@ IL_0021:
 		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral3B33482308C0D9274CA8D3EA9F0E41917FDCE6C6, L_9, _stringLiteral23A04CFEF01BAE205666B1C376AF46C219FF8D33, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:117>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:117>
 		return;
 	}
 }
@@ -5632,12 +5632,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_SaveSelected_m72
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:121>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:121>
 		int32_t L_0 = __this->___selectedIndex;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral23A04CFEF01BAE205666B1C376AF46C219FF8D33, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:122>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:122>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:123>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:123>
 		return;
 	}
 }
@@ -5653,21 +5653,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager_RefreshSelectedI
 	int32_t V_0 = 0;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* V_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:130>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:130>
 		V_0 = 0;
 		goto IL_0029;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:132>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:132>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = __this->___selectedIndicators;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		int32_t L_2 = L_1;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
 		V_1 = L_3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:133>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:133>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -5678,7 +5678,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:136>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:136>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = V_1;
 		int32_t L_7 = V_0;
 		int32_t L_8 = __this->___selectedIndex;
@@ -5688,14 +5688,14 @@ IL_0004:
 
 IL_0025:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:130>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:130>
 		int32_t L_9 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0029:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:130>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:130>
 		int32_t L_10 = V_0;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_11 = __this->___selectedIndicators;
 		NullCheck(L_11);
@@ -5705,7 +5705,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:138>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:138>
 		return;
 	}
 }
@@ -5722,27 +5722,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CharactersUnlockManager__ctor_mFB4EF85B5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:10>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:10>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_0 = (ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF*)(ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF*)SZArrayNew(ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10));
 		__this->___characterButtons = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___characterButtons), (void*)L_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:13>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_1 = (ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)SZArrayNew(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10));
 		__this->___selectedIndicators = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedIndicators), (void*)L_1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:17>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:18>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:19>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:20>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:21>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:22>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:23>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:24>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:25>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:26>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:27>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:28>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:18>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:19>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:20>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:21>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:23>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:25>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:26>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:27>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:29>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)10));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = L_2;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_4 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____FF8F2BB6A3874CD547DCD9DEE7CD99B48DF7A7699131945E30F963F1E87FBF75_FieldInfo_var) };
@@ -5773,7 +5773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0__ctor_m9274F4B8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CAwakeU3Eb__0_m7793491AA4540ED6B4FCCC5E7940A1640D0BBCDC (U3CU3Ec__DisplayClass7_0_tE445776E8E4818B7213FCACFC8295BCBA9348A11* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/CharactersUnlockManager.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/CharactersUnlockManager.cs:50>
 		CharactersUnlockManager_t4C59F1565684FE30D3571AEA0C5CB514B21579E2* L_0 = __this->___U3CU3E4__this;
 		int32_t L_1 = __this->___idx;
 		NullCheck(L_0);
@@ -5793,11 +5793,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass7_0_U3CAwakeU3Eb__0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_Start_m8BB56480E56795095F7DE560DBF985D69AE27FC1 (DailyBonus_t8614BEE1C4F988461295C5C62B4B6FCD4D12D50E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:28>
 		DailyBonus_LoadLastBonusTime_m24E69E490C92397282E1B3885F14AA720B58DF54(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:29>
 		DailyBonus_UpdateBonusState_m527D2D83EDE6E07D51BA1096C7E4B30996DA56F4(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:30>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:30>
 		return;
 	}
 }
@@ -5805,9 +5805,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_Start_m8BB56480E56795095F7DE5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_Update_m6FE419EE640784057354E00ACF2DC37975B2F348 (DailyBonus_t8614BEE1C4F988461295C5C62B4B6FCD4D12D50E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:34>
 		DailyBonus_UpdateBonusState_m527D2D83EDE6E07D51BA1096C7E4B30996DA56F4(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:35>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:35>
 		return;
 	}
 }
@@ -5826,11 +5826,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_LoadLastBonusTime_m24E69E490C
 	String_t* V_0 = NULL;
 	int64_t V_1 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:41>
 		String_t* L_0;
 		L_0 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteralF6C90789E6C5369BFC42E4BE7C84E2E4D397EA39, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:42>
 		String_t* L_1 = V_0;
 		bool L_2;
 		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
@@ -5840,31 +5840,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_LoadLastBonusTime_m24E69E490C
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:45>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:45>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_3 = ((DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields*)il2cpp_codegen_static_fields_for(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var))->___MinValue;
 		__this->___lastBonusTime = L_3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:46>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:46>
 		__this->___isReady = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:47>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:50>
 		String_t* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		int64_t L_5;
 		L_5 = Convert_ToInt64_mE141C5A7AE0C7A127BA9B6D165F3098B10726591(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:51>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:51>
 		int64_t L_6 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_7;
 		L_7 = DateTime_FromBinary_m3CED9C962489A2A0ABF34FB77B2AB257B9DA7B7B(L_6, NULL);
 		__this->___lastBonusTime = L_7;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:52>
 		return;
 	}
 }
@@ -5880,19 +5880,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_SaveLastBonusTime_m61B976DAC2
 	}
 	int64_t V_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:58>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:58>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_0 = (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(&__this->___lastBonusTime);
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		int64_t L_1;
 		L_1 = DateTime_ToBinary_m14CAC5CF45E58602ACDE00DF41A200CCAA79C445(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:59>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:59>
 		String_t* L_2;
 		L_2 = Int64_ToString_m284E4E55662818E38654309A41C2B07CD436F36B((&V_0), NULL);
 		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteralF6C90789E6C5369BFC42E4BE7C84E2E4D397EA39, L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:60>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:61>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:61>
 		return;
 	}
 }
@@ -5916,13 +5916,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_UpdateBonusState_m527D2D83EDE
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:67>
 		float L_0 = __this->___cooldownHours;
 		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_1;
 		L_1 = TimeSpan_FromHours_mBF56E93F18A822E3EA1C593E8151F154709AC6BA(((double)L_0), NULL);
 		V_0 = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:68>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:68>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_2;
 		L_2 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
@@ -5930,7 +5930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_UpdateBonusState_m527D2D83EDE
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_4;
 		L_4 = DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123(L_2, L_3, NULL);
 		V_1 = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:70>
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_5 = V_1;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_6 = V_0;
 		bool L_7;
@@ -5941,13 +5941,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_UpdateBonusState_m527D2D83EDE
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:73>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:73>
 		__this->___isReady = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:74>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:74>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___takeButton;
 		NullCheck(L_8);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_8, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:76>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = __this->___bonusAvailableObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -5958,7 +5958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_UpdateBonusState_m527D2D83EDE
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:76>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___bonusAvailableObject;
 		NullCheck(L_11);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_11, (bool)1, NULL);
@@ -5966,7 +5966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_UpdateBonusState_m527D2D83EDE
 
 IL_0054:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:77>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___bonusTakenObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -5977,7 +5977,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:77>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___bonusTakenObject;
 		NullCheck(L_14);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_14, (bool)0, NULL);
@@ -5985,7 +5985,7 @@ IL_0054:
 
 IL_006e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:79>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:79>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___timerText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -5996,7 +5996,7 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:80>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:80>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___timerText;
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, _stringLiteralAE405ABABA91AD6ED3B910C3C5746C67E4A2A2B8);
@@ -6004,19 +6004,19 @@ IL_006e:
 
 IL_008c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:82>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:82>
 		return;
 	}
 
 IL_008d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:86>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:86>
 		__this->___isReady = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:87>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:87>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_18 = __this->___takeButton;
 		NullCheck(L_18);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_18, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:89>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:89>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___bonusAvailableObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
@@ -6027,7 +6027,7 @@ IL_008d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:89>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:89>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = __this->___bonusAvailableObject;
 		NullCheck(L_21);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_21, (bool)0, NULL);
@@ -6035,7 +6035,7 @@ IL_008d:
 
 IL_00ba:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:90>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:90>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___bonusTakenObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
@@ -6046,7 +6046,7 @@ IL_00ba:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:90>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:90>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = __this->___bonusTakenObject;
 		NullCheck(L_24);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_24, (bool)1, NULL);
@@ -6054,14 +6054,14 @@ IL_00ba:
 
 IL_00d4:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:93>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:93>
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_25 = V_0;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_26 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_27;
 		L_27 = TimeSpan_op_Subtraction_m56EC225AACB5E7C91E29A2ECB634B658A63289F7(L_25, L_26, NULL);
 		V_2 = L_27;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:95>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:95>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = __this->___timerText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_29;
@@ -6072,10 +6072,10 @@ IL_00d4:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:97>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:98>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:99>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:100>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:98>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:99>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:100>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_30 = __this->___timerText;
 		il2cpp_codegen_runtime_class_init_inline(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var);
 		int32_t L_31;
@@ -6100,7 +6100,7 @@ IL_00d4:
 
 IL_012e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:102>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:102>
 		return;
 	}
 }
@@ -6119,7 +6119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_OnTakeBonus_m88E33EE1095CCCEE
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:108>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:108>
 		bool L_0 = __this->___isReady;
 		if (L_0)
 		{
@@ -6127,13 +6127,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus_OnTakeBonus_m88E33EE1095CCCEE
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:108>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:108>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:110>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_1;
 		L_1 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -6145,7 +6145,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:111>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:111>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_3;
 		L_3 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		NullCheck(L_3);
@@ -6154,20 +6154,20 @@ IL_0009:
 
 IL_0020:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:114>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:114>
 		int32_t L_4;
 		L_4 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral91322B6BF3C494FF5989C3ADBC1F174AC5006D26, ((int32_t)1000), NULL);
 		V_0 = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:117>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:117>
 		int32_t L_5 = V_0;
 		int32_t L_6 = __this->___rewardAmount;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_5, L_6));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:120>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:120>
 		int32_t L_7 = V_0;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral91322B6BF3C494FF5989C3ADBC1F174AC5006D26, L_7, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:121>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:121>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:123>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:123>
 		int32_t L_8 = __this->___rewardAmount;
 		int32_t L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_defaults.int32_class, &L_9);
@@ -6178,16 +6178,16 @@ IL_0020:
 		L_14 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralA5C464187A87908A44B5ECFDD1E494B855D8E6E7, L_10, L_13, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:126>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:126>
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_15;
 		L_15 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
 		__this->___lastBonusTime = L_15;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:127>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:127>
 		DailyBonus_SaveLastBonusTime_m61B976DAC2CF8F949D5BF6512B14D2F3DDCDB538(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:130>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:130>
 		DailyBonus_UpdateBonusState_m527D2D83EDE6E07D51BA1096C7E4B30996DA56F4(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:131>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:131>
 		return;
 	}
 }
@@ -6195,9 +6195,9 @@ IL_0020:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DailyBonus__ctor_m1CA78AA0C1EE02AAA166F3C5B82D4D06FC3F7D96 (DailyBonus_t8614BEE1C4F988461295C5C62B4B6FCD4D12D50E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:17>
 		__this->___rewardAmount = ((int32_t)100);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DailyBonus.cs:18>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DailyBonus.cs:18>
 		__this->___cooldownHours = (12.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -6221,12 +6221,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestroyAfterStart_Start_m5406D1E4367B050
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DestroyAfterStart.cs:7>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DestroyAfterStart.cs:7>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_m064F2A066491D2DC4FFCFBDBE5FCFFB807A04436(L_0, (2.0f), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/DestroyAfterStart.cs:8>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/DestroyAfterStart.cs:8>
 		return;
 	}
 }
@@ -6256,7 +6256,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameIdConfig__cctor_m51DFD52CCC68B138E5D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameIdConfig.cs:6>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameIdConfig.cs:6>
 		((GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_StaticFields*)il2cpp_codegen_static_fields_for(GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_il2cpp_TypeInfo_var))->___GAME_NUMBER = 1;
 		return;
 	}
@@ -6295,7 +6295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:17>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
 		return L_0;
 	}
@@ -6310,7 +6310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_set_Instance_mCFE1FA9223DC00
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:17>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ___0_value;
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
@@ -6321,7 +6321,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_set_Instance_mCFE1FA9223DC00
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameManager_get_CurrentBet_m3DD1458B3C275C39B7E5E2434C0545F1B4AFA248 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:139>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:139>
 		int32_t L_0 = __this->___currentBet;
 		return L_0;
 	}
@@ -6344,7 +6344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:146>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:146>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -6367,20 +6367,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:148>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:148>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_4, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:149>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:149>
 		return;
 	}
 
 IL_0026:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:152>
 		GameManager_set_Instance_mCFE1FA9223DC000B8D5535A9B6576264FA4405EF_inline(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:155>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:155>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_5 = __this->___PreviewImages;
 		if (!L_5)
 		{
@@ -6396,7 +6396,7 @@ IL_0026:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:156>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:156>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_7 = __this->___PreviewImages;
 		NullCheck(L_7);
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_8 = (SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865*)(SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865*)SZArrayNew(SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_7)->max_length)));
@@ -6406,7 +6406,7 @@ IL_0026:
 
 IL_0050:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:159>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:159>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___doubleButtonImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -6427,7 +6427,7 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:161>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:161>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = __this->___doubleButton;
 		NullCheck(L_13);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14;
@@ -6438,19 +6438,19 @@ IL_0050:
 
 IL_007d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:165>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:165>
 		int32_t L_15;
 		L_15 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral91322B6BF3C494FF5989C3ADBC1F174AC5006D26, ((int32_t)1000), NULL);
 		__this->___balance = L_15;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:166>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:166>
 		int32_t L_16;
 		L_16 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral6214B515215507739178028B141B376602007BB6, 0, NULL);
 		__this->___lastSliderPoints = L_16;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:167>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:167>
 		int32_t L_17;
 		L_17 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralC0C86C026038BA3CC5D3E02687112FB1B258CE90, 0, NULL);
 		__this->___currentLevel = L_17;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:168>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:168>
 		PointsSliderFill_t50F7E07D208C77EB37210C61461B9CF33844694C* L_18 = __this->___pointsSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -6461,7 +6461,7 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:170>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:170>
 		PointsSliderFill_t50F7E07D208C77EB37210C61461B9CF33844694C* L_20 = __this->___pointsSlider;
 		int32_t L_21 = __this->___lastSliderPoints;
 		NullCheck(L_20);
@@ -6470,7 +6470,7 @@ IL_007d:
 
 IL_00d4:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:174>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:174>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_22 = __this->___betOptions;
 		NullCheck(L_22);
 		int32_t L_23 = 0;
@@ -6478,13 +6478,13 @@ IL_00d4:
 		int32_t L_25;
 		L_25 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral564735FA9B0226C2941C12C3B6190AAFC656E3F2, L_24, NULL);
 		V_0 = L_25;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:175>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:175>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = __this->___betOptions;
 		int32_t L_27 = V_0;
 		int32_t L_28;
 		L_28 = Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m697B633D0C1EECAC6C493EC797FC44416F706F4F(L_26, L_27, Array_IndexOf_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m697B633D0C1EECAC6C493EC797FC44416F706F4F_RuntimeMethod_var);
 		__this->___betIndex = L_28;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:176>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:176>
 		int32_t L_29 = __this->___betIndex;
 		if ((((int32_t)L_29) >= ((int32_t)0)))
 		{
@@ -6492,34 +6492,34 @@ IL_00d4:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:176>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:176>
 		__this->___betIndex = 0;
 	}
 
 IL_0109:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:177>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:177>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_30 = __this->___betOptions;
 		int32_t L_31 = __this->___betIndex;
 		NullCheck(L_30);
 		int32_t L_32 = L_31;
 		int32_t L_33 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_32));
 		__this->___currentBet = L_33;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:179>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:179>
 		GameManager_UpdateBalanceText_mE84988F565F0851E7A2A6B8EFC3563E0DB496FD7(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:180>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:180>
 		GameManager_UpdateBetText_m640203B14AF6265808FA7B6CED86030C7A77D301(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:181>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:181>
 		GameManager_UpdateDoubleVisual_mB98488A366A6B7521281B3CC1BB653D857F9B81C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:182>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:182>
 		GameManager_UpdateUIInteractable_m9F9600A8335B0F62D8E4BFE922F0DA402275F92C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:183>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:183>
 		GameManager_StartPlayBlink_m5DCA0A70283166874A07C3C47F6321F00A3D83F1(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:185>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:185>
 		GameManager_RebuildWeights_m021E2E02FBC85C82D90470076DE8B20DFC4E9D15(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:186>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:186>
 		GameManager_StartIdleStatus_mCBE085590C3D380AE779779527CE2804F8DFDAAF(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:187>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:187>
 		return;
 	}
 }
@@ -6527,7 +6527,7 @@ IL_0109:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDBFB03832ADA65643D0E2 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:191>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:191>
 		bool L_0 = __this->___testRewardLoop;
 		if (!L_0)
 		{
@@ -6535,7 +6535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDB
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:193>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:193>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___testRewardRoutine;
 		if (!L_1)
 		{
@@ -6543,14 +6543,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Start_m87A71D65F3171A58DBDDB
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:194>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:194>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___testRewardRoutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_2, NULL);
 	}
 
 IL_001c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:196>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:196>
 		RuntimeObject* L_3;
 		L_3 = GameManager_TestRewardLoop_m95517CA8CE66333000B6F2337EB3BC2AC0B471D1(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
@@ -6561,7 +6561,7 @@ IL_001c:
 
 IL_002e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:198>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:198>
 		return;
 	}
 }
@@ -6598,7 +6598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RebuildWeights_m021E2E02FBC8
 	float V_2 = 0.0f;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:213>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:213>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_0 = __this->___items;
 		if (!L_0)
 		{
@@ -6616,33 +6616,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_RebuildWeights_m021E2E02FBC8
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:215>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:215>
 		__this->___itemWeights = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___itemWeights), (void*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:216>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:216>
 		__this->___totalWeight = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:217>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:217>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:220>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:220>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_2 = __this->___items;
 		NullCheck(L_2);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_3 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)));
 		__this->___itemWeights = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___itemWeights), (void*)L_3);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:221>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:221>
 		__this->___totalWeight = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:223>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:223>
 		V_0 = 0;
 		goto IL_008b;
 	}
 
 IL_0046:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:225>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:225>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_4 = __this->___items;
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
@@ -6673,7 +6673,7 @@ IL_0053:
 IL_0060:
 	{
 		V_1 = G_B7_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:226>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:226>
 		int32_t L_13 = V_1;
 		if ((((int32_t)L_13) > ((int32_t)0)))
 		{
@@ -6681,33 +6681,33 @@ IL_0060:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:226>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:226>
 		V_1 = 1;
 	}
 
 IL_0067:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:228>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:228>
 		int32_t L_14 = V_1;
 		V_2 = ((float)((1.0f)/((float)L_14)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:229>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:229>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_15 = __this->___itemWeights;
 		int32_t L_16 = V_0;
 		float L_17 = V_2;
 		NullCheck(L_15);
 		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(L_16), (float)L_17);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:230>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:230>
 		float L_18 = __this->___totalWeight;
 		float L_19 = V_2;
 		__this->___totalWeight = ((float)il2cpp_codegen_add(L_18, L_19));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:223>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:223>
 		int32_t L_20 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 	}
 
 IL_008b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:223>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:223>
 		int32_t L_21 = V_0;
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_22 = __this->___items;
 		NullCheck(L_22);
@@ -6717,7 +6717,7 @@ IL_008b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:232>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:232>
 		return;
 	}
 }
@@ -6728,7 +6728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameManager_GetRandomWeightedIndex_m7
 	float V_1 = 0.0f;
 	int32_t V_2 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:236>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:236>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_0 = __this->___items;
 		if (!L_0)
 		{
@@ -6746,13 +6746,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameManager_GetRandomWeightedIndex_m7
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:237>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:237>
 		return 0;
 	}
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:239>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:239>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = __this->___itemWeights;
 		if (!L_2)
 		{
@@ -6779,27 +6779,27 @@ IL_0013:
 
 IL_003a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:240>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:240>
 		GameManager_RebuildWeights_m021E2E02FBC85C82D90470076DE8B20DFC4E9D15(__this, NULL);
 	}
 
 IL_0040:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:242>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:242>
 		float L_6;
 		L_6 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
 		float L_7 = __this->___totalWeight;
 		V_0 = ((float)il2cpp_codegen_multiply(L_6, L_7));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:243>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:243>
 		V_1 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:245>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:245>
 		V_2 = 0;
 		goto IL_006c;
 	}
 
 IL_0057:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:247>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:247>
 		float L_8 = V_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = __this->___itemWeights;
 		int32_t L_10 = V_2;
@@ -6807,7 +6807,7 @@ IL_0057:
 		int32_t L_11 = L_10;
 		float L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_1 = ((float)il2cpp_codegen_add(L_8, L_12));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:248>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:248>
 		float L_13 = V_0;
 		float L_14 = V_1;
 		if ((!(((float)L_13) <= ((float)L_14))))
@@ -6816,21 +6816,21 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:249>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:249>
 		int32_t L_15 = V_2;
 		return L_15;
 	}
 
 IL_0068:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:245>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:245>
 		int32_t L_16 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_006c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:245>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:245>
 		int32_t L_17 = V_2;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_18 = __this->___itemWeights;
 		NullCheck(L_18);
@@ -6840,7 +6840,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:252>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:252>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_19 = __this->___items;
 		NullCheck(L_19);
 		return ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_19)->max_length)), 1));
@@ -6896,7 +6896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameManager_AreAllPlayFieldsFull_m606518
 	int32_t V_2 = 0;
 	PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* V_3 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:280>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:280>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_0 = __this->___playFields;
 		if (!L_0)
 		{
@@ -6914,15 +6914,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameManager_AreAllPlayFieldsFull_m606518
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:281>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:281>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:283>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:283>
 		V_0 = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:285>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:285>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_2 = __this->___playFields;
 		V_1 = L_2;
 		V_2 = 0;
@@ -6931,14 +6931,14 @@ IL_0013:
 
 IL_0020:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:285>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:285>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_3 = V_1;
 		int32_t L_4 = V_2;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		V_3 = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:287>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:287>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_7 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -6949,9 +6949,9 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:288>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:288>
 		V_0 = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:289>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:289>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_9 = V_3;
 		NullCheck(L_9);
 		bool L_10;
@@ -6962,7 +6962,7 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:290>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:290>
 		return (bool)0;
 	}
 
@@ -6974,7 +6974,7 @@ IL_0039:
 
 IL_003d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:285>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:285>
 		int32_t L_12 = V_2;
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_13 = V_1;
 		NullCheck(L_13);
@@ -6984,7 +6984,7 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:293>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:293>
 		bool L_14 = V_0;
 		return L_14;
 	}
@@ -7003,9 +7003,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateGlobalTotal_mA65AECBCE
 	int32_t V_2 = 0;
 	PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* V_3 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:298>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:298>
 		V_0 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:300>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:300>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_0 = __this->___playFields;
 		if (!L_0)
 		{
@@ -7013,7 +7013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateGlobalTotal_mA65AECBCE
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:302>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:302>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_1 = __this->___playFields;
 		V_1 = L_1;
 		V_2 = 0;
@@ -7022,14 +7022,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateGlobalTotal_mA65AECBCE
 
 IL_0015:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:302>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:302>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_2 = V_1;
 		int32_t L_3 = V_2;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_3 = L_5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:304>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:304>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_6 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -7040,7 +7040,7 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:305>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:305>
 		int32_t L_8 = V_0;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_9 = V_3;
 		NullCheck(L_9);
@@ -7057,7 +7057,7 @@ IL_002b:
 
 IL_002f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:302>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:302>
 		int32_t L_12 = V_2;
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_13 = V_1;
 		NullCheck(L_13);
@@ -7069,7 +7069,7 @@ IL_002f:
 
 IL_0035:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:309>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:309>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_14 = __this->___totalResultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -7080,7 +7080,7 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:310>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:310>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_16 = __this->___totalResultText;
 		String_t* L_17;
 		L_17 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
@@ -7090,7 +7090,7 @@ IL_0035:
 
 IL_0055:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:311>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:311>
 		return;
 	}
 }
@@ -7104,7 +7104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateBalanceText_mE84988F56
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:315>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:315>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___balanceText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7115,7 +7115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateBalanceText_mE84988F56
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:316>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:316>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___balanceText;
 		int32_t* L_3 = (int32_t*)(&__this->___balance);
 		String_t* L_4;
@@ -7126,7 +7126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateBalanceText_mE84988F56
 
 IL_0024:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:317>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:317>
 		return;
 	}
 }
@@ -7140,7 +7140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateBetText_m640203B14AF62
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:321>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:321>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___betText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7151,7 +7151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateBetText_m640203B14AF62
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:322>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:322>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_2 = __this->___betText;
 		int32_t* L_3 = (int32_t*)(&__this->___currentBet);
 		String_t* L_4;
@@ -7162,7 +7162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateBetText_m640203B14AF62
 
 IL_0024:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:323>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:323>
 		return;
 	}
 }
@@ -7182,7 +7182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateUIInteractable_m9F9600
 	int32_t G_B13_0 = 0;
 	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* G_B13_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:328>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:328>
 		bool L_0 = __this->___isPlayMode;
 		if (L_0)
 		{
@@ -7203,7 +7203,7 @@ IL_0013:
 IL_0014:
 	{
 		V_0 = (bool)G_B3_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:330>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:330>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___playButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -7214,7 +7214,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:331>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:331>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___playButton;
 		bool L_5 = V_0;
 		NullCheck(L_4);
@@ -7223,7 +7223,7 @@ IL_0014:
 
 IL_002f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:333>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:333>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___betPlusButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -7234,7 +7234,7 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:334>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:334>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___betPlusButton;
 		bool L_9 = V_0;
 		NullCheck(L_8);
@@ -7243,7 +7243,7 @@ IL_002f:
 
 IL_0049:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:336>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:336>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___betMinusButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -7254,7 +7254,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:337>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:337>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->___betMinusButton;
 		bool L_13 = V_0;
 		NullCheck(L_12);
@@ -7263,7 +7263,7 @@ IL_0049:
 
 IL_0063:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:339>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:339>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___doubleButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -7274,7 +7274,7 @@ IL_0063:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:340>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:340>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_16 = __this->___doubleButton;
 		bool L_17 = V_0;
 		if (!L_17)
@@ -7305,7 +7305,7 @@ IL_008d:
 
 IL_0092:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:341>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:341>
 		return;
 	}
 }
@@ -7319,7 +7319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SetStatus_m3BFD442CE6D902319
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:346>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:346>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___statusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7330,7 +7330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SetStatus_m3BFD442CE6D902319
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:347>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:347>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___statusText;
 		String_t* L_3 = ___0_message;
 		NullCheck(L_2);
@@ -7339,7 +7339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SetStatus_m3BFD442CE6D902319
 
 IL_001a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:349>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:349>
 		bool L_4 = ___1_stopIdle;
 		if (!L_4)
 		{
@@ -7354,17 +7354,17 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:351>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:351>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6 = __this->___statusCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_6, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:352>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:352>
 		__this->___statusCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___statusCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
 	}
 
 IL_0038:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:354>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:354>
 		return;
 	}
 }
@@ -7378,7 +7378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StartIdleStatus_mCBE085590C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:358>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:358>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___statusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7389,13 +7389,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StartIdleStatus_mCBE085590C3
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:359>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:359>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:361>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:361>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___statusCoroutine;
 		if (!L_2)
 		{
@@ -7403,24 +7403,24 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:363>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:363>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___statusCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_3, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:364>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:364>
 		__this->___statusCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___statusCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
 	}
 
 IL_002a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:367>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:367>
 		RuntimeObject* L_4;
 		L_4 = GameManager_IdleStatusRoutine_m649260B591B45B8F97EFE8A782EB04B1E021CB5A(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
 		__this->___statusCoroutine = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___statusCoroutine), (void*)L_5);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:368>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:368>
 		return;
 	}
 }
@@ -7453,19 +7453,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_EnterPlayMode_m203E6DA20B665
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:397>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:397>
 		__this->___sessionRoundPoints = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:399>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:399>
 		__this->___isPlayMode = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:400>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:400>
 		__this->___hasGameStarted = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:403>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:403>
 		GameManager_SetStatus_m3BFD442CE6D902319419F7FBFD661B69B85A335C(__this, _stringLiteralB8E2AD0DAEE9660FCCC58257AE2B25B7CDE5BC98, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:405>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:405>
 		GameManager_UpdateUIInteractable_m9F9600A8335B0F62D8E4BFE922F0DA402275F92C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:406>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:406>
 		GameManager_StopPlayBlink_m65FA67515BD9917A2F07AA17FEFAD72D254B30E1(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:407>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:407>
 		return;
 	}
 }
@@ -7479,13 +7479,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ExitPlayMode_m901D1B24BE7987
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:412>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:412>
 		__this->___isPlayMode = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:413>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:413>
 		__this->___isBusy = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:414>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:414>
 		__this->___hasPaidForCurrentRound = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:417>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:417>
 		bool L_0 = __this->___isDoubleOn;
 		if (!L_0)
 		{
@@ -7493,15 +7493,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ExitPlayMode_m901D1B24BE7987
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:419>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:419>
 		__this->___isDoubleOn = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:420>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:420>
 		GameManager_UpdateDoubleVisual_mB98488A366A6B7521281B3CC1BB653D857F9B81C(__this, NULL);
 	}
 
 IL_002a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:424>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:424>
 		int32_t L_1 = __this->___sessionRoundPoints;
 		if ((((int32_t)L_1) < ((int32_t)((int32_t)200))))
 		{
@@ -7519,11 +7519,11 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:426>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:426>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___fortuneWheel;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:427>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:427>
 		RuntimeObject* L_5;
 		L_5 = GameManager_StartFortuneWheelAfterDelay_mA98863CF39DEBF85F960E572CACF022B6E74D0CF(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
@@ -7532,13 +7532,13 @@ IL_002a:
 
 IL_005e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:431>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:431>
 		GameManager_UpdateUIInteractable_m9F9600A8335B0F62D8E4BFE922F0DA402275F92C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:432>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:432>
 		GameManager_StartPlayBlink_m5DCA0A70283166874A07C3C47F6321F00A3D83F1(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:433>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:433>
 		GameManager_StartIdleStatus_mCBE085590C3D380AE779779527CE2804F8DFDAAF(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:434>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:434>
 		return;
 	}
 }
@@ -7563,7 +7563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateDoubleVisual_mB98488A3
 	RuntimeObject* G_B3_1 = NULL;
 	String_t* G_B3_2 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:438>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:438>
 		bool L_0 = __this->___isDoubleOn;
 		bool L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_defaults.boolean_class, &L_1);
@@ -7600,7 +7600,7 @@ IL_002a:
 		L_5 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(G_B3_2, G_B3_1, G_B3_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:440>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:440>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___doubleButtonImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -7611,7 +7611,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:442>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:442>
 		bool L_8 = __this->___isDoubleOn;
 		if (!L_8)
 		{
@@ -7619,7 +7619,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:444>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:444>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_9 = __this->___doubleOnSprite;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -7630,7 +7630,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:445>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:445>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = __this->___doubleButtonImage;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12 = __this->___doubleOnSprite;
 		NullCheck(L_11);
@@ -7640,7 +7640,7 @@ IL_002a:
 
 IL_006b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:449>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:449>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_13 = __this->___doubleOffSprite;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -7651,7 +7651,7 @@ IL_006b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:450>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:450>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_15 = __this->___doubleButtonImage;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_16 = __this->___doubleOffSprite;
 		NullCheck(L_15);
@@ -7660,7 +7660,7 @@ IL_006b:
 
 IL_008a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:455>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:455>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___doubleActiveObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -7671,7 +7671,7 @@ IL_008a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:456>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:456>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___doubleActiveObject;
 		bool L_20 = __this->___isDoubleOn;
 		NullCheck(L_19);
@@ -7680,7 +7680,7 @@ IL_008a:
 
 IL_00a9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:457>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:457>
 		return;
 	}
 }
@@ -7694,7 +7694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StartPlayBlink_m5DCA0A702831
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:461>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:461>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___playButtonImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7705,13 +7705,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StartPlayBlink_m5DCA0A702831
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:462>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:462>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:464>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:464>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___playBlinkCoroutine;
 		if (!L_2)
 		{
@@ -7719,21 +7719,21 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:465>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:465>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___playBlinkCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_3, NULL);
 	}
 
 IL_0023:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:467>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:467>
 		RuntimeObject* L_4;
 		L_4 = GameManager_PlayBlinkRoutine_m45FB8E6BCFB5B29FC1EB7B174917DBB561EA4ABD(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
 		__this->___playBlinkCoroutine = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___playBlinkCoroutine), (void*)L_5);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:468>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:468>
 		return;
 	}
 }
@@ -7747,7 +7747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StopPlayBlink_m65FA67515BD99
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:472>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:472>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___playBlinkCoroutine;
 		if (!L_0)
 		{
@@ -7755,17 +7755,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_StopPlayBlink_m65FA67515BD99
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:474>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:474>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___playBlinkCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:475>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:475>
 		__this->___playBlinkCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___playBlinkCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
 	}
 
 IL_001b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:478>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:478>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___playButtonImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -7786,7 +7786,7 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:479>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:479>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___playButtonImage;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_7 = __this->___playSpriteA;
 		NullCheck(L_6);
@@ -7795,7 +7795,7 @@ IL_001b:
 
 IL_0048:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:480>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:480>
 		return;
 	}
 }
@@ -7828,12 +7828,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SaveBalance_mE762052AFA7C4F6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:499>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:499>
 		int32_t L_0 = __this->___balance;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral91322B6BF3C494FF5989C3ADBC1F174AC5006D26, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:500>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:500>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:501>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:501>
 		return;
 	}
 }
@@ -7847,12 +7847,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SaveBet_mBAA4992223BC6E59C24
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:505>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:505>
 		int32_t L_0 = __this->___currentBet;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral564735FA9B0226C2941C12C3B6190AAFC656E3F2, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:506>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:506>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:507>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:507>
 		return;
 	}
 }
@@ -7878,7 +7878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_PrepareNextPreviewAndDrop_m3
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:511>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:511>
 		bool L_0;
 		L_0 = GameManager_AreAllPlayFieldsFull_m6065182FA50E118F6C8C06EBD8D5D49D9D42B533(__this, NULL);
 		if (!L_0)
@@ -7887,10 +7887,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_PrepareNextPreviewAndDrop_m3
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:513>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:513>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral32406E5059251A2E1AD8F9118E91BB5091A7C954, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:514>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:514>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = ___0_onShown;
 		if (!L_1)
 		{
@@ -7905,13 +7905,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_PrepareNextPreviewAndDrop_m3
 
 IL_001b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:515>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:515>
 		return;
 	}
 
 IL_001c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:518>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:518>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_3 = __this->___items;
 		if (!L_3)
 		{
@@ -7929,10 +7929,10 @@ IL_001c:
 
 IL_002d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:520>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:520>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralE092A642942D4C6A17222AA2BA01FFF3C4261188, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:521>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:521>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = ___0_onShown;
 		if (!L_5)
 		{
@@ -7947,13 +7947,13 @@ IL_002d:
 
 IL_0040:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:522>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:522>
 		return;
 	}
 
 IL_0041:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:525>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:525>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_7 = __this->___PreviewImages;
 		if (!L_7)
 		{
@@ -7971,10 +7971,10 @@ IL_0041:
 
 IL_0052:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:527>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:527>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral795BCE17417C928E0CAC2437667C4C7C210B7588, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:528>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:528>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_9 = ___0_onShown;
 		if (!L_9)
 		{
@@ -7989,13 +7989,13 @@ IL_0052:
 
 IL_0065:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:529>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:529>
 		return;
 	}
 
 IL_0066:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:532>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:532>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_11 = __this->___lastResult;
 		if (!L_11)
 		{
@@ -8015,7 +8015,7 @@ IL_0066:
 
 IL_0080:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:533>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:533>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_14 = __this->___PreviewImages;
 		NullCheck(L_14);
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_15 = (SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865*)(SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865*)SZArrayNew(SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)));
@@ -8025,32 +8025,32 @@ IL_0080:
 
 IL_0093:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:535>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:535>
 		V_0 = 0;
 		goto IL_00e5;
 	}
 
 IL_0097:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:537>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:537>
 		int32_t L_16;
 		L_16 = GameManager_GetRandomWeightedIndex_m7BC58B4EE8F84EFDE3DCF9A85175834BAE89D7F0(__this, NULL);
 		V_1 = L_16;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:538>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:538>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_17 = __this->___items;
 		int32_t L_18 = V_1;
 		NullCheck(L_17);
 		int32_t L_19 = L_18;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
 		V_2 = L_20;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:539>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:539>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_21 = __this->___lastResult;
 		int32_t L_22 = V_0;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_23 = V_2;
 		NullCheck(L_21);
 		ArrayElementTypeCheck (L_21, L_23);
 		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(L_22), (SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)L_23);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:541>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:541>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_24 = __this->___PreviewImages;
 		int32_t L_25 = V_0;
 		NullCheck(L_24);
@@ -8065,7 +8065,7 @@ IL_0097:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:543>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:543>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_29 = __this->___PreviewImages;
 		int32_t L_30 = V_0;
 		NullCheck(L_29);
@@ -8076,7 +8076,7 @@ IL_0097:
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_34 = L_33->___sprite;
 		NullCheck(L_32);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_32, L_34, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:544>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:544>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_35 = __this->___PreviewImages;
 		int32_t L_36 = V_0;
 		NullCheck(L_35);
@@ -8088,14 +8088,14 @@ IL_0097:
 
 IL_00e1:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:535>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:535>
 		int32_t L_39 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_39, 1));
 	}
 
 IL_00e5:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:535>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:535>
 		int32_t L_40 = V_0;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_41 = __this->___PreviewImages;
 		NullCheck(L_41);
@@ -8105,7 +8105,7 @@ IL_00e5:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:548>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:548>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_42;
 		L_42 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -8117,7 +8117,7 @@ IL_00e5:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:550>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:550>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_44;
 		L_44 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		NullCheck(L_44);
@@ -8126,7 +8126,7 @@ IL_00e5:
 
 IL_0107:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:553>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:553>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = __this->___previewObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_46;
@@ -8137,7 +8137,7 @@ IL_0107:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:555>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:555>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_47 = __this->___previewMoveCoroutine;
 		if (!L_47)
 		{
@@ -8145,14 +8145,14 @@ IL_0107:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:556>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:556>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_48 = __this->___previewMoveCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_48, NULL);
 	}
 
 IL_0129:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:558>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:558>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49 = __this->___previewObject;
 		NullCheck(L_49);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_50;
@@ -8161,10 +8161,10 @@ IL_0129:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
 		L_51 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_50, NULL);
 		V_3 = L_51;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:559>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:559>
 		float L_52 = __this->___previewStartY;
 		(&V_3)->___y = L_52;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:560>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:560>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_53 = __this->___previewObject;
 		NullCheck(L_53);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54;
@@ -8172,14 +8172,14 @@ IL_0129:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55 = V_3;
 		NullCheck(L_54);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_54, L_55, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:562>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:562>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_56 = V_3;
 		V_4 = L_56;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:563>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:563>
 		float L_57 = __this->___previewTargetY;
 		(&V_4)->___y = L_57;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:565>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:566>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:565>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:566>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59 = V_4;
 		float L_60 = __this->___previewMoveDuration;
@@ -8195,7 +8195,7 @@ IL_0129:
 
 IL_0185:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:570>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:570>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_64 = ___0_onShown;
 		if (!L_64)
 		{
@@ -8210,7 +8210,7 @@ IL_0185:
 
 IL_018e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:572>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:572>
 		return;
 	}
 }
@@ -8228,7 +8228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MovePreviewToHide_mD53F1F5EE
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:576>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:576>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___previewObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8239,13 +8239,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MovePreviewToHide_mD53F1F5EE
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:577>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:577>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:579>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:579>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2 = __this->___previewMoveCoroutine;
 		if (!L_2)
 		{
@@ -8253,14 +8253,14 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:580>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:580>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___previewMoveCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_3, NULL);
 	}
 
 IL_0023:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:582>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:582>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___previewObject;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -8269,14 +8269,14 @@ IL_0023:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:583>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:583>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
 		V_1 = L_7;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:584>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:584>
 		float L_8 = __this->___previewHideY;
 		(&V_1)->___y = L_8;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:586>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:587>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:586>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:587>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_1;
 		float L_11 = __this->___previewMoveDuration;
@@ -8286,7 +8286,7 @@ IL_0023:
 		L_13 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_12, NULL);
 		__this->___previewMoveCoroutine = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___previewMoveCoroutine), (void*)L_13);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:588>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:588>
 		return;
 	}
 }
@@ -8320,7 +8320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MovePreviewToHideAndPrepareN
 		NullCheck(L_2);
 		L_2->___onNextPreviewShown = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___onNextPreviewShown), (void*)L_3);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:592>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:592>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___previewObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8331,18 +8331,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_MovePreviewToHideAndPrepareN
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:594>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:594>
 		U3CU3Ec__DisplayClass94_0_t8C263534A01709BAB5CBF8A0DE3A2BF5334E0CD1* L_6 = V_0;
 		NullCheck(L_6);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = L_6->___onNextPreviewShown;
 		GameManager_PrepareNextPreviewAndDrop_m367D62B497BB37857BA0AABF5CC6A24E2FE13FFD(__this, L_7, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:595>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:595>
 		return;
 	}
 
 IL_002f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:598>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:598>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_8 = __this->___previewMoveCoroutine;
 		if (!L_8)
 		{
@@ -8350,14 +8350,14 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:599>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:599>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_9 = __this->___previewMoveCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_9, NULL);
 	}
 
 IL_0043:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:601>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:601>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___previewObject;
 		NullCheck(L_10);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
@@ -8366,17 +8366,17 @@ IL_0043:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_11, NULL);
 		V_1 = L_12;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:602>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:602>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
 		V_2 = L_13;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:603>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:603>
 		float L_14 = __this->___previewHideY;
 		(&V_2)->___y = L_14;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:605>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:606>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:607>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:608>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:609>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:605>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:606>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:607>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:608>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:609>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = V_2;
 		float L_17 = __this->___previewMoveDuration;
@@ -8389,7 +8389,7 @@ IL_0043:
 		L_21 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_20, NULL);
 		__this->___previewMoveCoroutine = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___previewMoveCoroutine), (void*)L_21);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:610>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:610>
 		return;
 	}
 }
@@ -8397,7 +8397,7 @@ IL_0043:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnPlayButtonClick_m93B8E9CD294D2A1D8A63217D3262061955A76940 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:614>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:614>
 		bool L_0 = __this->___isBusy;
 		if (!L_0)
 		{
@@ -8405,18 +8405,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnPlayButtonClick_m93B8E9CD2
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:614>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:614>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:615>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:615>
 		RuntimeObject* L_1;
 		L_1 = GameManager_PlayButtonRoutine_mDB84124BE842D7287CE0632B1AA9109E34C0B870(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:616>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:616>
 		return;
 	}
 }
@@ -8455,7 +8455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnPlayFieldButtonClicked_m6E
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:713>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:713>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_0 = ___0_field;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -8466,13 +8466,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnPlayFieldButtonClicked_m6E
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:713>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:713>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:714>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:714>
 		bool L_2 = __this->___isBusy;
 		if (!L_2)
 		{
@@ -8480,19 +8480,19 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:714>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:714>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:716>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:716>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_3 = ___0_field;
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = PlayField_GetNextAvailableStep_mC1A589A9BA23989299BDC459089FBD38D6BDBDE8(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:717>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:717>
 		int32_t L_5 = V_0;
 		if ((((int32_t)L_5) < ((int32_t)0)))
 		{
@@ -8510,7 +8510,7 @@ IL_0013:
 
 IL_0022:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:719>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:719>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_8 = ___0_field;
 		NullCheck(L_8);
 		String_t* L_9;
@@ -8525,17 +8525,17 @@ IL_0022:
 		L_16 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral253943D3CA99C2609289301ADB0D6327063EAFDC, L_9, L_12, L_15, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_16, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:720>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:720>
 		return;
 	}
 
 IL_0044:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:723>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:723>
 		__this->___isBusy = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:724>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:724>
 		GameManager_UpdateUIInteractable_m9F9600A8335B0F62D8E4BFE922F0DA402275F92C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:726>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:726>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_17 = __this->___playFields;
 		if (!L_17)
 		{
@@ -8543,14 +8543,14 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:728>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:728>
 		V_1 = 0;
 		goto IL_007e;
 	}
 
 IL_005d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:730>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:730>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_18 = __this->___playFields;
 		int32_t L_19 = V_1;
 		NullCheck(L_18);
@@ -8565,7 +8565,7 @@ IL_005d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:731>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:731>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_23 = __this->___playFields;
 		int32_t L_24 = V_1;
 		NullCheck(L_23);
@@ -8577,14 +8577,14 @@ IL_005d:
 
 IL_007a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:728>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:728>
 		int32_t L_27 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_007e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:728>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:728>
 		int32_t L_28 = V_1;
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_29 = __this->___playFields;
 		NullCheck(L_29);
@@ -8596,55 +8596,55 @@ IL_007e:
 
 IL_0089:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:735>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:735>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_30 = ___0_field;
 		int32_t L_31 = ___1_stepIndex;
 		NullCheck(L_30);
 		PlayField_FillStepFromPreviewAndDrop_m68528B4278A76CD9E411B68F974D6BCAAD2B7491(L_30, L_31, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:737>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:738>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:739>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:740>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:741>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:742>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:743>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:744>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:745>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:746>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:747>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:748>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:749>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:750>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:751>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:752>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:753>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:754>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:755>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:756>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:757>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:758>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:759>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:760>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:761>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:762>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:763>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:764>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:765>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:766>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:767>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:768>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:769>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:770>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:771>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:772>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:773>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:774>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:775>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:776>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:737>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:738>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:739>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:740>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:741>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:742>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:743>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:744>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:745>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:746>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:747>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:748>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:749>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:750>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:751>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:752>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:753>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:754>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:755>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:756>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:757>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:758>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:759>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:760>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:761>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:762>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:763>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:764>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:765>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:766>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:767>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:768>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:769>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:770>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:771>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:772>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:773>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:774>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:775>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:776>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_32 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_32, __this, (intptr_t)((void*)GameManager_U3COnPlayFieldButtonClickedU3Eb__97_0_mC6ADDEF9D5ECD74A5FAE67CFC463D271C226B8CA_RuntimeMethod_var), NULL);
 		GameManager_MovePreviewToHideAndPrepareNext_mB03633B06FA274E568B679A731791114D8884B77(__this, L_32, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:777>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:777>
 		return;
 	}
 }
@@ -8652,10 +8652,10 @@ IL_0089:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnBetPlusClicked_m873F3582740F7F17F219837DE5F1F1BD2A09F829 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:782>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:782>
 		int32_t L_0 = __this->___betIndex;
 		__this->___betIndex = ((int32_t)il2cpp_codegen_add(L_0, 1));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:783>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:783>
 		int32_t L_1 = __this->___betIndex;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = __this->___betOptions;
 		NullCheck(L_2);
@@ -8665,7 +8665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnBetPlusClicked_m873F358274
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:784>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:784>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->___betOptions;
 		NullCheck(L_3);
 		__this->___betIndex = ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_3)->max_length)), 1));
@@ -8673,18 +8673,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnBetPlusClicked_m873F358274
 
 IL_002e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:785>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:785>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = __this->___betOptions;
 		int32_t L_5 = __this->___betIndex;
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		int32_t L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
 		__this->___currentBet = L_7;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:786>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:786>
 		GameManager_SaveBet_mBAA4992223BC6E59C24CD9B61CA453A3280E0248(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:787>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:787>
 		GameManager_UpdateBetText_m640203B14AF6265808FA7B6CED86030C7A77D301(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:788>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:788>
 		return;
 	}
 }
@@ -8692,10 +8692,10 @@ IL_002e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnBetMinusClicked_m9356618649EFDE563EDF0C41FD679A430ABD150F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:793>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:793>
 		int32_t L_0 = __this->___betIndex;
 		__this->___betIndex = ((int32_t)il2cpp_codegen_subtract(L_0, 1));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:794>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:794>
 		int32_t L_1 = __this->___betIndex;
 		if ((((int32_t)L_1) >= ((int32_t)0)))
 		{
@@ -8703,24 +8703,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnBetMinusClicked_m935661864
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:795>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:795>
 		__this->___betIndex = 0;
 	}
 
 IL_001e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:796>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:796>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = __this->___betOptions;
 		int32_t L_3 = __this->___betIndex;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		int32_t L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		__this->___currentBet = L_5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:797>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:797>
 		GameManager_SaveBet_mBAA4992223BC6E59C24CD9B61CA453A3280E0248(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:798>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:798>
 		GameManager_UpdateBetText_m640203B14AF6265808FA7B6CED86030C7A77D301(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:799>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:799>
 		return;
 	}
 }
@@ -8735,7 +8735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnDoubleButtonClicked_m1BC08
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:803>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:803>
 		bool L_0 = __this->___isBusy;
 		if (!L_0)
 		{
@@ -8743,16 +8743,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OnDoubleButtonClicked_m1BC08
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:804>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:804>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:806>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:806>
 		bool L_1 = __this->___isDoubleOn;
 		__this->___isDoubleOn = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:807>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:807>
 		bool L_2 = __this->___isDoubleOn;
 		bool L_3 = L_2;
 		RuntimeObject* L_4 = Box(il2cpp_defaults.boolean_class, &L_3);
@@ -8760,9 +8760,9 @@ IL_0009:
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral3AD12C5F9AD9FFB38786309A7A973EB444803009, L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:808>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:808>
 		GameManager_UpdateDoubleVisual_mB98488A366A6B7521281B3CC1BB653D857F9B81C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:809>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:809>
 		return;
 	}
 }
@@ -8847,7 +8847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddWinToBalance_m09D8F4C0402
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:952>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:952>
 		int32_t L_0 = ___0_winAmount;
 		if ((((int32_t)L_0) > ((int32_t)0)))
 		{
@@ -8855,21 +8855,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddWinToBalance_m09D8F4C0402
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:952>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:952>
 		return;
 	}
 
 IL_0005:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:954>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:954>
 		int32_t L_1 = __this->___balance;
 		int32_t L_2 = ___0_winAmount;
 		__this->___balance = ((int32_t)il2cpp_codegen_add(L_1, L_2));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:955>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:955>
 		GameManager_SaveBalance_mE762052AFA7C4F66DFC0263001D77742316BC356(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:956>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:956>
 		GameManager_UpdateBalanceText_mE84988F565F0851E7A2A6B8EFC3563E0DB496FD7(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:958>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:958>
 		int32_t L_3 = ___0_winAmount;
 		int32_t L_4 = L_3;
 		RuntimeObject* L_5 = Box(il2cpp_defaults.int32_class, &L_4);
@@ -8880,12 +8880,12 @@ IL_0005:
 		L_9 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralF0EBD0D748435A1DB32AA4ED1D258F703E95027F, L_5, L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:961>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:961>
 		RuntimeObject* L_10;
 		L_10 = GameManager_ShowWinParticlesAndExit_m04EEC9E9182F012C0FD03480F5AB8BEF179B0BCF(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_11;
 		L_11 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_10, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:962>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:962>
 		return;
 	}
 }
@@ -8921,17 +8921,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddPoints_mB74DEF715A06C9313
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1000>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1000>
 		int32_t L_0 = __this->___lastSliderPoints;
 		int32_t L_1 = ___0_points;
 		__this->___lastSliderPoints = ((int32_t)il2cpp_codegen_add(L_0, L_1));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1001>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1001>
 		GameManager_SavePoints_mB2855DF178682427A9B442186FF180E78D93395B(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1004>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1004>
 		int32_t L_2 = __this->___sessionRoundPoints;
 		int32_t L_3 = ___0_points;
 		__this->___sessionRoundPoints = ((int32_t)il2cpp_codegen_add(L_2, L_3));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1007>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1007>
 		PointsSliderFill_t50F7E07D208C77EB37210C61461B9CF33844694C* L_4 = __this->___pointsSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -8942,7 +8942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddPoints_mB74DEF715A06C9313
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1009>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1009>
 		PointsSliderFill_t50F7E07D208C77EB37210C61461B9CF33844694C* L_6 = __this->___pointsSlider;
 		int32_t L_7 = __this->___lastSliderPoints;
 		NullCheck(L_6);
@@ -8951,7 +8951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_AddPoints_mB74DEF715A06C9313
 
 IL_0042:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1012>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1012>
 		int32_t L_8 = ___0_points;
 		int32_t L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_defaults.int32_class, &L_9);
@@ -8965,14 +8965,14 @@ IL_0042:
 		L_17 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral5C383007D8EB92A76EDFE89218DF11E64707E536, L_10, L_13, L_16, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_17, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1013>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1013>
 		int32_t L_18 = __this->___lastSliderPoints;
 		int32_t L_19 = L_18;
 		RuntimeObject* L_20 = Box(il2cpp_defaults.int32_class, &L_19);
 		String_t* L_21;
 		L_21 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralA9F6DC655DA9E62CB7DF41E03CA42DBAA2729E78, L_20, NULL);
 		GameManager_SetStatus_m3BFD442CE6D902319419F7FBFD661B69B85A335C(__this, L_21, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1014>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1014>
 		return;
 	}
 }
@@ -8986,12 +8986,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SavePoints_mB2855DF178682427
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1018>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1018>
 		int32_t L_0 = __this->___lastSliderPoints;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral6214B515215507739178028B141B376602007BB6, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1019>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1019>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1020>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1020>
 		return;
 	}
 }
@@ -9005,12 +9005,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_SaveLevel_mA9827BA1609DC8BBA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1024>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1024>
 		int32_t L_0 = __this->___currentLevel;
 		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralC0C86C026038BA3CC5D3E02687112FB1B258CE90, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1025>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1025>
 		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1026>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1026>
 		return;
 	}
 }
@@ -9043,14 +9043,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1046>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1046>
 		int32_t L_0 = __this->___balance;
 		int32_t L_1;
 		L_1 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral91322B6BF3C494FF5989C3ADBC1F174AC5006D26, L_0, NULL);
 		__this->___balance = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1047>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1047>
 		GameManager_UpdateBalanceText_mE84988F565F0851E7A2A6B8EFC3563E0DB496FD7(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1048>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1048>
 		return;
 	}
 }
@@ -9064,10 +9064,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_OpenLevelZero_mA619AAAE41A30
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1052>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1052>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1053>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1053>
 		return;
 	}
 }
@@ -9082,38 +9082,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:37>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:37>
 		__this->___previewTargetY = (11.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:38>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:38>
 		__this->___previewHideY = (-230.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:39>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:39>
 		__this->___previewStartY = (230.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:40>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:40>
 		__this->___previewMoveDuration = (0.400000006f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:49>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:49>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____C958431A5240CE74870E00FBBF90A099EF21395FD41CC694C9E183AAFAED57BA_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		__this->___betOptions = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___betOptions), (void*)L_1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:64>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:64>
 		__this->___playBlinkInterval = (0.400000006f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:99>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:99>
 		__this->___rewardFlyDuration = (0.5f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:100>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:100>
 		__this->___rewardIconsCount = ((int32_t)10);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:101>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:101>
 		__this->___rewardIconsSpread = (40.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:109>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:109>
 		__this->___testRewardAmount = ((int32_t)150);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:110>
 		__this->___testRewardInterval = (2.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:129>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:129>
 		__this->___winParticlesDuration = (2.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:133>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:133>
 		__this->___idleStatusInterval = (2.5f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:137>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:137>
 		__this->___fortuneWheelDelay = (1.5f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -9130,11 +9130,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_U3CPlayButtonRoutineU3Eb__96
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:685>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:685>
 		__this->___isBusy = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:686>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:686>
 		GameManager_UpdateUIInteractable_m9F9600A8335B0F62D8E4BFE922F0DA402275F92C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:688>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:688>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_0 = __this->___playFields;
 		if (L_0)
 		{
@@ -9142,20 +9142,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_U3CPlayButtonRoutineU3Eb__96
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:688>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:688>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:690>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:690>
 		V_0 = 0;
 		goto IL_003b;
 	}
 
 IL_001a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:692>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:692>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_1 = __this->___playFields;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
@@ -9170,7 +9170,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:693>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:693>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_6 = __this->___playFields;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
@@ -9182,14 +9182,14 @@ IL_001a:
 
 IL_0037:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:690>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:690>
 		int32_t L_10 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_003b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:690>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:690>
 		int32_t L_11 = V_0;
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_12 = __this->___playFields;
 		NullCheck(L_12);
@@ -9199,7 +9199,7 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:695>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:695>
 		return;
 	}
 }
@@ -9218,11 +9218,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_U3COnPlayFieldButtonClickedU
 	int32_t V_1 = 0;
 	String_t* G_B12_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:739>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:739>
 		__this->___isBusy = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:740>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:740>
 		GameManager_UpdateUIInteractable_m9F9600A8335B0F62D8E4BFE922F0DA402275F92C(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:742>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:742>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_0 = __this->___playFields;
 		if (L_0)
 		{
@@ -9230,20 +9230,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_U3COnPlayFieldButtonClickedU
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:742>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:742>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:744>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:744>
 		V_0 = 0;
 		goto IL_003b;
 	}
 
 IL_001a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:746>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:746>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_1 = __this->___playFields;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
@@ -9258,7 +9258,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:747>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:747>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_6 = __this->___playFields;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
@@ -9270,14 +9270,14 @@ IL_001a:
 
 IL_0037:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:744>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:744>
 		int32_t L_10 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_003b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:744>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:744>
 		int32_t L_11 = V_0;
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_12 = __this->___playFields;
 		NullCheck(L_12);
@@ -9287,9 +9287,9 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:751>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:751>
 		GameManager_UpdateGlobalTotal_mA65AECBCEE15E8EE468F3A28B216F3DF0C8DAEE7(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:755>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:755>
 		bool L_13 = __this->___hasPaidForCurrentRound;
 		if (L_13)
 		{
@@ -9305,11 +9305,11 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:757>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:757>
 		__this->___hasPaidForCurrentRound = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:759>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:759>
 		V_1 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:760>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:760>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_15 = __this->___totalResultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -9337,7 +9337,7 @@ IL_0085:
 	{
 		bool L_19;
 		L_19 = Int32_TryParse_mC928DE2FEC1C35ED5298BDDCA9868076E94B8A21(G_B12_0, (&V_1), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:762>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:762>
 		int32_t L_20 = V_1;
 		if ((((int32_t)L_20) <= ((int32_t)0)))
 		{
@@ -9345,14 +9345,14 @@ IL_0085:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:764>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:764>
 		int32_t L_21 = V_1;
 		int32_t L_22 = L_21;
 		RuntimeObject* L_23 = Box(il2cpp_defaults.int32_class, &L_22);
 		String_t* L_24;
 		L_24 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral10E201C77647FEF4D8F9B7F6F7326C781DA62946, L_23, NULL);
 		GameManager_SetStatus_m3BFD442CE6D902319419F7FBFD661B69B85A335C(__this, L_24, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:767>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:767>
 		int32_t L_25 = V_1;
 		RuntimeObject* L_26;
 		L_26 = GameManager_AnimateRewardToCharacter_m700592055B45E61DB415A2211639AADFC22B4687(__this, L_25, NULL);
@@ -9363,13 +9363,13 @@ IL_0085:
 
 IL_00b7:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:773>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:773>
 		GameManager_ExitPlayMode_m901D1B24BE7987D42AE7767B229A7A0BD58CE5A7(__this, NULL);
 	}
 
 IL_00bd:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:776>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:776>
 		return;
 	}
 }
@@ -9393,12 +9393,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass94_0__ctor_mC6C31F0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass94_0_U3CMovePreviewToHideAndPrepareNextU3Eb__0_mB776701F70E79619D79D017B464A114FFEBF86A7 (U3CU3Ec__DisplayClass94_0_t8C263534A01709BAB5CBF8A0DE3A2BF5334E0CD1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:608>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:608>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___U3CU3E4__this;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = __this->___onNextPreviewShown;
 		NullCheck(L_0);
 		GameManager_PrepareNextPreviewAndDrop_m367D62B497BB37857BA0AABF5CC6A24E2FE13FFD(L_0, L_1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:609>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:609>
 		return;
 	}
 }
@@ -9475,7 +9475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateRewardToCharacterU3Ed__101_Mov
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:813>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:813>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_3;
 		L_3 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -9487,7 +9487,7 @@ IL_0022:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:815>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:815>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_5;
 		L_5 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		NullCheck(L_5);
@@ -9496,7 +9496,7 @@ IL_0022:
 
 IL_0040:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:819>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:819>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_6 = V_1;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = V_1;
 		int32_t L_8 = __this->___amount;
@@ -9506,7 +9506,7 @@ IL_0040:
 		NullCheck(L_6);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_10;
 		L_10 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_6, L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:822>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:822>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_11 = V_1;
 		NullCheck(L_11);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = L_11->___rewardStartPoint;
@@ -9545,27 +9545,27 @@ IL_0040:
 
 IL_007d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:824>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:824>
 		return (bool)0;
 	}
 
 IL_007f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:827>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:827>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_20 = V_1;
 		NullCheck(L_20);
 		int32_t L_21 = L_20->___rewardIconsCount;
 		int32_t L_22;
 		L_22 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_21, 1, ((int32_t)30), NULL);
 		__this->___U3CcountU3E5__2 = L_22;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:829>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:829>
 		__this->___U3CiU3E5__3 = 0;
 		goto IL_0142;
 	}
 
 IL_009f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:832>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:832>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_23 = V_1;
 		NullCheck(L_23);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_24 = L_23->___rewardIconsContainer;
@@ -9599,7 +9599,7 @@ IL_00ba:
 IL_00c0:
 	{
 		V_2 = G_B12_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:833>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:833>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_31 = V_1;
 		NullCheck(L_31);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_32 = L_31->___rewardIconPrefab;
@@ -9608,13 +9608,13 @@ IL_00c0:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
 		L_34 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811(L_32, L_33, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m58C654F1134533E29502629CA67645682B404811_RuntimeMethod_var);
 		V_3 = L_34;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:834>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:834>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = V_3;
 		NullCheck(L_35);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_36;
 		L_36 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_35, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		V_4 = L_36;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:836>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:836>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_37 = V_4;
 		bool L_38;
 		L_38 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_37, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -9624,17 +9624,17 @@ IL_00c0:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:838>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:838>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_39, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:839>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:839>
 		goto IL_0130;
 	}
 
 IL_00e8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:843>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:843>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_40 = V_4;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_41 = V_1;
 		NullCheck(L_41);
@@ -9644,11 +9644,11 @@ IL_00e8:
 		L_43 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_42, NULL);
 		NullCheck(L_40);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_40, L_43, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:845>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:845>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_44 = V_4;
 		NullCheck(L_44);
 		Transform_SetAsLastSibling_m848AF1A0B4C7912FE88D8CBCF92B83D57B2B917E(L_44, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:848>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:848>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_45 = V_1;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_46 = V_1;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_47 = V_4;
@@ -9658,7 +9658,7 @@ IL_00e8:
 		NullCheck(L_45);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_49;
 		L_49 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_45, L_48, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:851>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:851>
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_50 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_50, (0.0199999996f), NULL);
 		__this->___U3CU3E2__current = L_50;
@@ -9674,7 +9674,7 @@ IL_0129:
 
 IL_0130:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:829>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:829>
 		int32_t L_51 = __this->___U3CiU3E5__3;
 		V_5 = L_51;
 		int32_t L_52 = V_5;
@@ -9683,7 +9683,7 @@ IL_0130:
 
 IL_0142:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:829>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:829>
 		int32_t L_53 = __this->___U3CiU3E5__3;
 		int32_t L_54 = __this->___U3CcountU3E5__2;
 		if ((((int32_t)L_53) < ((int32_t)L_54)))
@@ -9692,7 +9692,7 @@ IL_0142:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:855>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:855>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_55 = V_1;
 		NullCheck(L_55);
 		float L_56 = L_55->___rewardFlyDuration;
@@ -9702,7 +9702,7 @@ IL_0142:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:857>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:857>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_57 = V_1;
 		NullCheck(L_57);
 		float L_58 = L_57->___rewardFlyDuration;
@@ -9721,7 +9721,7 @@ IL_017a:
 
 IL_0181:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:861>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:861>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_60 = V_1;
 		NullCheck(L_60);
 		SliderFill_t38BDFB4CE61C7A5F7D7557C8D4DC80168F20C6F5* L_61 = L_60->___sliderFill;
@@ -9734,7 +9734,7 @@ IL_0181:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:863>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:863>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_63 = V_1;
 		NullCheck(L_63);
 		SliderFill_t38BDFB4CE61C7A5F7D7557C8D4DC80168F20C6F5* L_64 = L_63->___sliderFill;
@@ -9745,7 +9745,7 @@ IL_0181:
 
 IL_01a0:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:866>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:866>
 		return (bool)0;
 	}
 }
@@ -9838,7 +9838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAnimateTotalResultDownU3Ed__102_MoveN
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:870>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:870>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = V_1;
 		NullCheck(L_4);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = L_4->___totalResultText;
@@ -9851,18 +9851,18 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:871>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:871>
 		return (bool)0;
 	}
 
 IL_0031:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:873>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:873>
 		int32_t L_7 = __this->___amount;
 		int32_t L_8;
 		L_8 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, L_7, NULL);
 		__this->___U3CstartValueU3E5__2 = L_8;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:874>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:874>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_9 = V_1;
 		NullCheck(L_9);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = L_9->___totalResultText;
@@ -9871,7 +9871,7 @@ IL_0031:
 		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_11, NULL);
 		NullCheck(L_10);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_10, L_12);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:876>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:876>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_13 = V_1;
 		NullCheck(L_13);
 		float L_14 = L_13->___rewardFlyDuration;
@@ -9881,7 +9881,7 @@ IL_0031:
 		int32_t L_17;
 		L_17 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), NULL);
 		__this->___U3CdurationU3E5__3 = ((float)il2cpp_codegen_add(L_14, ((float)il2cpp_codegen_multiply((0.0500000007f), ((float)L_17)))));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:877>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:877>
 		float L_18 = __this->___U3CdurationU3E5__3;
 		if ((!(((float)L_18) <= ((float)(0.0f)))))
 		{
@@ -9889,31 +9889,31 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:878>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:878>
 		__this->___U3CdurationU3E5__3 = (0.5f);
 	}
 
 IL_0093:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:880>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:880>
 		__this->___U3CelapsedU3E5__4 = (0.0f);
 		goto IL_0106;
 	}
 
 IL_00a0:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:884>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:884>
 		float L_19 = __this->___U3CelapsedU3E5__4;
 		float L_20;
 		L_20 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CelapsedU3E5__4 = ((float)il2cpp_codegen_add(L_19, L_20));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:885>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:885>
 		float L_21 = __this->___U3CelapsedU3E5__4;
 		float L_22 = __this->___U3CdurationU3E5__3;
 		float L_23;
 		L_23 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_21/L_22)), NULL);
 		V_2 = L_23;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:886>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:886>
 		int32_t L_24 = __this->___U3CstartValueU3E5__2;
 		float L_25 = V_2;
 		float L_26;
@@ -9921,7 +9921,7 @@ IL_00a0:
 		int32_t L_27;
 		L_27 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(L_26, NULL);
 		V_3 = L_27;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:887>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:887>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_28 = V_1;
 		NullCheck(L_28);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_29 = L_28->___totalResultText;
@@ -9929,7 +9929,7 @@ IL_00a0:
 		L_30 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_3), NULL);
 		NullCheck(L_29);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_29, L_30);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:888>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:888>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -9943,7 +9943,7 @@ IL_00ff:
 
 IL_0106:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:882>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:882>
 		float L_31 = __this->___U3CelapsedU3E5__4;
 		float L_32 = __this->___U3CdurationU3E5__3;
 		if ((((float)L_31) < ((float)L_32)))
@@ -9952,13 +9952,13 @@ IL_0106:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:891>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:891>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_33 = V_1;
 		NullCheck(L_33);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_34 = L_33->___totalResultText;
 		NullCheck(L_34);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_34, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:892>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:892>
 		return (bool)0;
 	}
 }
@@ -10067,7 +10067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFlyRewardIconU3Ed__103_MoveNext_m6C39
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:896>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:896>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___icon;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -10104,13 +10104,13 @@ IL_0022:
 
 IL_0053:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:897>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:897>
 		return (bool)0;
 	}
 
 IL_0055:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:900>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:900>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_11 = V_1;
 		NullCheck(L_11);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12 = L_11->___rewardStartPoint;
@@ -10118,7 +10118,7 @@ IL_0055:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
 		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
 		__this->___U3CstartU3E5__2 = L_13;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:901>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:901>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_14 = V_1;
 		NullCheck(L_14);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14->___rewardTargetPoint;
@@ -10126,7 +10126,7 @@ IL_0055:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
 		L_16 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_15, NULL);
 		__this->___U3CtargetU3E5__3 = L_16;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:904>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:904>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = __this->___U3CtargetU3E5__3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = __this->___U3CstartU3E5__2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
@@ -10135,26 +10135,26 @@ IL_0055:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
 		L_20 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_7), NULL);
 		V_2 = L_20;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:905>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:905>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = V_2;
 		float L_22 = L_21.___y;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_2;
 		float L_24 = L_23.___x;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_3), ((-L_22)), L_24, (0.0f), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:909>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:909>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_25 = V_1;
 		NullCheck(L_25);
 		float L_26 = L_25->___rewardIconsSpread;
 		float L_27;
 		L_27 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_multiply(L_26, (0.0500000007f))), NULL);
 		V_4 = L_27;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:910>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:910>
 		float L_28 = V_4;
 		float L_29 = V_4;
 		float L_30;
 		L_30 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(((-L_28)), L_29, NULL);
 		V_5 = L_30;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:913>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:913>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = __this->___U3CstartU3E5__2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = __this->___U3CtargetU3E5__3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
@@ -10166,18 +10166,18 @@ IL_0055:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
 		L_37 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_33, L_36, NULL);
 		__this->___U3CcontrolU3E5__4 = L_37;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:916>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:916>
 		float L_38;
 		L_38 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (0.150000006f), NULL);
 		V_6 = L_38;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:917>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:917>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_39 = V_1;
 		NullCheck(L_39);
 		float L_40 = L_39->___rewardFlyDuration;
 		float L_41;
 		L_41 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.850000024f), (1.14999998f), NULL);
 		__this->___U3CdurationU3E5__5 = ((float)il2cpp_codegen_multiply(L_40, L_41));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:918>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:918>
 		float L_42 = __this->___U3CdurationU3E5__5;
 		if ((!(((float)L_42) <= ((float)(0.0f)))))
 		{
@@ -10185,18 +10185,18 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:918>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:918>
 		__this->___U3CdurationU3E5__5 = (0.5f);
 	}
 
 IL_013d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:921>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:921>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_43 = __this->___icon;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = __this->___U3CstartU3E5__2;
 		NullCheck(L_43);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_43, L_44, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:923>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:923>
 		float L_45 = V_6;
 		if ((!(((float)L_45) > ((float)(0.0f)))))
 		{
@@ -10204,7 +10204,7 @@ IL_013d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:924>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:924>
 		float L_46 = V_6;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_47 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_47, L_46, NULL);
@@ -10221,36 +10221,36 @@ IL_016d:
 
 IL_0174:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:926>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:926>
 		__this->___U3CtU3E5__6 = (0.0f);
 		goto IL_022d;
 	}
 
 IL_0184:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:929>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:929>
 		float L_48 = __this->___U3CtU3E5__6;
 		float L_49;
 		L_49 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__6 = ((float)il2cpp_codegen_add(L_48, L_49));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:930>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:930>
 		float L_50 = __this->___U3CtU3E5__6;
 		float L_51 = __this->___U3CdurationU3E5__5;
 		float L_52;
 		L_52 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_50/L_51)), NULL);
 		V_8 = L_52;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:933>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:933>
 		float L_53 = V_8;
 		float L_54;
 		L_54 = Mathf_SmoothStep_mEFDC738EB0AA162D71013BDBBDD157B080A8E524_inline((0.0f), (1.0f), L_53, NULL);
 		V_9 = L_54;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:934>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:934>
 		float L_55 = V_9;
 		V_10 = ((float)il2cpp_codegen_subtract((1.0f), L_55));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:937>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:938>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:939>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:940>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:937>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:938>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:939>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:940>
 		float L_56 = V_10;
 		float L_57 = V_10;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58 = __this->___U3CstartU3E5__2;
@@ -10271,12 +10271,12 @@ IL_0184:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
 		L_69 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_64, L_68, NULL);
 		V_11 = L_69;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:942>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:942>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_70 = __this->___icon;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71 = V_11;
 		NullCheck(L_70);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_70, L_71, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:943>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:943>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -10290,7 +10290,7 @@ IL_0226:
 
 IL_022d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:927>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:927>
 		float L_72 = __this->___U3CtU3E5__6;
 		float L_73 = __this->___U3CdurationU3E5__5;
 		if ((((float)L_72) < ((float)L_73)))
@@ -10299,19 +10299,19 @@ IL_022d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:946>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:946>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_74 = __this->___icon;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_75 = __this->___U3CtargetU3E5__3;
 		NullCheck(L_74);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_74, L_75, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:947>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:947>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_76 = __this->___icon;
 		NullCheck(L_76);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77;
 		L_77 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_76, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_77, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:948>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:948>
 		return (bool)0;
 	}
 }
@@ -10406,12 +10406,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CIdleStatusRoutineU3Ed__83_MoveNext_m4
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:372>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:373>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:374>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:375>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:376>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:377>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:372>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:373>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:374>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:375>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:376>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:377>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
 		NullCheck(L_5);
@@ -10424,14 +10424,14 @@ IL_001a:
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralC38F0319761F032F7B2B50765C422603F1CAB267);
 		__this->___U3CmessagesU3E5__2 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CmessagesU3E5__2), (void*)L_7);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:379>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:379>
 		__this->___U3CindexU3E5__3 = 0;
 		goto IL_00ac;
 	}
 
 IL_004e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:384>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:384>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8 = V_1;
 		NullCheck(L_8);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_9 = L_8->___statusText;
@@ -10444,7 +10444,7 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:385>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:385>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_11 = V_1;
 		NullCheck(L_11);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = L_11->___statusText;
@@ -10459,12 +10459,12 @@ IL_004e:
 
 IL_0074:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:387>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:387>
 		int32_t L_17 = __this->___U3CindexU3E5__3;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = __this->___U3CmessagesU3E5__2;
 		NullCheck(L_18);
 		__this->___U3CindexU3E5__3 = ((int32_t)(((int32_t)il2cpp_codegen_add(L_17, 1))%((int32_t)(((RuntimeArray*)L_18)->max_length))));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:388>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:388>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_19 = V_1;
 		NullCheck(L_19);
 		float L_20 = L_19->___idleStatusInterval;
@@ -10483,7 +10483,7 @@ IL_00a5:
 
 IL_00ac:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:382>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:382>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_22 = V_1;
 		NullCheck(L_22);
 		bool L_23 = L_22->___isPlayMode;
@@ -10493,12 +10493,12 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:391>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:391>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_24 = V_1;
 		NullCheck(L_24);
 		L_24->___statusCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_24->___statusCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:392>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:392>
 		return (bool)0;
 	}
 }
@@ -10593,7 +10593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMovePreviewObjectU3Ed__75_MoveNext_m0
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:257>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:257>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = V_1;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = L_4->___previewObject;
@@ -10606,7 +10606,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:259>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:259>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_7 = __this->___onComplete;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_8 = L_7;
 		if (L_8)
@@ -10628,15 +10628,15 @@ IL_003b:
 
 IL_0040:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:260>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:260>
 		return (bool)0;
 	}
 
 IL_0042:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:263>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:263>
 		__this->___U3CtU3E5__2 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:264>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:264>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___previewObject;
@@ -10651,18 +10651,18 @@ IL_0042:
 
 IL_0065:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:268>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:268>
 		float L_13 = __this->___U3CtU3E5__2;
 		float L_14;
 		L_14 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__2 = ((float)il2cpp_codegen_add(L_13, L_14));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:269>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:269>
 		float L_15 = __this->___U3CtU3E5__2;
 		float L_16 = __this->___duration;
 		float L_17;
 		L_17 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_15/L_16)), NULL);
 		V_2 = L_17;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:270>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:270>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_18 = V_1;
 		NullCheck(L_18);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = L_18->___previewObject;
@@ -10676,7 +10676,7 @@ IL_0065:
 		L_24 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_21, L_22, L_23, NULL);
 		NullCheck(L_20);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_20, L_24, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:271>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:271>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -10690,7 +10690,7 @@ IL_00bc:
 
 IL_00c3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:266>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:266>
 		float L_25 = __this->___U3CtU3E5__2;
 		float L_26 = __this->___duration;
 		if ((((float)L_25) < ((float)L_26)))
@@ -10699,7 +10699,7 @@ IL_00c3:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:274>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:274>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_27 = V_1;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_27->___previewObject;
@@ -10709,7 +10709,7 @@ IL_00c3:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = __this->___toPos;
 		NullCheck(L_29);
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_29, L_30, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:275>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:275>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_31 = __this->___onComplete;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_32 = L_31;
 		if (L_32)
@@ -10731,7 +10731,7 @@ IL_00f3:
 
 IL_00f8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:276>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:276>
 		return (bool)0;
 	}
 }
@@ -10826,7 +10826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPlayBlinkRoutineU3Ed__89_MoveNext_m65
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:484>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:484>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = V_1;
 		NullCheck(L_4);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = L_4->___playButtonImage;
@@ -10865,22 +10865,22 @@ IL_001a:
 
 IL_004b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:485>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:485>
 		return (bool)0;
 	}
 
 IL_004d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:487>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:487>
 		__this->___U3CstateU3E5__2 = (bool)0;
 	}
 
 IL_0054:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:491>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:491>
 		bool L_13 = __this->___U3CstateU3E5__2;
 		__this->___U3CstateU3E5__2 = (bool)((((int32_t)L_13) == ((int32_t)0))? 1 : 0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:492>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:492>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_14 = V_1;
 		NullCheck(L_14);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_15 = L_14->___playButtonImage;
@@ -10914,7 +10914,7 @@ IL_007f:
 	{
 		NullCheck(G_B11_1);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(G_B11_1, G_B11_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:493>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:493>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_21 = V_1;
 		NullCheck(L_21);
 		float L_22 = L_21->___playBlinkInterval;
@@ -10929,7 +10929,7 @@ IL_007f:
 IL_009e:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:489>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:489>
 		goto IL_0054;
 	}
 }
@@ -11034,7 +11034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CPlayButtonRoutineU3Ed__96_MoveNext_m1
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:621>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:621>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = V_1;
 		NullCheck(L_4);
 		bool L_5 = L_4->___isBusy;
@@ -11044,18 +11044,18 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:621>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:621>
 		return (bool)0;
 	}
 
 IL_002b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:624>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:624>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_6 = V_1;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___currentBet;
 		V_2 = L_7;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:625>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:625>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8 = V_1;
 		NullCheck(L_8);
 		bool L_9 = L_8->___isDoubleOn;
@@ -11065,14 +11065,14 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:626>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:626>
 		int32_t L_10 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_10, ((int32_t)150)));
 	}
 
 IL_0042:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:629>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:629>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_11 = V_1;
 		NullCheck(L_11);
 		int32_t L_12 = L_11->___balance;
@@ -11083,24 +11083,24 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:631>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:631>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral412674BB517B2B2E115967E181E4F4926A6AA4D6, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:632>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:632>
 		return (bool)0;
 	}
 
 IL_0057:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:636>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:636>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_14 = V_1;
 		NullCheck(L_14);
 		L_14->___hasPaidForCurrentRound = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:639>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:639>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_15 = V_1;
 		NullCheck(L_15);
 		GameManager_EnterPlayMode_m203E6DA20B66574FB4703254E5374FF85160C636(L_15, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:642>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:642>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_16 = V_1;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_17 = V_1;
 		NullCheck(L_17);
@@ -11108,23 +11108,23 @@ IL_0057:
 		int32_t L_19 = V_2;
 		NullCheck(L_16);
 		L_16->___balance = ((int32_t)il2cpp_codegen_subtract(L_18, L_19));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:643>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:643>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_20 = V_1;
 		NullCheck(L_20);
 		GameManager_SaveBalance_mE762052AFA7C4F66DFC0263001D77742316BC356(L_20, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:644>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:644>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_21 = V_1;
 		NullCheck(L_21);
 		GameManager_UpdateBalanceText_mE84988F565F0851E7A2A6B8EFC3563E0DB496FD7(L_21, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:646>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:646>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_22 = V_1;
 		NullCheck(L_22);
 		L_22->___isBusy = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:647>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:647>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_23 = V_1;
 		NullCheck(L_23);
 		GameManager_UpdateUIInteractable_m9F9600A8335B0F62D8E4BFE922F0DA402275F92C(L_23, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:650>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:650>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_24 = V_1;
 		NullCheck(L_24);
 		SliderFill_t38BDFB4CE61C7A5F7D7557C8D4DC80168F20C6F5* L_25 = L_24->___sliderFill;
@@ -11137,7 +11137,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:652>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:652>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_27 = V_1;
 		NullCheck(L_27);
 		SliderFill_t38BDFB4CE61C7A5F7D7557C8D4DC80168F20C6F5* L_28 = L_27->___sliderFill;
@@ -11147,9 +11147,9 @@ IL_0057:
 
 IL_00a4:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:656>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:656>
 		V_3 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:658>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:658>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_29 = V_1;
 		NullCheck(L_29);
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_30 = L_29->___playFields;
@@ -11159,7 +11159,7 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:660>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:660>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_31 = V_1;
 		NullCheck(L_31);
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_32 = L_31->___playFields;
@@ -11170,14 +11170,14 @@ IL_00a4:
 
 IL_00bf:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:660>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:660>
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_33 = V_4;
 		int32_t L_34 = V_5;
 		NullCheck(L_33);
 		int32_t L_35 = L_34;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_36 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
 		V_6 = L_36;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:662>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:662>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_37 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_38;
@@ -11188,17 +11188,17 @@ IL_00bf:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:665>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:665>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_39 = V_6;
 		NullCheck(L_39);
 		PlayField_ResetFieldForNewRound_m2CF831229A94EFF160B2128A4F87004C16666E2E(L_39, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:668>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:668>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_40 = V_6;
 		NullCheck(L_40);
 		float L_41;
 		L_41 = PlayField_get_ResetTotalDuration_m8F614D3324AAB7B36022CC70794D88C787DA9BBF_inline(L_40, NULL);
 		V_7 = L_41;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:669>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:669>
 		float L_42 = V_7;
 		float L_43 = V_3;
 		if ((!(((float)L_42) > ((float)L_43))))
@@ -11207,7 +11207,7 @@ IL_00bf:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:670>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:670>
 		float L_44 = V_7;
 		V_3 = L_44;
 	}
@@ -11220,7 +11220,7 @@ IL_00e8:
 
 IL_00ee:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:660>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:660>
 		int32_t L_46 = V_5;
 		PlayFieldU5BU5D_tC95732053F808234B7B77391EF7CAB77EE4ABC09* L_47 = V_4;
 		NullCheck(L_47);
@@ -11232,7 +11232,7 @@ IL_00ee:
 
 IL_00f6:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:675>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:675>
 		float L_48 = V_3;
 		if ((!(((float)L_48) > ((float)(0.0f)))))
 		{
@@ -11240,7 +11240,7 @@ IL_00f6:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:676>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:676>
 		float L_49 = V_3;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_50 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_50, L_49, NULL);
@@ -11257,7 +11257,7 @@ IL_0113:
 
 IL_011a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:679>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:679>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_51 = V_1;
 		NullCheck(L_51);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_52 = L_51->___totalResultText;
@@ -11270,7 +11270,7 @@ IL_011a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:680>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:680>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_54 = V_1;
 		NullCheck(L_54);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_55 = L_54->___totalResultText;
@@ -11280,26 +11280,26 @@ IL_011a:
 
 IL_0138:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:683>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:684>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:685>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:686>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:687>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:688>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:689>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:690>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:691>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:692>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:693>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:694>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:695>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:683>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:684>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:685>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:686>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:687>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:688>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:689>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:690>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:691>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:692>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:693>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:694>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:695>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_56 = V_1;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_57 = V_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_58 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
 		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_58, L_57, (intptr_t)((void*)GameManager_U3CPlayButtonRoutineU3Eb__96_0_mD57063B3A5CBAFE35C6F1020CB629EF5FB328A79_RuntimeMethod_var), NULL);
 		NullCheck(L_56);
 		GameManager_PrepareNextPreviewAndDrop_m367D62B497BB37857BA0AABF5CC6A24E2FE13FFD(L_56, L_58, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:698>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:698>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_59 = V_1;
 		NullCheck(L_59);
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_60 = L_59->___lastResult;
@@ -11309,16 +11309,16 @@ IL_0138:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:700>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:700>
 		V_8 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:701>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:701>
 		V_9 = 0;
 		goto IL_017e;
 	}
 
 IL_015a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:703>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:703>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_61 = V_1;
 		NullCheck(L_61);
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_62 = L_61->___lastResult;
@@ -11332,7 +11332,7 @@ IL_015a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:704>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:704>
 		int32_t L_66 = V_8;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_67 = V_1;
 		NullCheck(L_67);
@@ -11348,14 +11348,14 @@ IL_015a:
 
 IL_0178:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:701>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:701>
 		int32_t L_73 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_73, 1));
 	}
 
 IL_017e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:701>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:701>
 		int32_t L_74 = V_9;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_75 = V_1;
 		NullCheck(L_75);
@@ -11367,7 +11367,7 @@ IL_017e:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:707>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:707>
 		int32_t L_77 = V_8;
 		int32_t L_78 = L_77;
 		RuntimeObject* L_79 = Box(il2cpp_defaults.int32_class, &L_78);
@@ -11379,7 +11379,7 @@ IL_017e:
 
 IL_01a0:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:709>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:709>
 		return (bool)0;
 	}
 }
@@ -11474,7 +11474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowWinParticlesAndExitU3Ed__105_Move
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:966>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:966>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_4;
 		L_4 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -11486,7 +11486,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:968>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:968>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_6;
 		L_6 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		NullCheck(L_6);
@@ -11495,7 +11495,7 @@ IL_001a:
 
 IL_0038:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:971>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:971>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = V_1;
 		NullCheck(L_7);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_8 = L_7->___winParticles;
@@ -11505,7 +11505,7 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:973>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:973>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_9 = V_1;
 		NullCheck(L_9);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_10 = L_9->___winParticles;
@@ -11516,14 +11516,14 @@ IL_0038:
 
 IL_004b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:973>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:973>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_11 = V_2;
 		int32_t L_12 = V_3;
 		NullCheck(L_11);
 		int32_t L_13 = L_12;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
 		V_4 = L_14;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:975>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:975>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -11534,7 +11534,7 @@ IL_004b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:976>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:976>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = V_4;
 		NullCheck(L_17);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)1, NULL);
@@ -11548,7 +11548,7 @@ IL_0062:
 
 IL_0066:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:973>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:973>
 		int32_t L_19 = V_3;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_20 = V_2;
 		NullCheck(L_20);
@@ -11560,7 +11560,7 @@ IL_0066:
 
 IL_006c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:980>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:980>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_21 = V_1;
 		NullCheck(L_21);
 		float L_22 = L_21->___winParticlesDuration;
@@ -11570,7 +11570,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:981>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:981>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_23 = V_1;
 		NullCheck(L_23);
 		L_23->___winParticlesDuration = (2.0f);
@@ -11578,7 +11578,7 @@ IL_006c:
 
 IL_0084:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:983>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:983>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_24 = V_1;
 		NullCheck(L_24);
 		float L_25 = L_24->___winParticlesDuration;
@@ -11593,7 +11593,7 @@ IL_0084:
 IL_009e:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:985>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:985>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_27 = V_1;
 		NullCheck(L_27);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_28 = L_27->___winParticles;
@@ -11603,7 +11603,7 @@ IL_009e:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:987>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:987>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_29 = V_1;
 		NullCheck(L_29);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_30 = L_29->___winParticles;
@@ -11614,14 +11614,14 @@ IL_009e:
 
 IL_00b8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:987>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:987>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_31 = V_2;
 		int32_t L_32 = V_3;
 		NullCheck(L_31);
 		int32_t L_33 = L_32;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
 		V_5 = L_34;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:989>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:989>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -11632,7 +11632,7 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:990>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:990>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = V_5;
 		NullCheck(L_37);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_37, (bool)0, NULL);
@@ -11646,7 +11646,7 @@ IL_00cf:
 
 IL_00d3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:987>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:987>
 		int32_t L_39 = V_3;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_40 = V_2;
 		NullCheck(L_40);
@@ -11658,11 +11658,11 @@ IL_00d3:
 
 IL_00d9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:994>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:994>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_41 = V_1;
 		NullCheck(L_41);
 		GameManager_ExitPlayMode_m901D1B24BE7987D42AE7767B229A7A0BD58CE5A7(L_41, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:995>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:995>
 		return (bool)0;
 	}
 }
@@ -11755,7 +11755,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartFortuneWheelAfterDelayU3Ed__109_
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1030>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1030>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = V_1;
 		NullCheck(L_4);
 		float L_5 = L_4->___fortuneWheelDelay;
@@ -11765,7 +11765,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1031>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1031>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_6 = V_1;
 		NullCheck(L_6);
 		float L_7 = L_6->___fortuneWheelDelay;
@@ -11784,7 +11784,7 @@ IL_0045:
 
 IL_004c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1033>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1033>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___fortuneWheel;
@@ -11797,13 +11797,13 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1034>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1034>
 		return (bool)0;
 	}
 
 IL_005c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1036>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1036>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_12 = V_1;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = L_12->___fortuneWheel;
@@ -11811,7 +11811,7 @@ IL_005c:
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_14;
 		L_14 = GameObject_GetComponent_TisWheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55_m4B6F284ADFD8D4AD35196372BDAC665DFCF35A4C(L_13, GameObject_GetComponent_TisWheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55_m4B6F284ADFD8D4AD35196372BDAC665DFCF35A4C_RuntimeMethod_var);
 		V_2 = L_14;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1037>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1037>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_15 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_16;
@@ -11822,7 +11822,7 @@ IL_005c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1039>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1039>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_17 = V_2;
 		NullCheck(L_17);
 		WheelFortune_SpinOuter_m97DE710019EA58DA0478C60EDAA7F74E8DA05E86(L_17, NULL);
@@ -11830,7 +11830,7 @@ IL_005c:
 
 IL_0077:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:1041>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:1041>
 		return (bool)0;
 	}
 }
@@ -11926,7 +11926,7 @@ IL_0017:
 
 IL_001e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:204>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:204>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = V_1;
 		NullCheck(L_4);
 		float L_5 = L_4->___testRewardInterval;
@@ -11941,10 +11941,10 @@ IL_001e:
 IL_0038:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:206>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:206>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralABFE4F3AF59FB2F6BDCB67A949F8DB69130A7414, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:208>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:208>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = V_1;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8 = V_1;
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_9 = V_1;
@@ -11956,7 +11956,7 @@ IL_0038:
 		NullCheck(L_7);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
 		L_12 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_7, L_11, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:202>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:202>
 		goto IL_001e;
 	}
 }
@@ -12007,12 +12007,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadLevelButton_LoadLevel_mE0D803ED2BA8A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelNumber.cs:10>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelNumber.cs:10>
 		int32_t L_0 = ___0_levelNumber;
 		il2cpp_codegen_runtime_class_init_inline(GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_il2cpp_TypeInfo_var);
 		((GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_StaticFields*)il2cpp_codegen_static_fields_for(GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_il2cpp_TypeInfo_var))->___GAME_NUMBER = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelNumber.cs:12>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelNumber.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelNumber.cs:12>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelNumber.cs:13>
 		int32_t L_1 = ___0_levelNumber;
 		int32_t L_2 = L_1;
 		RuntimeObject* L_3 = Box(il2cpp_defaults.int32_class, &L_2);
@@ -12027,10 +12027,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadLevelButton_LoadLevel_mE0D803ED2BA8A
 		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_4, L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelNumber.cs:16>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelNumber.cs:16>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_m0957E62F2A0A0243C79394E5B74E8EFA86BE5ED1(1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelNumber.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelNumber.cs:17>
 		return;
 	}
 }
@@ -12054,9 +12054,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadLevelButton__ctor_m944DFADE5E4E3A8F4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelsManager_Start_m3CBD8E89EA54AE66AC5FFF877DF417F8CE8582B5 (LevelsManager_t2BE8A98F36F9B45B1560E3CA19D6178F409B3ABB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:32>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:32>
 		LevelsManager_RefreshLevels_m10EB02010871A922042A39FCC491374F046F0002(__this, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:33>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:33>
 		return;
 	}
 }
@@ -12064,9 +12064,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelsManager_Start_m3CBD8E89EA54AE66AC5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelsManager_Update_m2086A41F8904559120C6D26E7A73E0FFC1DB537B (LevelsManager_t2BE8A98F36F9B45B1560E3CA19D6178F409B3ABB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:37>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:37>
 		LevelsManager_RefreshLevels_m10EB02010871A922042A39FCC491374F046F0002(__this, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:38>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:38>
 		return;
 	}
 }
@@ -12089,11 +12089,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelsManager_RefreshLevels_m10EB0201087
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_4 = NULL;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_5 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:42>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralC0C86C026038BA3CC5D3E02687112FB1B258CE90, 0, NULL);
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:45>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:45>
 		bool L_1 = ___0_force;
 		if (L_1)
 		{
@@ -12109,16 +12109,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelsManager_RefreshLevels_m10EB0201087
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:46>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:46>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:48>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:48>
 		int32_t L_4 = V_0;
 		__this->____lastLevelValue = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:50>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_5 = __this->___levelItems;
 		if (!L_5)
 		{
@@ -12136,27 +12136,27 @@ IL_0019:
 
 IL_0031:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:51>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:51>
 		return;
 	}
 
 IL_0032:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:53>
 		V_1 = 0;
 		goto IL_00f3;
 	}
 
 IL_0039:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:55>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:55>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_7 = __this->___levelItems;
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
 		int32_t L_9 = L_8;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		V_2 = L_10;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:56>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:56>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -12167,9 +12167,9 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:60>
 		V_3 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:61>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:61>
 		int32_t L_13 = V_1;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_14 = __this->___unlockLevels;
 		NullCheck(L_14);
@@ -12179,7 +12179,7 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:62>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = __this->___unlockLevels;
 		int32_t L_16 = V_1;
 		NullCheck(L_15);
@@ -12190,10 +12190,10 @@ IL_0039:
 
 IL_0064:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:64>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:64>
 		int32_t L_19 = V_0;
 		int32_t L_20 = V_3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:67>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21 = V_2;
 		NullCheck(L_21);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_22;
@@ -12202,7 +12202,7 @@ IL_0064:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_23;
 		L_23 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_22, _stringLiteral7BB4A364AF6F122C72F55215DB2B223E9F1F576E, NULL);
 		V_4 = L_23;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:68>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:68>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = V_2;
 		NullCheck(L_24);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
@@ -12211,14 +12211,14 @@ IL_0064:
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26;
 		L_26 = Transform_Find_m3087032B0E1C5B96A2D2C27020BAEAE2DA08F932(L_25, _stringLiteral54F48823060A5886D12558C4BBB0CDBB0E83F58A, NULL);
 		V_5 = L_26;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:70>
 		if (!((((int32_t)((((int32_t)L_19) < ((int32_t)L_20))? 1 : 0)) == ((int32_t)0))? 1 : 0))
 		{
 			goto IL_00c1;
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:72>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:72>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_28;
@@ -12229,7 +12229,7 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:72>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:72>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_29 = V_4;
 		NullCheck(L_29);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
@@ -12240,7 +12240,7 @@ IL_0064:
 
 IL_00a8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:73>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:73>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_31 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -12251,7 +12251,7 @@ IL_00a8:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:73>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:73>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_33 = V_5;
 		NullCheck(L_33);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34;
@@ -12263,7 +12263,7 @@ IL_00a8:
 
 IL_00c1:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:77>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_36;
@@ -12274,7 +12274,7 @@ IL_00c1:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:77>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_37 = V_4;
 		NullCheck(L_37);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38;
@@ -12285,7 +12285,7 @@ IL_00c1:
 
 IL_00d8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:78>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:78>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_39 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_40;
@@ -12296,7 +12296,7 @@ IL_00d8:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:78>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:78>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_41 = V_5;
 		NullCheck(L_41);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_42;
@@ -12307,14 +12307,14 @@ IL_00d8:
 
 IL_00ef:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:53>
 		int32_t L_43 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_43, 1));
 	}
 
 IL_00f3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:53>
 		int32_t L_44 = V_1;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_45 = __this->___levelItems;
 		NullCheck(L_45);
@@ -12324,7 +12324,7 @@ IL_00f3:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:81>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:81>
 		return;
 	}
 }
@@ -12339,25 +12339,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelsManager__ctor_m097AAA28C9A379C47DA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:15>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:16>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:17>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:18>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:19>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:20>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:21>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:22>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:23>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:24>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:25>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:26>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:15>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:16>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:18>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:19>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:20>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:21>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:23>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:25>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:26>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____5EC921DE12B179BDDE4BC32CD3208C5E501F2C2112A99D6BC8E9B0BCDB504673_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
 		__this->___unlockLevels = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___unlockLevels), (void*)L_1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelsManager.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelsManager.cs:28>
 		__this->____lastLevelValue = (-1);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -12384,7 +12384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelSpriteByGame_Update_m7639D4A844D43A
 	int32_t V_0 = 0;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:17>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___targetImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12395,13 +12395,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelSpriteByGame_Update_m7639D4A844D43A
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:18>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:18>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:20>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:20>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_2 = __this->___gameSprites;
 		if (!L_2)
 		{
@@ -12419,22 +12419,22 @@ IL_000f:
 
 IL_0020:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:21>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:21>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:24>
 		il2cpp_codegen_runtime_class_init_inline(GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_il2cpp_TypeInfo_var);
 		int32_t L_4 = ((GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_StaticFields*)il2cpp_codegen_static_fields_for(GameIdConfig_t56A74FC36943FC6815F2B6F6C3FC85BF62ABE401_il2cpp_TypeInfo_var))->___GAME_NUMBER;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:27>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:27>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_5 = __this->___gameSprites;
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(((int32_t)il2cpp_codegen_subtract(L_4, 1)), 0, ((int32_t)il2cpp_codegen_subtract(((int32_t)(((RuntimeArray*)L_5)->max_length)), 1)), NULL);
 		V_0 = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:30>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:30>
 		int32_t L_7 = __this->____lastIndex;
 		int32_t L_8 = V_0;
 		if ((((int32_t)L_7) == ((int32_t)L_8)))
@@ -12443,17 +12443,17 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:32>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:32>
 		int32_t L_9 = V_0;
 		__this->____lastIndex = L_9;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:34>
 		SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* L_10 = __this->___gameSprites;
 		int32_t L_11 = V_0;
 		NullCheck(L_10);
 		int32_t L_12 = L_11;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		V_1 = L_13;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:35>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:35>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -12464,7 +12464,7 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:36>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:36>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_16 = __this->___targetImage;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_17 = V_1;
 		NullCheck(L_16);
@@ -12473,7 +12473,7 @@ IL_0021:
 
 IL_0067:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:38>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:38>
 		return;
 	}
 }
@@ -12481,7 +12481,7 @@ IL_0067:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelSpriteByGame__ctor_m4F9A04DF0DD43D2B05A6BBBED524D2CE1E4C2263 (LevelSpriteByGame_t88777D5E51C81C3FEBD412546C9FF4AED31B8289* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/LevelSpriteByGame.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/LevelSpriteByGame.cs:13>
 		__this->____lastIndex = (-1);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -12509,7 +12509,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapBets_Update_mF7A38A0C26CA01175827F1B6
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:14>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:14>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -12521,20 +12521,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapBets_Update_mF7A38A0C26CA01175827F1B6
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:15>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:15>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:17>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2;
 		L_2 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = GameManager_get_CurrentBet_m3DD1458B3C275C39B7E5E2434C0545F1B4AFA248_inline(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:20>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:20>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_4 = __this->___betTexts;
 		NullCheck(L_4);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = __this->___multipliers;
@@ -12542,14 +12542,14 @@ IL_000e:
 		int32_t L_6;
 		L_6 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)(((RuntimeArray*)L_4)->max_length)), ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
 		V_1 = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:22>
 		V_2 = 0;
 		goto IL_0066;
 	}
 
 IL_0033:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:24>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_7 = __this->___betTexts;
 		int32_t L_8 = V_2;
 		NullCheck(L_7);
@@ -12564,7 +12564,7 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:26>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:26>
 		TextMeshProUGUIU5BU5D_tCAB9404D43876DF686DFBB4613543479CC1CC24A* L_12 = __this->___betTexts;
 		int32_t L_13 = V_2;
 		NullCheck(L_12);
@@ -12585,14 +12585,14 @@ IL_0033:
 
 IL_0062:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:22>
 		int32_t L_22 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_22, 1));
 	}
 
 IL_0066:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:22>
 		int32_t L_23 = V_2;
 		int32_t L_24 = V_1;
 		if ((((int32_t)L_23) < ((int32_t)L_24)))
@@ -12601,7 +12601,7 @@ IL_0066:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:29>
 		return;
 	}
 }
@@ -12616,7 +12616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapBets__ctor_m3ACC0BDDC9C2D611A134511EF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MapBets.cs:10>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MapBets.cs:10>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D719CAFF5203C73A5B7E83CAED0E6200F97E8BBEA27DBAE1F9D72D27E81ED773_FieldInfo_var) };
@@ -12639,9 +12639,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MapBets__ctor_m3ACC0BDDC9C2D611A134511EF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Start_m58062825AA9A256E42311B4A4833E7425589BBDF (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:22>
 		MenuManager_Refresh_m01A546ED4396AD71AB97027E659AD372E3D74BF8(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:23>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:23>
 		return;
 	}
 }
@@ -12649,9 +12649,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Start_m58062825AA9A256E42311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Update_mE8D4FFA199E069DAFD4314D5F28EBF5B9644C8A3 (MenuManager_t34C8EA4F128D811DE986BE56D7938F2720BA7B16* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:28>
 		MenuManager_Refresh_m01A546ED4396AD71AB97027E659AD372E3D74BF8(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:29>
 		return;
 	}
 }
@@ -12680,19 +12680,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Refresh_m01A546ED4396AD71AB9
 	String_t* G_B6_0 = NULL;
 	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* G_B6_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:33>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:33>
 		int32_t L_0;
 		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral91322B6BF3C494FF5989C3ADBC1F174AC5006D26, ((int32_t)1000), NULL);
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:34>
 		int32_t L_1;
 		L_1 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralC0C86C026038BA3CC5D3E02687112FB1B258CE90, 0, NULL);
 		V_1 = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:35>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:35>
 		int32_t L_2;
 		L_2 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral6214B515215507739178028B141B376602007BB6, 0, NULL);
 		V_2 = L_2;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:38>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:38>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_3 = __this->___balanceText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -12703,7 +12703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager_Refresh_m01A546ED4396AD71AB9
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:39>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:39>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_5 = __this->___balanceText;
 		String_t* L_6;
 		L_6 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
@@ -12730,7 +12730,7 @@ IL_004c:
 
 IL_0051:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:41>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_8 = __this->___levelText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -12741,7 +12741,7 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:42>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = __this->___levelText;
 		String_t* L_11;
 		L_11 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
@@ -12768,7 +12768,7 @@ IL_0075:
 
 IL_007a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:47>
 		PointsSliderFill_t50F7E07D208C77EB37210C61461B9CF33844694C* L_13 = __this->___pointsSlider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -12779,7 +12779,7 @@ IL_007a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:50>
 		PointsSliderFill_t50F7E07D208C77EB37210C61461B9CF33844694C* L_15 = __this->___pointsSlider;
 		int32_t L_16 = V_2;
 		NullCheck(L_15);
@@ -12788,7 +12788,7 @@ IL_007a:
 
 IL_0095:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/MenuManager.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/MenuManager.cs:52>
 		return;
 	}
 }
@@ -12812,7 +12812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MenuManager__ctor_m07A22DFDD90E3164393F8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayField_get_ResetTotalDuration_m8F614D3324AAB7B36022CC70794D88C787DA9BBF (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:15>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:15>
 		float L_0 = __this->___resetTotalDuration;
 		return L_0;
 	}
@@ -12837,14 +12837,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_Start_mC69C66DF2F1A7582B107A07
 	int32_t V_1 = 0;
 	U3CU3Ec__DisplayClass22_0_t5AF9C8A07A645E18E5A074D123778E77EA4C9A7F* V_2 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:43>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:43>
 		V_0 = 0;
 		goto IL_002b;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:45>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:45>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_0 = __this->___buttons;
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
@@ -12859,7 +12859,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:46>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:46>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_5 = __this->___buttons;
 		int32_t L_6 = V_0;
 		NullCheck(L_5);
@@ -12874,14 +12874,14 @@ IL_0004:
 
 IL_0027:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:43>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:43>
 		int32_t L_10 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_002b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:43>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:43>
 		int32_t L_11 = V_0;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_12 = __this->___buttons;
 		NullCheck(L_12);
@@ -12891,7 +12891,7 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:49>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:49>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___finalObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -12902,7 +12902,7 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:50>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___finalObject;
 		NullCheck(L_15);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_15, (bool)0, NULL);
@@ -12910,7 +12910,7 @@ IL_002b:
 
 IL_0050:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:52>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_16 = __this->___buttons;
 		if (!L_16)
 		{
@@ -12928,7 +12928,7 @@ IL_0050:
 
 IL_0061:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:54>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral448AD5F773B4D4A5BAF9FF79D3B993198E283138, NULL);
 		return;
@@ -12936,7 +12936,7 @@ IL_0061:
 
 IL_006c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:58>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:58>
 		V_1 = 0;
 		goto IL_00d3;
 	}
@@ -12950,7 +12950,7 @@ IL_0070:
 		NullCheck(L_19);
 		L_19->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_19->___U3CU3E4__this), (void*)__this);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:60>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_20 = __this->___buttons;
 		int32_t L_21 = V_1;
 		NullCheck(L_20);
@@ -12965,25 +12965,25 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:62>
 		String_t* L_25;
 		L_25 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_1), NULL);
 		String_t* L_26;
 		L_26 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralAE247C6A5C38D942A1DB4C2F2156B79AF499B69F, L_25, _stringLiteralC88656089EB2DBA276C6FCFE72E44F6A7A59AA58, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_26, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:63>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:63>
 		goto IL_00cf;
 	}
 
 IL_00aa:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:66>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:66>
 		U3CU3Ec__DisplayClass22_0_t5AF9C8A07A645E18E5A074D123778E77EA4C9A7F* L_27 = V_2;
 		int32_t L_28 = V_1;
 		NullCheck(L_27);
 		L_27->___index = L_28;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:67>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_29 = __this->___buttons;
 		int32_t L_30 = V_1;
 		NullCheck(L_29);
@@ -13001,14 +13001,14 @@ IL_00aa:
 
 IL_00cf:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:58>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:58>
 		int32_t L_36 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_36, 1));
 	}
 
 IL_00d3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:58>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:58>
 		int32_t L_37 = V_1;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_38 = __this->___buttons;
 		NullCheck(L_38);
@@ -13018,7 +13018,7 @@ IL_00d3:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:70>
 		return;
 	}
 }
@@ -13035,7 +13035,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_OnButtonClicked_m2107B60D87814
 	}
 	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* V_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:74>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:74>
 		String_t* L_0;
 		L_0 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(__this, NULL);
 		int32_t L_1 = ___0_index;
@@ -13045,11 +13045,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_OnButtonClicked_m2107B60D87814
 		L_4 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralEBFBDC9AEAF5E1B64604FA1599C42762A39D72EF, L_0, L_3, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_4, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:76>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_5;
 		L_5 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		V_0 = L_5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:77>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -13060,18 +13060,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_OnButtonClicked_m2107B60D87814
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:77>
 		return;
 	}
 
 IL_002b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:79>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:79>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8 = V_0;
 		int32_t L_9 = ___0_index;
 		NullCheck(L_8);
 		GameManager_OnPlayFieldButtonClicked_m6E126D0549DB34D5E44D038064C38BF7F143CE46(L_8, __this, L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:80>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:80>
 		return;
 	}
 }
@@ -13082,23 +13082,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayField_GetNextAvailableStep_mC1A58
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:84>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:84>
 		V_0 = 0;
 		goto IL_0033;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:86>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:86>
 		V_1 = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:87>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:87>
 		V_2 = 0;
 		goto IL_001c;
 	}
 
 IL_000a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:89>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:89>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___stepFilled;
 		int32_t L_1 = V_2;
 		NullCheck(L_0);
@@ -13110,22 +13110,22 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:91>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:91>
 		V_1 = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:92>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:92>
 		goto IL_0020;
 	}
 
 IL_0018:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:87>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:87>
 		int32_t L_4 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_4, 1));
 	}
 
 IL_001c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:87>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:87>
 		int32_t L_5 = V_2;
 		int32_t L_6 = V_0;
 		if ((((int32_t)L_5) < ((int32_t)L_6)))
@@ -13136,7 +13136,7 @@ IL_001c:
 
 IL_0020:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:96>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:96>
 		bool L_7 = V_1;
 		if (!L_7)
 		{
@@ -13155,21 +13155,21 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:97>
 		int32_t L_12 = V_0;
 		return L_12;
 	}
 
 IL_002f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:84>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:84>
 		int32_t L_13 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0033:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:84>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:84>
 		int32_t L_14 = V_0;
 		if ((((int32_t)L_14) < ((int32_t)3)))
 		{
@@ -13177,7 +13177,7 @@ IL_0033:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:100>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:100>
 		return (-1);
 	}
 }
@@ -13185,7 +13185,7 @@ IL_0033:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayField_IsFull_mF7DE987A917F8A36F8273B1617E69B3851D797D7 (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:105>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:105>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___stepFilled;
 		NullCheck(L_0);
 		int32_t L_1 = 0;
@@ -13222,7 +13222,7 @@ IL_001d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayField_GetCurrentWin_m6BE6CDB0752F676C844139C191E7894AF9825591 (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:110>
 		int32_t L_0 = __this->___currentWin;
 		return L_0;
 	}
@@ -13239,9 +13239,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_RefreshButtonsForNewPreview_mB
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:115>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:115>
 		PlayField_StopBlink_m34A7B3FD7ECA0889DE7847A0E7FA30D11E103A49(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:117>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:117>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_0 = __this->___buttons;
 		if (!L_0)
 		{
@@ -13249,14 +13249,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_RefreshButtonsForNewPreview_mB
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:119>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:119>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_0012:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:121>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:121>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_1 = __this->___buttons;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
@@ -13271,7 +13271,7 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:122>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:122>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_6 = __this->___buttons;
 		int32_t L_7 = V_1;
 		NullCheck(L_6);
@@ -13286,14 +13286,14 @@ IL_0012:
 
 IL_0035:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:119>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:119>
 		int32_t L_11 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:119>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:119>
 		int32_t L_12 = V_1;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_13 = __this->___buttons;
 		NullCheck(L_13);
@@ -13305,11 +13305,11 @@ IL_0039:
 
 IL_0044:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:126>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:126>
 		int32_t L_14;
 		L_14 = PlayField_GetNextAvailableStep_mC1A589A9BA23989299BDC459089FBD38D6BDBDE8(__this, NULL);
 		V_0 = L_14;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:127>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:127>
 		int32_t L_15 = V_0;
 		if ((((int32_t)L_15) >= ((int32_t)0)))
 		{
@@ -13317,13 +13317,13 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:127>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:127>
 		return;
 	}
 
 IL_0050:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:129>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:129>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_16 = __this->___buttons;
 		if (!L_16)
 		{
@@ -13354,7 +13354,7 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:131>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:131>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_24 = __this->___buttons;
 		int32_t L_25 = V_0;
 		NullCheck(L_24);
@@ -13365,7 +13365,7 @@ IL_0050:
 		L_28 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_27, NULL);
 		NullCheck(L_28);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:132>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:132>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_29 = __this->___buttons;
 		int32_t L_30 = V_0;
 		NullCheck(L_29);
@@ -13379,7 +13379,7 @@ IL_0050:
 
 IL_0099:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:134>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:134>
 		return;
 	}
 }
@@ -13394,9 +13394,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_StopAllBlinkingAndHideButtons_
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:138>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:138>
 		PlayField_StopBlink_m34A7B3FD7ECA0889DE7847A0E7FA30D11E103A49(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:140>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:140>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_0 = __this->___buttons;
 		if (L_0)
 		{
@@ -13404,20 +13404,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_StopAllBlinkingAndHideButtons_
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:140>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:140>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:142>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:142>
 		V_0 = 0;
 		goto IL_003a;
 	}
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:144>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:144>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_1 = __this->___buttons;
 		int32_t L_2 = V_0;
 		NullCheck(L_1);
@@ -13432,7 +13432,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:145>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_6 = __this->___buttons;
 		int32_t L_7 = V_0;
 		NullCheck(L_6);
@@ -13447,14 +13447,14 @@ IL_0013:
 
 IL_0036:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:142>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:142>
 		int32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:142>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:142>
 		int32_t L_12 = V_0;
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_13 = __this->___buttons;
 		NullCheck(L_13);
@@ -13464,7 +13464,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:147>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:147>
 		return;
 	}
 }
@@ -13489,11 +13489,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_FillStepFromPreviewAndDrop_m68
 	int32_t V_5 = 0;
 	int32_t V_6 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:153>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:153>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:154>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:154>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -13515,13 +13515,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_FillStepFromPreviewAndDrop_m68
 
 IL_0017:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:155>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:155>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:157>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:157>
 		int32_t L_5 = ___0_stepIndex;
 		if (L_5)
 		{
@@ -13529,7 +13529,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:159>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:159>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_6 = __this->___leftImages;
 		NullCheck(L_6);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = V_0;
@@ -13539,14 +13539,14 @@ IL_0018:
 		int32_t L_9;
 		L_9 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)(((RuntimeArray*)L_6)->max_length)), ((int32_t)(((RuntimeArray*)L_8)->max_length)), NULL);
 		V_1 = L_9;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:160>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:160>
 		V_2 = 0;
 		goto IL_0084;
 	}
 
 IL_0038:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:162>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:162>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_10 = __this->___leftImages;
 		int32_t L_11 = V_2;
 		NullCheck(L_10);
@@ -13577,7 +13577,7 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:164>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:164>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_21 = __this->___leftImages;
 		int32_t L_22 = V_2;
 		NullCheck(L_21);
@@ -13595,7 +13595,7 @@ IL_0038:
 		L_30 = Image_get_sprite_mB2AA377708722E100574F6F75BC102513BB3BCB1_inline(L_29, NULL);
 		NullCheck(L_24);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_24, L_30, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:165>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:165>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_31 = __this->___leftImages;
 		int32_t L_32 = V_2;
 		NullCheck(L_31);
@@ -13607,14 +13607,14 @@ IL_0038:
 
 IL_0080:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:160>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:160>
 		int32_t L_35 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_35, 1));
 	}
 
 IL_0084:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:160>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:160>
 		int32_t L_36 = V_2;
 		int32_t L_37 = V_1;
 		if ((((int32_t)L_36) < ((int32_t)L_37)))
@@ -13623,10 +13623,10 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:169>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:170>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:171>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:172>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:169>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:170>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:171>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:172>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___leftContainer;
 		float L_39 = __this->___leftTargetY;
 		float L_40 = __this->___containerMoveDuration;
@@ -13641,7 +13641,7 @@ IL_0084:
 
 IL_00b4:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:174>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:174>
 		int32_t L_44 = ___0_stepIndex;
 		if ((!(((uint32_t)L_44) == ((uint32_t)1))))
 		{
@@ -13649,7 +13649,7 @@ IL_00b4:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:176>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:176>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_45 = __this->___centerImages;
 		NullCheck(L_45);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_46 = V_0;
@@ -13659,14 +13659,14 @@ IL_00b4:
 		int32_t L_48;
 		L_48 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)(((RuntimeArray*)L_45)->max_length)), ((int32_t)(((RuntimeArray*)L_47)->max_length)), NULL);
 		V_3 = L_48;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:177>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:177>
 		V_4 = 0;
 		goto IL_0129;
 	}
 
 IL_00d6:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:179>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:179>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_49 = __this->___centerImages;
 		int32_t L_50 = V_4;
 		NullCheck(L_49);
@@ -13697,7 +13697,7 @@ IL_00d6:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:181>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:181>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_60 = __this->___centerImages;
 		int32_t L_61 = V_4;
 		NullCheck(L_60);
@@ -13715,7 +13715,7 @@ IL_00d6:
 		L_69 = Image_get_sprite_mB2AA377708722E100574F6F75BC102513BB3BCB1_inline(L_68, NULL);
 		NullCheck(L_63);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_63, L_69, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:182>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:182>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_70 = __this->___centerImages;
 		int32_t L_71 = V_4;
 		NullCheck(L_70);
@@ -13727,14 +13727,14 @@ IL_00d6:
 
 IL_0123:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:177>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:177>
 		int32_t L_74 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_74, 1));
 	}
 
 IL_0129:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:177>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:177>
 		int32_t L_75 = V_4;
 		int32_t L_76 = V_3;
 		if ((((int32_t)L_75) < ((int32_t)L_76)))
@@ -13743,10 +13743,10 @@ IL_0129:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:186>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:187>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:188>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:189>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:186>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:187>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:188>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:189>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77 = __this->___centerContainer;
 		float L_78 = __this->___centerTargetY;
 		float L_79 = __this->___containerMoveDuration;
@@ -13761,7 +13761,7 @@ IL_0129:
 
 IL_015a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:191>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:191>
 		int32_t L_83 = ___0_stepIndex;
 		if ((!(((uint32_t)L_83) == ((uint32_t)2))))
 		{
@@ -13769,7 +13769,7 @@ IL_015a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:193>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:193>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_84 = __this->___rightImages;
 		NullCheck(L_84);
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_85 = V_0;
@@ -13779,14 +13779,14 @@ IL_015a:
 		int32_t L_87;
 		L_87 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)(((RuntimeArray*)L_84)->max_length)), ((int32_t)(((RuntimeArray*)L_86)->max_length)), NULL);
 		V_5 = L_87;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:194>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:194>
 		V_6 = 0;
 		goto IL_01d0;
 	}
 
 IL_017d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:196>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:196>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_88 = __this->___rightImages;
 		int32_t L_89 = V_6;
 		NullCheck(L_88);
@@ -13817,7 +13817,7 @@ IL_017d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:198>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:198>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_99 = __this->___rightImages;
 		int32_t L_100 = V_6;
 		NullCheck(L_99);
@@ -13835,7 +13835,7 @@ IL_017d:
 		L_108 = Image_get_sprite_mB2AA377708722E100574F6F75BC102513BB3BCB1_inline(L_107, NULL);
 		NullCheck(L_102);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_102, L_108, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:199>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:199>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_109 = __this->___rightImages;
 		int32_t L_110 = V_6;
 		NullCheck(L_109);
@@ -13847,14 +13847,14 @@ IL_017d:
 
 IL_01ca:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:194>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:194>
 		int32_t L_113 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_113, 1));
 	}
 
 IL_01d0:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:194>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:194>
 		int32_t L_114 = V_6;
 		int32_t L_115 = V_5;
 		if ((((int32_t)L_114) < ((int32_t)L_115)))
@@ -13863,15 +13863,15 @@ IL_01d0:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:203>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:204>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:205>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:206>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:207>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:208>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:209>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:210>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:211>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:203>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:204>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:205>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:206>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:207>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:208>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:209>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:210>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:211>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_116 = __this->___rightContainer;
 		float L_117 = __this->___rightTargetY;
 		float L_118 = __this->___containerMoveDuration;
@@ -13885,7 +13885,7 @@ IL_01d0:
 
 IL_0201:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:213>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:213>
 		return;
 	}
 }
@@ -13903,7 +13903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07
 	int32_t V_2 = 0;
 	SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* V_3 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:217>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:217>
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_0 = ___0_sprite;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13914,17 +13914,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:218>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:218>
 		return (SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)NULL;
 	}
 
 IL_000b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:220>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:220>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2;
 		L_2 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		V_0 = L_2;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:221>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:221>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_3 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -13946,13 +13946,13 @@ IL_000b:
 
 IL_0022:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:222>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:222>
 		return (SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)NULL;
 	}
 
 IL_0024:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:224>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:224>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_7 = V_0;
 		NullCheck(L_7);
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_8 = L_7->___items;
@@ -13963,14 +13963,14 @@ IL_0024:
 
 IL_002f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:224>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:224>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_9 = V_1;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		int32_t L_11 = L_10;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
 		V_3 = L_12;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:226>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:226>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_13 = V_3;
 		if (!L_13)
 		{
@@ -13991,7 +13991,7 @@ IL_002f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:227>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:227>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_18 = V_3;
 		return L_18;
 	}
@@ -14004,7 +14004,7 @@ IL_0046:
 
 IL_004a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:224>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:224>
 		int32_t L_20 = V_2;
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_21 = V_1;
 		NullCheck(L_21);
@@ -14014,7 +14014,7 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:230>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:230>
 		return (SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)NULL;
 	}
 }
@@ -14036,7 +14036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayField_EvaluateLine_m3B0DA89615CA3
 	SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* G_B15_0 = NULL;
 	SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* G_B16_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:235>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:235>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_0 = ___0_a;
 		if (L_0)
 		{
@@ -14058,13 +14058,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayField_EvaluateLine_m3B0DA89615CA3
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:236>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:236>
 		return 0;
 	}
 
 IL_000b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:238>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:238>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_3 = (SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865*)(SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865*)SZArrayNew(SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865_il2cpp_TypeInfo_var, (uint32_t)3);
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_4 = L_3;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_5 = ___0_a;
@@ -14081,9 +14081,9 @@ IL_000b:
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)L_9);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:240>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:240>
 		V_0 = (SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)NULL;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:241>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:241>
 		V_1 = L_8;
 		V_2 = 0;
 		goto IL_0044;
@@ -14091,14 +14091,14 @@ IL_000b:
 
 IL_0024:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:241>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:241>
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_10 = V_1;
 		int32_t L_11 = V_2;
 		NullCheck(L_10);
 		int32_t L_12 = L_11;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
 		V_3 = L_13;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:243>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:243>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_14 = V_3;
 		if (!L_14)
 		{
@@ -14106,7 +14106,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:244>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:244>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_15 = V_3;
 		NullCheck(L_15);
 		bool L_16 = L_15->___isWild;
@@ -14116,7 +14116,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:246>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:246>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_17 = V_0;
 		if (L_17)
 		{
@@ -14124,7 +14124,7 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:248>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:248>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_18 = V_3;
 		V_0 = L_18;
 		goto IL_0040;
@@ -14132,7 +14132,7 @@ IL_0024:
 
 IL_003a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:252>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:252>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_19 = V_0;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_20 = V_3;
 		if ((((RuntimeObject*)(SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)L_19) == ((RuntimeObject*)(SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B*)L_20)))
@@ -14141,7 +14141,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:253>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:253>
 		return 0;
 	}
 
@@ -14153,7 +14153,7 @@ IL_0040:
 
 IL_0044:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:241>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:241>
 		int32_t L_22 = V_2;
 		SlotItemU5BU5D_tF2A87F0C2C59DEF24C53669C771788DD1749F865* L_23 = V_1;
 		NullCheck(L_23);
@@ -14163,7 +14163,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:257>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:257>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_24 = V_0;
 		if (L_24)
 		{
@@ -14171,7 +14171,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:259>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:259>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_25 = ___0_a;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_26 = L_25;
 		if (L_26)
@@ -14199,7 +14199,7 @@ IL_0044:
 IL_0058:
 	{
 		V_4 = G_B17_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:260>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:260>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_30 = V_4;
 		if (L_30)
 		{
@@ -14207,13 +14207,13 @@ IL_0058:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:261>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:261>
 		return 0;
 	}
 
 IL_0060:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:263>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:263>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_31 = V_4;
 		NullCheck(L_31);
 		int32_t L_32 = L_31->___price;
@@ -14222,7 +14222,7 @@ IL_0060:
 
 IL_006a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:266>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:266>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_33 = V_0;
 		NullCheck(L_33);
 		int32_t L_34 = L_33->___price;
@@ -14265,11 +14265,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_CalculateAndShowResult_mDAEB8D
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B13_0 = NULL;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* G_B17_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:271>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:271>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:272>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:272>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -14280,9 +14280,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_CalculateAndShowResult_mDAEB8D
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:274>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:274>
 		__this->___currentWin = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:275>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:275>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_3 = __this->___finalResultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -14293,7 +14293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_CalculateAndShowResult_mDAEB8D
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:275>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:275>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_5 = __this->___finalResultText;
 		NullCheck(L_5);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024);
@@ -14301,24 +14301,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_CalculateAndShowResult_mDAEB8D
 
 IL_0034:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:276>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:276>
 		return;
 	}
 
 IL_0035:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:279>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:279>
 		il2cpp_array_size_t L_7[] = { (il2cpp_array_size_t)3, (il2cpp_array_size_t)3 };
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_6 = (SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0*)GenArrayNew(SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0_il2cpp_TypeInfo_var, L_7);
 		V_1 = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:281>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:281>
 		V_4 = 0;
 		goto IL_010e;
 	}
 
 IL_0045:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:283>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:283>
 		int32_t L_8 = V_4;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_9 = __this->___leftImages;
 		NullCheck(L_9);
@@ -14364,7 +14364,7 @@ IL_0065:
 IL_0073:
 	{
 		V_5 = G_B9_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:284>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:284>
 		int32_t L_20 = V_4;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_21 = __this->___centerImages;
 		NullCheck(L_21);
@@ -14410,7 +14410,7 @@ IL_0095:
 IL_00a3:
 	{
 		V_6 = G_B13_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:285>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:285>
 		int32_t L_32 = V_4;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_33 = __this->___rightImages;
 		NullCheck(L_33);
@@ -14456,7 +14456,7 @@ IL_00c5:
 IL_00d3:
 	{
 		V_7 = G_B17_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:287>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:287>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_44 = V_1;
 		int32_t L_45 = V_4;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_46 = V_5;
@@ -14464,7 +14464,7 @@ IL_00d3:
 		L_47 = PlayField_GetItemForSprite_m9C133C7A58FEFC9EF5ED70A14034FC430E41BE72(__this, L_46, NULL);
 		NullCheck(L_44);
 		(L_44)->SetAt(L_45, 0, L_47);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:288>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:288>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_48 = V_1;
 		int32_t L_49 = V_4;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_50 = V_6;
@@ -14472,7 +14472,7 @@ IL_00d3:
 		L_51 = PlayField_GetItemForSprite_m9C133C7A58FEFC9EF5ED70A14034FC430E41BE72(__this, L_50, NULL);
 		NullCheck(L_48);
 		(L_48)->SetAt(L_49, 1, L_51);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:289>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:289>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_52 = V_1;
 		int32_t L_53 = V_4;
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_54 = V_7;
@@ -14480,14 +14480,14 @@ IL_00d3:
 		L_55 = PlayField_GetItemForSprite_m9C133C7A58FEFC9EF5ED70A14034FC430E41BE72(__this, L_54, NULL);
 		NullCheck(L_52);
 		(L_52)->SetAt(L_53, 2, L_55);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:281>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:281>
 		int32_t L_56 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_56, 1));
 	}
 
 IL_010e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:281>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:281>
 		int32_t L_57 = V_4;
 		if ((((int32_t)L_57) < ((int32_t)3)))
 		{
@@ -14495,44 +14495,44 @@ IL_010e:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:292>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:292>
 		V_2 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:294>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:294>
 		V_8 = 0;
 		goto IL_015c;
 	}
 
 IL_011d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:296>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:296>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_58 = V_1;
 		int32_t L_59 = V_8;
 		NullCheck(L_58);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_60;
 		L_60 = (L_58)->GetAt(L_59, 0);
 		V_9 = L_60;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:297>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:297>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_61 = V_1;
 		int32_t L_62 = V_8;
 		NullCheck(L_61);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_63;
 		L_63 = (L_61)->GetAt(L_62, 1);
 		V_10 = L_63;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:298>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:298>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_64 = V_1;
 		int32_t L_65 = V_8;
 		NullCheck(L_64);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_66;
 		L_66 = (L_64)->GetAt(L_65, 2);
 		V_11 = L_66;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:300>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:300>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_67 = V_9;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_68 = V_10;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_69 = V_11;
 		int32_t L_70;
 		L_70 = PlayField_EvaluateLine_m3B0DA89615CA363D617C1B237B3037FF195E40B5(__this, L_67, L_68, L_69, NULL);
 		V_12 = L_70;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:301>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:301>
 		int32_t L_71 = V_12;
 		if ((((int32_t)L_71) <= ((int32_t)0)))
 		{
@@ -14540,7 +14540,7 @@ IL_011d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:302>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:302>
 		int32_t L_72 = V_2;
 		int32_t L_73 = V_12;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_72, L_73));
@@ -14548,14 +14548,14 @@ IL_011d:
 
 IL_0156:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:294>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:294>
 		int32_t L_74 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_74, 1));
 	}
 
 IL_015c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:294>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:294>
 		int32_t L_75 = V_8;
 		if ((((int32_t)L_75) < ((int32_t)3)))
 		{
@@ -14563,32 +14563,32 @@ IL_015c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:306>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:306>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_76 = V_1;
 		NullCheck(L_76);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_77;
 		L_77 = (L_76)->GetAt(0, 0);
 		V_13 = L_77;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:307>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:307>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_78 = V_1;
 		NullCheck(L_78);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_79;
 		L_79 = (L_78)->GetAt(1, 1);
 		V_14 = L_79;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:308>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:308>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_80 = V_1;
 		NullCheck(L_80);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_81;
 		L_81 = (L_80)->GetAt(2, 2);
 		V_15 = L_81;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:310>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:310>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_82 = V_13;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_83 = V_14;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_84 = V_15;
 		int32_t L_85;
 		L_85 = PlayField_EvaluateLine_m3B0DA89615CA363D617C1B237B3037FF195E40B5(__this, L_82, L_83, L_84, NULL);
 		V_16 = L_85;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:311>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:311>
 		int32_t L_86 = V_16;
 		if ((((int32_t)L_86) <= ((int32_t)0)))
 		{
@@ -14596,7 +14596,7 @@ IL_015c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:312>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:312>
 		int32_t L_87 = V_2;
 		int32_t L_88 = V_16;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_87, L_88));
@@ -14604,32 +14604,32 @@ IL_015c:
 
 IL_0197:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:316>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:316>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_89 = V_1;
 		NullCheck(L_89);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_90;
 		L_90 = (L_89)->GetAt(2, 0);
 		V_17 = L_90;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:317>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:317>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_91 = V_1;
 		NullCheck(L_91);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_92;
 		L_92 = (L_91)->GetAt(1, 1);
 		V_18 = L_92;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:318>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:318>
 		SlotItemU5BU2CU5D_tA95617AA30F35E506EA612B0451990A8388BABE0* L_93 = V_1;
 		NullCheck(L_93);
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_94;
 		L_94 = (L_93)->GetAt(0, 2);
 		V_19 = L_94;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:320>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:320>
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_95 = V_17;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_96 = V_18;
 		SlotItem_tB14D5DA9783A9C7E16F5A7848E88E3CAF07BF48B* L_97 = V_19;
 		int32_t L_98;
 		L_98 = PlayField_EvaluateLine_m3B0DA89615CA363D617C1B237B3037FF195E40B5(__this, L_95, L_96, L_97, NULL);
 		V_20 = L_98;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:321>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:321>
 		int32_t L_99 = V_20;
 		if ((((int32_t)L_99) <= ((int32_t)0)))
 		{
@@ -14637,7 +14637,7 @@ IL_0197:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:322>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:322>
 		int32_t L_100 = V_2;
 		int32_t L_101 = V_20;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_100, L_101));
@@ -14645,14 +14645,14 @@ IL_0197:
 
 IL_01cd:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:325>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:325>
 		int32_t L_102 = V_2;
 		__this->___currentWin = L_102;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:326>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:326>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_103;
 		L_103 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		V_3 = L_103;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:327>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:327>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_104 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_105;
@@ -14672,14 +14672,14 @@ IL_01cd:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:329>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:329>
 		int32_t L_108 = __this->___currentWin;
 		__this->___currentWin = ((int32_t)il2cpp_codegen_multiply(L_108, 2));
 	}
 
 IL_01f9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:332>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:332>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_109 = __this->___finalResultText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_110;
@@ -14690,7 +14690,7 @@ IL_01f9:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:333>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:333>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_111 = __this->___finalResultText;
 		int32_t* L_112 = (int32_t*)(&__this->___currentWin);
 		String_t* L_113;
@@ -14701,11 +14701,11 @@ IL_01f9:
 
 IL_021d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:335>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:335>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_114 = V_0;
 		NullCheck(L_114);
 		GameManager_UpdateGlobalTotal_mA65AECBCEE15E8EE468F3A28B216F3DF0C8DAEE7(L_114, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:337>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:337>
 		int32_t L_115 = __this->___currentWin;
 		if ((((int32_t)L_115) <= ((int32_t)0)))
 		{
@@ -14724,7 +14724,7 @@ IL_021d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:338>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:338>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_118;
 		L_118 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		NullCheck(L_118);
@@ -14733,7 +14733,7 @@ IL_021d:
 
 IL_0243:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:339>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:339>
 		return;
 	}
 }
@@ -14741,7 +14741,7 @@ IL_0243:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_StartBlink_m295E9A39F6B4AD31E145702A8D30BAE64F2F1B28 (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:343>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:343>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_obj;
 		RuntimeObject* L_1;
 		L_1 = PlayField_Blink_mDC6A8DEB75930C51763D7546DB2A6ED658F23AC5(__this, L_0, NULL);
@@ -14749,7 +14749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_StartBlink_m295E9A39F6B4AD31E1
 		L_2 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_1, NULL);
 		__this->___blinkCoroutine = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___blinkCoroutine), (void*)L_2);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:344>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:344>
 		return;
 	}
 }
@@ -14757,7 +14757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_StartBlink_m295E9A39F6B4AD31E1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_StopBlink_m34A7B3FD7ECA0889DE7847A0E7FA30D11E103A49 (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:348>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:348>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_0 = __this->___blinkCoroutine;
 		if (!L_0)
 		{
@@ -14765,17 +14765,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_StopBlink_m34A7B3FD7ECA0889DE7
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:350>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:350>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1 = __this->___blinkCoroutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:351>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:351>
 		__this->___blinkCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___blinkCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
 	}
 
 IL_001b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:353>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:353>
 		return;
 	}
 }
@@ -14836,12 +14836,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlayField_Blink_mDC6A8DEB75930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_ResetFieldForNewRound_m2CF831229A94EFF160B2128A4F87004C16666E2E (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:422>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:422>
 		RuntimeObject* L_0;
 		L_0 = PlayField_ResetFieldRoutine_mCF3F350696C6F2E0963B9CD0EE658355698656A5(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_1;
 		L_1 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:423>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:423>
 		return;
 	}
 }
@@ -14877,7 +14877,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_ClearImages_m0194AC0E29744CA56
 	int32_t V_1 = 0;
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* V_2 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:524>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:524>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_0 = ___0_arr;
 		if (L_0)
 		{
@@ -14885,13 +14885,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_ClearImages_m0194AC0E29744CA56
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:524>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:524>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:526>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:526>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_1 = ___0_arr;
 		V_0 = L_1;
 		V_1 = 0;
@@ -14900,14 +14900,14 @@ IL_0004:
 
 IL_000a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:526>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:526>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_2 = V_0;
 		int32_t L_3 = V_1;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:528>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:528>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -14918,11 +14918,11 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:529>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:529>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = V_2;
 		NullCheck(L_8);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_8, (Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99*)NULL, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:530>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:530>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = V_2;
 		NullCheck(L_9);
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_9, (bool)0, NULL);
@@ -14936,7 +14936,7 @@ IL_0025:
 
 IL_0029:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:526>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:526>
 		int32_t L_11 = V_1;
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_12 = V_0;
 		NullCheck(L_12);
@@ -14946,7 +14946,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:532>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:532>
 		return;
 	}
 }
@@ -14962,33 +14962,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField__ctor_m0BBF373F5B636871B5140BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:11>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:11>
 		__this->___resetDownY = (-270.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:12>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:12>
 		__this->___resetUpY = (270.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:13>
 		__this->___resetTotalDuration = (0.400000006f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:17>
 		ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF* L_0 = (ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF*)(ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF*)SZArrayNew(ButtonU5BU5D_t0D512FF2FF5A72DAC04754F2C10182F850328BEF_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___buttons = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___buttons), (void*)L_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:22>
 		__this->___blinkSpeed = (0.349999994f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:28>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_1 = (ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)SZArrayNew(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___leftImages = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___leftImages), (void*)L_1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:29>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_2 = (ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)SZArrayNew(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___centerImages = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___centerImages), (void*)L_2);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:30>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:30>
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_3 = (ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78*)SZArrayNew(ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___rightImages = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___rightImages), (void*)L_3);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:35>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:35>
 		__this->___containerMoveDuration = (0.400000006f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:38>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:38>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___stepFilled = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___stepFilled), (void*)L_4);
@@ -15000,11 +15000,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField__ctor_m0BBF373F5B636871B5140BD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_U3CFillStepFromPreviewAndDropU3Eb__29_0_m7AF6BD48DA62428EE210C57A5C4F82F5F89320E0 (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:171>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:171>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___stepFilled;
 		NullCheck(L_0);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (bool)1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:172>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:172>
 		return;
 	}
 }
@@ -15012,11 +15012,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_U3CFillStepFromPreviewAndDropU
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_U3CFillStepFromPreviewAndDropU3Eb__29_1_mA4971072561A6292D5306888911AD9459FB2186B (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:188>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:188>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___stepFilled;
 		NullCheck(L_0);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(1), (bool)1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:189>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:189>
 		return;
 	}
 }
@@ -15030,11 +15030,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_U3CFillStepFromPreviewAndDropU
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:205>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:205>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___stepFilled;
 		NullCheck(L_0);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(2), (bool)1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:207>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:207>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___finalObject;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -15045,7 +15045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_U3CFillStepFromPreviewAndDropU
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:208>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:208>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___finalObject;
 		NullCheck(L_3);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
@@ -15053,9 +15053,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayField_U3CFillStepFromPreviewAndDropU
 
 IL_0023:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:210>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:210>
 		PlayField_CalculateAndShowResult_mDAEB8DCA000999F1A24730DDBBF8C8C17D3DD48D(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:211>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:211>
 		return;
 	}
 }
@@ -15079,7 +15079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0__ctor_m9808F1C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass22_0_U3CStartU3Eb__0_mABDFB1C5CE744920F81FF8137FA109C50013C5EA (U3CU3Ec__DisplayClass22_0_t5AF9C8A07A645E18E5A074D123778E77EA4C9A7F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:67>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_0 = __this->___U3CU3E4__this;
 		int32_t L_1 = __this->___index;
 		NullCheck(L_0);
@@ -15154,14 +15154,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CBlinkU3Ed__36_MoveNext_m1BA284F4FE233
 IL_001b:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:396>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:396>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___obj;
 		NullCheck(L_2);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3;
 		L_3 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_2, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
 		__this->___U3CimgU3E5__2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CimgU3E5__2), (void*)L_3);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:397>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:397>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___U3CimgU3E5__2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -15172,34 +15172,34 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:398>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:398>
 		return (bool)0;
 	}
 
 IL_0043:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:402>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:402>
 		__this->___U3CaU3E5__3 = (1.0f);
 		goto IL_00a4;
 	}
 
 IL_0050:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:404>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:404>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___U3CimgU3E5__2;
 		NullCheck(L_6);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		L_7 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_6);
 		V_1 = L_7;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:405>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:405>
 		float L_8 = __this->___U3CaU3E5__3;
 		(&V_1)->___a = L_8;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:406>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:406>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___U3CimgU3E5__2;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = V_1;
 		NullCheck(L_9);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_9, L_10);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:407>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:407>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -15209,7 +15209,7 @@ IL_0050:
 IL_0085:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:402>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:402>
 		float L_11 = __this->___U3CaU3E5__3;
 		float L_12;
 		L_12 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -15218,7 +15218,7 @@ IL_0085:
 
 IL_00a4:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:402>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:402>
 		float L_13 = __this->___U3CaU3E5__3;
 		if ((((float)L_13) >= ((float)(0.300000012f))))
 		{
@@ -15226,28 +15226,28 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:410>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:410>
 		__this->___U3CaU3E5__3 = (0.300000012f);
 		goto IL_0112;
 	}
 
 IL_00be:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:412>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:412>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = __this->___U3CimgU3E5__2;
 		NullCheck(L_14);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
 		L_15 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_14);
 		V_2 = L_15;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:413>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:413>
 		float L_16 = __this->___U3CaU3E5__3;
 		(&V_2)->___a = L_16;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:414>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:414>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_17 = __this->___U3CimgU3E5__2;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = V_2;
 		NullCheck(L_17);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_17, L_18);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:415>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:415>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -15257,7 +15257,7 @@ IL_00be:
 IL_00f3:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:410>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:410>
 		float L_19 = __this->___U3CaU3E5__3;
 		float L_20;
 		L_20 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -15266,7 +15266,7 @@ IL_00f3:
 
 IL_0112:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:410>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:410>
 		float L_21 = __this->___U3CaU3E5__3;
 		if ((((float)L_21) <= ((float)(1.0f))))
 		{
@@ -15274,7 +15274,7 @@ IL_0112:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:400>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:400>
 		goto IL_0043;
 	}
 }
@@ -15369,7 +15369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CMoveContainerYU3Ed__35_MoveNext_mBF2A
 IL_0013:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:357>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:357>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___container;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -15380,7 +15380,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:359>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:359>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = __this->___onComplete;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_6 = L_5;
 		if (L_6)
@@ -15402,20 +15402,20 @@ IL_0034:
 
 IL_0039:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:360>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:360>
 		return (bool)0;
 	}
 
 IL_003b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:363>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:363>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___container;
 		NullCheck(L_7);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8;
 		L_8 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_7, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		__this->___U3CrtU3E5__2 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrtU3E5__2), (void*)L_8);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:364>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:364>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_9 = __this->___U3CrtU3E5__2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -15426,7 +15426,7 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:366>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:366>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_11 = __this->___onComplete;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_12 = L_11;
 		if (L_12)
@@ -15448,13 +15448,13 @@ IL_0066:
 
 IL_006b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:367>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:367>
 		return (bool)0;
 	}
 
 IL_006d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:371>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:371>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_13;
 		L_13 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -15466,7 +15466,7 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:372>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:372>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_15;
 		L_15 = AudioManager_get_Instance_mE470515848AEDD204D9C8CF0F50D6A9785890211_inline(NULL);
 		NullCheck(L_15);
@@ -15475,38 +15475,38 @@ IL_006d:
 
 IL_0084:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:375>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:375>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16 = __this->___U3CrtU3E5__2;
 		NullCheck(L_16);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
 		L_17 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_16, NULL);
 		__this->___U3CstartPosU3E5__3 = L_17;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:376>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:376>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = __this->___U3CstartPosU3E5__3;
 		__this->___U3CendPosU3E5__4 = L_18;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:377>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:377>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_19 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___U3CendPosU3E5__4);
 		float L_20 = __this->___targetY;
 		L_19->___y = L_20;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:379>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:379>
 		__this->___U3CtU3E5__5 = (0.0f);
 		goto IL_0118;
 	}
 
 IL_00bf:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:382>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:382>
 		float L_21 = __this->___U3CtU3E5__5;
 		float L_22;
 		L_22 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__5 = ((float)il2cpp_codegen_add(L_21, L_22));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:383>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:383>
 		float L_23 = __this->___U3CtU3E5__5;
 		float L_24 = __this->___duration;
 		float L_25;
 		L_25 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_23/L_24)), NULL);
 		V_1 = L_25;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:384>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:384>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_26 = __this->___U3CrtU3E5__2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27 = __this->___U3CstartPosU3E5__3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = __this->___U3CendPosU3E5__4;
@@ -15515,7 +15515,7 @@ IL_00bf:
 		L_30 = Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline(L_27, L_28, L_29, NULL);
 		NullCheck(L_26);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_26, L_30, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:385>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:385>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -15529,7 +15529,7 @@ IL_0111:
 
 IL_0118:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:380>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:380>
 		float L_31 = __this->___U3CtU3E5__5;
 		float L_32 = __this->___duration;
 		if ((((float)L_31) < ((float)L_32)))
@@ -15538,12 +15538,12 @@ IL_0118:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:390>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:390>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_33 = __this->___U3CrtU3E5__2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = __this->___U3CendPosU3E5__4;
 		NullCheck(L_33);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_33, L_34, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:391>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:391>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_35 = __this->___onComplete;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_36 = L_35;
 		if (L_36)
@@ -15565,7 +15565,7 @@ IL_0143:
 
 IL_0148:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:392>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:392>
 		return (bool)0;
 	}
 }
@@ -15680,7 +15680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CResetFieldRoutineU3Ed__38_MoveNext_m2
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:427>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:427>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_4 = (GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF*)SZArrayNew(GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF_il2cpp_TypeInfo_var, (uint32_t)3);
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_5 = L_4;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_6 = V_1;
@@ -15701,26 +15701,26 @@ IL_001a:
 		NullCheck(L_11);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)L_13);
 		V_2 = L_11;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:428>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:428>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_14 = V_2;
 		NullCheck(L_14);
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_15 = (RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D*)(RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D*)SZArrayNew(RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length)));
 		__this->___U3CrtsU3E5__2 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrtsU3E5__2), (void*)L_15);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:429>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:429>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_16 = V_2;
 		NullCheck(L_16);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_17 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)));
 		__this->___U3CstartYU3E5__3 = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CstartYU3E5__3), (void*)L_17);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:431>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:431>
 		V_4 = 0;
 		goto IL_00ab;
 	}
 
 IL_0064:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:433>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:433>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_18 = V_2;
 		int32_t L_19 = V_4;
 		NullCheck(L_18);
@@ -15735,7 +15735,7 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:435>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:435>
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_23 = V_2;
 		int32_t L_24 = V_4;
 		NullCheck(L_23);
@@ -15745,13 +15745,13 @@ IL_0064:
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_27;
 		L_27 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_26, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
 		V_5 = L_27;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:436>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:436>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_28 = __this->___U3CrtsU3E5__2;
 		int32_t L_29 = V_4;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_30 = V_5;
 		NullCheck(L_28);
 		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(L_29), (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5*)L_30);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:437>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:437>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_31 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -15762,7 +15762,7 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:439>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:439>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_33 = __this->___U3CstartYU3E5__3;
 		int32_t L_34 = V_4;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_35 = V_5;
@@ -15776,14 +15776,14 @@ IL_0064:
 
 IL_00a5:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:431>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:431>
 		int32_t L_38 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_38, 1));
 	}
 
 IL_00ab:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:431>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:431>
 		int32_t L_39 = V_4;
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_40 = V_2;
 		NullCheck(L_40);
@@ -15793,23 +15793,23 @@ IL_00ab:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:446>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:446>
 		V_3 = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:447>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:447>
 		V_6 = 0;
 		goto IL_00f7;
 	}
 
 IL_00b9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:449>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:449>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_41 = __this->___U3CrtsU3E5__2;
 		int32_t L_42 = V_6;
 		NullCheck(L_41);
 		int32_t L_43 = L_42;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_44 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
 		V_7 = L_44;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:450>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:450>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_45 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_46;
@@ -15820,7 +15820,7 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:452>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:452>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_47 = V_7;
 		NullCheck(L_47);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_48;
@@ -15837,22 +15837,22 @@ IL_00b9:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:454>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:454>
 		V_3 = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:455>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:455>
 		goto IL_0103;
 	}
 
 IL_00f1:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:447>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:447>
 		int32_t L_53 = V_6;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_53, 1));
 	}
 
 IL_00f7:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:447>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:447>
 		int32_t L_54 = V_6;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_55 = __this->___U3CrtsU3E5__2;
 		NullCheck(L_55);
@@ -15864,7 +15864,7 @@ IL_00f7:
 
 IL_0103:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:459>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:459>
 		bool L_56 = V_3;
 		if (!L_56)
 		{
@@ -15872,12 +15872,12 @@ IL_0103:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:461>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:461>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_57 = V_1;
 		NullCheck(L_57);
 		float L_58 = L_57->___resetTotalDuration;
 		__this->___U3CdurationU3E5__4 = L_58;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:462>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:462>
 		float L_59 = __this->___U3CdurationU3E5__4;
 		if ((!(((float)L_59) <= ((float)(0.0f)))))
 		{
@@ -15885,45 +15885,45 @@ IL_0103:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:462>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:462>
 		__this->___U3CdurationU3E5__4 = (0.300000012f);
 	}
 
 IL_012d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:465>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:465>
 		__this->___U3CtU3E5__5 = (0.0f);
 		goto IL_01d5;
 	}
 
 IL_013d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:468>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:468>
 		float L_60 = __this->___U3CtU3E5__5;
 		float L_61;
 		L_61 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__5 = ((float)il2cpp_codegen_add(L_60, L_61));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:469>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:469>
 		float L_62 = __this->___U3CtU3E5__5;
 		float L_63 = __this->___U3CdurationU3E5__4;
 		float L_64;
 		L_64 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_62/L_63)), NULL);
 		V_8 = L_64;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:471>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:471>
 		V_9 = 0;
 		goto IL_01b2;
 	}
 
 IL_0168:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:473>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:473>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_65 = __this->___U3CrtsU3E5__2;
 		int32_t L_66 = V_9;
 		NullCheck(L_65);
 		int32_t L_67 = L_66;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_68 = (L_65)->GetAt(static_cast<il2cpp_array_size_t>(L_67));
 		V_10 = L_68;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:474>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:474>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_69 = V_10;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_70;
@@ -15934,13 +15934,13 @@ IL_0168:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:476>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:476>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_71 = V_10;
 		NullCheck(L_71);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_72;
 		L_72 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_71, NULL);
 		V_11 = L_72;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:477>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:477>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_73 = __this->___U3CstartYU3E5__3;
 		int32_t L_74 = V_9;
 		NullCheck(L_73);
@@ -15953,7 +15953,7 @@ IL_0168:
 		float L_80;
 		L_80 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_76, L_78, L_79, NULL);
 		(&V_11)->___y = L_80;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:478>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:478>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_81 = V_10;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_82 = V_11;
 		NullCheck(L_81);
@@ -15962,14 +15962,14 @@ IL_0168:
 
 IL_01ac:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:471>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:471>
 		int32_t L_83 = V_9;
 		V_9 = ((int32_t)il2cpp_codegen_add(L_83, 1));
 	}
 
 IL_01b2:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:471>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:471>
 		int32_t L_84 = V_9;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_85 = __this->___U3CrtsU3E5__2;
 		NullCheck(L_85);
@@ -15979,7 +15979,7 @@ IL_01b2:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:481>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:481>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -15993,7 +15993,7 @@ IL_01ce:
 
 IL_01d5:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:466>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:466>
 		float L_86 = __this->___U3CtU3E5__5;
 		float L_87 = __this->___U3CdurationU3E5__4;
 		if ((((float)L_86) < ((float)L_87)))
@@ -16002,21 +16002,21 @@ IL_01d5:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:485>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:485>
 		V_12 = 0;
 		goto IL_0225;
 	}
 
 IL_01eb:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:487>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:487>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_88 = __this->___U3CrtsU3E5__2;
 		int32_t L_89 = V_12;
 		NullCheck(L_88);
 		int32_t L_90 = L_89;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_91 = (L_88)->GetAt(static_cast<il2cpp_array_size_t>(L_90));
 		V_13 = L_91;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:488>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:488>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_92 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_93;
@@ -16027,18 +16027,18 @@ IL_01eb:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:489>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:489>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_94 = V_13;
 		NullCheck(L_94);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95;
 		L_95 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_94, NULL);
 		V_14 = L_95;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:490>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:490>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_96 = V_1;
 		NullCheck(L_96);
 		float L_97 = L_96->___resetDownY;
 		(&V_14)->___y = L_97;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:491>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:491>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_98 = V_13;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_99 = V_14;
 		NullCheck(L_98);
@@ -16047,14 +16047,14 @@ IL_01eb:
 
 IL_021f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:485>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:485>
 		int32_t L_100 = V_12;
 		V_12 = ((int32_t)il2cpp_codegen_add(L_100, 1));
 	}
 
 IL_0225:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:485>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:485>
 		int32_t L_101 = V_12;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_102 = __this->___U3CrtsU3E5__2;
 		NullCheck(L_102);
@@ -16064,21 +16064,21 @@ IL_0225:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:495>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:495>
 		V_15 = 0;
 		goto IL_0270;
 	}
 
 IL_0236:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:497>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:497>
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_103 = __this->___U3CrtsU3E5__2;
 		int32_t L_104 = V_15;
 		NullCheck(L_103);
 		int32_t L_105 = L_104;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_106 = (L_103)->GetAt(static_cast<il2cpp_array_size_t>(L_105));
 		V_16 = L_106;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:498>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:498>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_107 = V_16;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_108;
@@ -16089,18 +16089,18 @@ IL_0236:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:499>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:499>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_109 = V_16;
 		NullCheck(L_109);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_110;
 		L_110 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_109, NULL);
 		V_17 = L_110;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:500>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:500>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_111 = V_1;
 		NullCheck(L_111);
 		float L_112 = L_111->___resetUpY;
 		(&V_17)->___y = L_112;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:501>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:501>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_113 = V_16;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_114 = V_17;
 		NullCheck(L_113);
@@ -16109,14 +16109,14 @@ IL_0236:
 
 IL_026a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:495>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:495>
 		int32_t L_115 = V_15;
 		V_15 = ((int32_t)il2cpp_codegen_add(L_115, 1));
 	}
 
 IL_0270:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:495>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:495>
 		int32_t L_116 = V_15;
 		RectTransformU5BU5D_tD8879AA94435492C205ABBE1E530FFD24CE0393D* L_117 = __this->___U3CrtsU3E5__2;
 		NullCheck(L_117);
@@ -16128,28 +16128,28 @@ IL_0270:
 
 IL_027c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:506>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:506>
 		V_18 = 0;
 		goto IL_0291;
 	}
 
 IL_0281:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:507>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:507>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_118 = V_1;
 		NullCheck(L_118);
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_119 = L_118->___stepFilled;
 		int32_t L_120 = V_18;
 		NullCheck(L_119);
 		(L_119)->SetAt(static_cast<il2cpp_array_size_t>(L_120), (bool)0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:506>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:506>
 		int32_t L_121 = V_18;
 		V_18 = ((int32_t)il2cpp_codegen_add(L_121, 1));
 	}
 
 IL_0291:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:506>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:506>
 		int32_t L_122 = V_18;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_123 = V_1;
 		NullCheck(L_123);
@@ -16161,32 +16161,32 @@ IL_0291:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:509>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:509>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_125 = V_1;
 		NullCheck(L_125);
 		L_125->___currentWin = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:511>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:511>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_126 = V_1;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_127 = V_1;
 		NullCheck(L_127);
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_128 = L_127->___leftImages;
 		NullCheck(L_126);
 		PlayField_ClearImages_m0194AC0E29744CA56FB553C1E4302CCEB74C9700(L_126, L_128, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:512>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:512>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_129 = V_1;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_130 = V_1;
 		NullCheck(L_130);
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_131 = L_130->___centerImages;
 		NullCheck(L_129);
 		PlayField_ClearImages_m0194AC0E29744CA56FB553C1E4302CCEB74C9700(L_129, L_131, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:513>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:513>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_132 = V_1;
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_133 = V_1;
 		NullCheck(L_133);
 		ImageU5BU5D_t8869694C217655DA7B1315DC02C80F1308B78B78* L_134 = L_133->___rightImages;
 		NullCheck(L_132);
 		PlayField_ClearImages_m0194AC0E29744CA56FB553C1E4302CCEB74C9700(L_132, L_134, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:515>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:515>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_135 = V_1;
 		NullCheck(L_135);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_136 = L_135->___finalResultText;
@@ -16199,7 +16199,7 @@ IL_0291:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:516>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:516>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_138 = V_1;
 		NullCheck(L_138);
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_139 = L_138->___finalResultText;
@@ -16209,7 +16209,7 @@ IL_0291:
 
 IL_02e6:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:518>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:518>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_140 = V_1;
 		NullCheck(L_140);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_141 = L_140->___finalObject;
@@ -16222,7 +16222,7 @@ IL_02e6:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:519>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:519>
 		PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* L_143 = V_1;
 		NullCheck(L_143);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_144 = L_143->___finalObject;
@@ -16232,7 +16232,7 @@ IL_02e6:
 
 IL_0300:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:520>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:520>
 		return (bool)0;
 	}
 }
@@ -16282,7 +16282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_OnValidate_m6AEB6BA0F0D
 	int32_t V_0 = 0;
 	float V_1 = 0.0f;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
@@ -16292,25 +16292,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_OnValidate_m6AEB6BA0F0D
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:29>
 		return;
 	}
 
 IL_0008:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:32>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:32>
 		int32_t L_1 = __this->___inspectorSlider;
 		__this->___totalPoints = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:34>
 		int32_t L_2 = __this->___totalPoints;
 		V_0 = ((int32_t)(L_2/((int32_t)1000)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:35>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:35>
 		int32_t L_3 = __this->___totalPoints;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:36>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:36>
 		float L_4;
 		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)((int32_t)(L_3%((int32_t)1000))))/(1000.0f))), NULL);
 		V_1 = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:38>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:38>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___fillImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -16321,7 +16321,7 @@ IL_0008:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:39>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:39>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = __this->___fillImage;
 		float L_8 = V_1;
 		NullCheck(L_7);
@@ -16330,7 +16330,7 @@ IL_0008:
 
 IL_0054:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:41>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_9 = __this->___levelText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -16341,7 +16341,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:42>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_11 = __this->___levelText;
 		String_t* L_12;
 		L_12 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
@@ -16351,7 +16351,7 @@ IL_0054:
 
 IL_0074:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:43>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:43>
 		return;
 	}
 }
@@ -16367,7 +16367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_Update_m3F79D4298BC2F52
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:47>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___fillImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16378,25 +16378,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_Update_m3F79D4298BC2F52
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:47>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:49>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:49>
 		int32_t L_2 = __this->___totalPoints;
 		V_0 = ((int32_t)(L_2/((int32_t)1000)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:50>
 		int32_t L_3 = __this->___totalPoints;
 		V_1 = ((int32_t)(L_3%((int32_t)1000)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:51>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:51>
 		int32_t L_4 = V_1;
 		float L_5;
 		L_5 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)L_4)/(1000.0f))), NULL);
 		__this->___targetFill = L_5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:53>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:54>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:54>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___fillImage;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = __this->___fillImage;
 		NullCheck(L_7);
@@ -16410,7 +16410,7 @@ IL_000f:
 		L_12 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_8, L_9, ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
 		NullCheck(L_6);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_6, L_12, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:56>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:56>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_13 = __this->___levelText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -16421,7 +16421,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:57>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:57>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_15 = __this->___levelText;
 		String_t* L_16;
 		L_16 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
@@ -16431,7 +16431,7 @@ IL_000f:
 
 IL_0089:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:58>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:58>
 		return;
 	}
 }
@@ -16448,12 +16448,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_SetTotalPoints_m4624A76
 	float V_1 = 0.0f;
 	int32_t V_2 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:65>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:65>
 		int32_t L_0 = ___0_points;
 		int32_t L_1;
 		L_1 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, L_0, NULL);
 		__this->___totalPoints = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:67>
 		bool L_2 = ___1_immediate;
 		if (!L_2)
 		{
@@ -16461,16 +16461,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_SetTotalPoints_m4624A76
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:70>
 		int32_t L_3 = __this->___totalPoints;
 		V_0 = ((int32_t)(L_3/((int32_t)1000)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:71>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:71>
 		int32_t L_4 = __this->___totalPoints;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:72>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:72>
 		float L_5;
 		L_5 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)((int32_t)(L_4%((int32_t)1000))))/(1000.0f))), NULL);
 		V_1 = L_5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:74>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:74>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___fillImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -16481,7 +16481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_SetTotalPoints_m4624A76
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:75>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:75>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_8 = __this->___fillImage;
 		float L_9 = V_1;
 		NullCheck(L_8);
@@ -16490,7 +16490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill_SetTotalPoints_m4624A76
 
 IL_0050:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:77>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = __this->___levelText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -16501,7 +16501,7 @@ IL_0050:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:78>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:78>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_12 = __this->___levelText;
 		String_t* L_13;
 		L_13 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
@@ -16511,7 +16511,7 @@ IL_0050:
 
 IL_0070:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:82>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:82>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_14;
 		L_14 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -16523,10 +16523,10 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:84>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:84>
 		int32_t L_16 = __this->___totalPoints;
 		V_2 = ((int32_t)(L_16/((int32_t)1000)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:86>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:86>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_17;
 		L_17 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		NullCheck(L_17);
@@ -16538,13 +16538,13 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:88>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:88>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_20;
 		L_20 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_21 = V_2;
 		NullCheck(L_20);
 		L_20->___currentLevel = L_21;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:89>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:89>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_22;
 		L_22 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		NullCheck(L_22);
@@ -16553,7 +16553,7 @@ IL_0070:
 
 IL_00ac:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:92>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:92>
 		return;
 	}
 }
@@ -16561,7 +16561,7 @@ IL_00ac:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointsSliderFill__ctor_m036397B40B810D2C4688E98342FC2850D6FAAC0E (PointsSliderFill_t50F7E07D208C77EB37210C61461B9CF33844694C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PointsSliderFill.cs:21>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PointsSliderFill.cs:21>
 		__this->___fillLerpSpeed = (10.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -16586,10 +16586,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager_OnShareApp_m1A78497F4744
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:27>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:27>
 		String_t* L_0 = __this->___shareAppText;
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:34>
 		NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* L_1 = (NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B*)il2cpp_codegen_object_new(NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B_il2cpp_TypeInfo_var);
 		NativeShare__ctor_m7808C679AB06B9BE0BFF3FA5FF0F7FD06C51BE6E(L_1, NULL);
 		String_t* L_2 = V_0;
@@ -16598,7 +16598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager_OnShareApp_m1A78497F4744
 		L_3 = NativeShare_SetText_mEB89C82F62181F7754C20F3516754B81559DBA13(L_1, L_2, NULL);
 		NullCheck(L_3);
 		NativeShare_Share_m3DB5879D819C16FC4325D124E296F6C6CD9C13DD(L_3, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:39>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:39>
 		return;
 	}
 }
@@ -16615,7 +16615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager_OnContactSupport_m4E39C2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:47>
 		String_t* L_0 = __this->___supportEmail;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -16625,23 +16625,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager_OnContactSupport_m4E39C2
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:49>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:49>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral77C857E1296495D03F75F13BC87669AD376BB75F, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:50>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:53>
 		String_t* L_2 = __this->___supportEmail;
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralBB84B6A5ABF5797918156D5B3192642AC9066B51, L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:54>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_3, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:55>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:55>
 		return;
 	}
 }
@@ -16657,7 +16657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager_OnOpenPolicy_m08BEED5348
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:63>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:63>
 		String_t* L_0 = __this->___privacyPolicyUrl;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -16667,20 +16667,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager_OnOpenPolicy_m08BEED5348
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:65>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:65>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral81EF5856F18457654AB07118D4163504DF09B6B7, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:66>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:66>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:69>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:69>
 		String_t* L_2 = __this->___privacyPolicyUrl;
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:70>
 		return;
 	}
 }
@@ -16690,19 +16690,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsManager__ctor_m3F050F09698FD9788
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4B4C313358100B24ABC94A66752731B19FFCF352);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral514532A1F9FFDDED9C062B63738C4BABA78F9044);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5FB509B578D3A9B9497CDDAADBB2645BC8F6530A);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral93D33AFBE23883F9FA0B30CBD2BE0C9E603BD356);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:7>
-		__this->___privacyPolicyUrl = _stringLiteral93D33AFBE23883F9FA0B30CBD2BE0C9E603BD356;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___privacyPolicyUrl), (void*)_stringLiteral93D33AFBE23883F9FA0B30CBD2BE0C9E603BD356);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:11>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:7>
+		__this->___privacyPolicyUrl = _stringLiteral4B4C313358100B24ABC94A66752731B19FFCF352;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___privacyPolicyUrl), (void*)_stringLiteral4B4C313358100B24ABC94A66752731B19FFCF352);
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:11>
 		__this->___shareAppText = _stringLiteral5FB509B578D3A9B9497CDDAADBB2645BC8F6530A;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___shareAppText), (void*)_stringLiteral5FB509B578D3A9B9497CDDAADBB2645BC8F6530A);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsManager.cs:14>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsManager.cs:14>
 		__this->___supportEmail = _stringLiteral514532A1F9FFDDED9C062B63738C4BABA78F9044;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___supportEmail), (void*)_stringLiteral514532A1F9FFDDED9C062B63738C4BABA78F9044);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
@@ -16733,11 +16733,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_Awake_m529BAAB4
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:15>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:15>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0E3E7A9A92462225FFAF23BB1259E1BCFCEDDD0F, NULL);
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:17>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -16748,23 +16748,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_Awake_m529BAAB4
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:19>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:19>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral85A9D75FB8E04A2ABB928EA31EACBE97BF3AC819, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:20>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:20>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = V_0;
 		NullCheck(L_3);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4;
 		L_4 = GameObject_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_m47C7F4214DFAAC752E331A1073AD1B7EA78DB3DD(L_3, GameObject_GetComponent_TisCanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094_m47C7F4214DFAAC752E331A1073AD1B7EA78DB3DD_RuntimeMethod_var);
 		__this->___settingsGroup = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___settingsGroup), (void*)L_4);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:27>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:27>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = __this->___settingsGroup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -16775,7 +16775,7 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:28>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = V_0;
 		NullCheck(L_7);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_8;
@@ -16786,9 +16786,9 @@ IL_001f:
 
 IL_0045:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:31>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:31>
 		SettingsScreenController_SetVisible_mBB4F4C1CC70E0780622C993E633C4F82D0FD3D9D(__this, (bool)0, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:32>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:32>
 		return;
 	}
 }
@@ -16802,7 +16802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_OpenSettings_m0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:40>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:40>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___settingsGroup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16813,15 +16813,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_OpenSettings_m0
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:40>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:40>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:41>
 		SettingsScreenController_SetVisible_mBB4F4C1CC70E0780622C993E633C4F82D0FD3D9D(__this, (bool)1, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:42>
 		return;
 	}
 }
@@ -16835,7 +16835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_CloseSettings_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:46>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:46>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___settingsGroup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16846,15 +16846,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_CloseSettings_m
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:46>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:46>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:47>
 		SettingsScreenController_SetVisible_mBB4F4C1CC70E0780622C993E633C4F82D0FD3D9D(__this, (bool)0, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:48>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:48>
 		return;
 	}
 }
@@ -16868,7 +16868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_ToggleSettings_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:52>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___settingsGroup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -16879,16 +16879,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_ToggleSettings_
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:52>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:53>
 		bool L_2 = __this->___isOpen;
 		SettingsScreenController_SetVisible_mBB4F4C1CC70E0780622C993E633C4F82D0FD3D9D(__this, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:54>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:54>
 		return;
 	}
 }
@@ -16902,10 +16902,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_SetVisible_mBB4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:62>
 		bool L_0 = ___0_visible;
 		__this->___isOpen = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:64>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:64>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_1 = __this->___settingsGroup;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -16916,13 +16916,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_SetVisible_mBB4
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:65>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:65>
 		return;
 	}
 
 IL_0016:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:67>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___animRoutine;
 		if (!L_3)
 		{
@@ -16930,14 +16930,14 @@ IL_0016:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:68>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:68>
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4 = __this->___animRoutine;
 		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_4, NULL);
 	}
 
 IL_002a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:70>
 		bool L_5 = ___1_instant;
 		if (L_5)
 		{
@@ -16954,16 +16954,16 @@ IL_002a:
 
 IL_003a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:72>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:72>
 		bool L_7 = ___0_visible;
 		SettingsScreenController_ApplyStateInstant_m0FA51370CEF29653622C2756249E190F6570A748(__this, L_7, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:73>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:73>
 		return;
 	}
 
 IL_0042:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:76>
 		bool L_8 = ___0_visible;
 		RuntimeObject* L_9;
 		L_9 = SettingsScreenController_FadeRoutine_m6F9B52130492D5BFCC6DA4A47607A0F5A8CAF93C(__this, L_8, NULL);
@@ -16971,7 +16971,7 @@ IL_0042:
 		L_10 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_9, NULL);
 		__this->___animRoutine = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___animRoutine), (void*)L_10);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:77>
 		return;
 	}
 }
@@ -16983,7 +16983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController_ApplyStateInsta
 	float G_B3_0 = 0.0f;
 	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* G_B3_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:81>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:81>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___settingsGroup;
 		bool L_1 = ___0_visible;
 		if (L_1)
@@ -17009,17 +17009,17 @@ IL_0015:
 	{
 		NullCheck(G_B3_1);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(G_B3_1, G_B3_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:82>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:82>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = __this->___settingsGroup;
 		bool L_3 = ___0_visible;
 		NullCheck(L_2);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_2, L_3, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:83>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:83>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_4 = __this->___settingsGroup;
 		bool L_5 = ___0_visible;
 		NullCheck(L_4);
 		CanvasGroup_set_blocksRaycasts_m6C17F35782D16AE3FC42FCD1A4D68E1C4A4776E0(L_4, L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:84>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:84>
 		return;
 	}
 }
@@ -17050,7 +17050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SettingsScreenController_FadeR
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsScreenController__ctor_m7D80469316CB7AF6C6C680BF62F4471E97EDD543 (SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:10>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:10>
 		__this->___fadeDuration = (0.25f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -17116,7 +17116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CFadeRoutineU3Ed__10_MoveNext_m3D345FA
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:88>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:88>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_4 = V_1;
 		NullCheck(L_4);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_5 = L_4->___settingsGroup;
@@ -17124,7 +17124,7 @@ IL_001a:
 		float L_6;
 		L_6 = CanvasGroup_get_alpha_mBFEA193D2886B27CC53B31F90F7A1659B67ED6DF(L_5, NULL);
 		__this->___U3CstartU3E5__2 = L_6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:89>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:89>
 		bool L_7 = __this->___visible;
 		if (L_7)
 		{
@@ -17149,9 +17149,9 @@ IL_0047:
 	{
 		NullCheck(G_B6_1);
 		G_B6_1->___U3CendU3E5__3 = G_B6_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:90>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:90>
 		__this->___U3CtU3E5__4 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:93>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:93>
 		bool L_8 = __this->___visible;
 		if (!L_8)
 		{
@@ -17159,13 +17159,13 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:95>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:95>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_9 = V_1;
 		NullCheck(L_9);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_10 = L_9->___settingsGroup;
 		NullCheck(L_10);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_10, (bool)1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:96>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:96>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_11 = V_1;
 		NullCheck(L_11);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_12 = L_11->___settingsGroup;
@@ -17176,12 +17176,12 @@ IL_0047:
 
 IL_0079:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:101>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:101>
 		float L_13 = __this->___U3CtU3E5__4;
 		float L_14;
 		L_14 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__4 = ((float)il2cpp_codegen_add(L_13, L_14));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:102>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:102>
 		float L_15 = __this->___U3CtU3E5__4;
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_16 = V_1;
 		NullCheck(L_16);
@@ -17189,7 +17189,7 @@ IL_0079:
 		float L_18;
 		L_18 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_15/L_17)), NULL);
 		V_2 = L_18;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:103>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:103>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_19 = V_1;
 		NullCheck(L_19);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_20 = L_19->___settingsGroup;
@@ -17200,7 +17200,7 @@ IL_0079:
 		L_24 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_21, L_22, L_23, NULL);
 		NullCheck(L_20);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_20, L_24, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:104>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:104>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -17214,7 +17214,7 @@ IL_00cb:
 
 IL_00d2:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:99>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:99>
 		float L_25 = __this->___U3CtU3E5__4;
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_26 = V_1;
 		NullCheck(L_26);
@@ -17225,14 +17225,14 @@ IL_00d2:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:107>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:107>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_28 = V_1;
 		NullCheck(L_28);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_29 = L_28->___settingsGroup;
 		float L_30 = __this->___U3CendU3E5__3;
 		NullCheck(L_29);
 		CanvasGroup_set_alpha_m5C06839316D948BB4F75ED72C87FA1F1A20C333F(L_29, L_30, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:110>
 		bool L_31 = __this->___visible;
 		if (L_31)
 		{
@@ -17240,13 +17240,13 @@ IL_00d2:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:112>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:112>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_32 = V_1;
 		NullCheck(L_32);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_33 = L_32->___settingsGroup;
 		NullCheck(L_33);
 		CanvasGroup_set_interactable_m86928BB0894EF3F06BC7BE63594272FBA0DAC757(L_33, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:113>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:113>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_34 = V_1;
 		NullCheck(L_34);
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_35 = L_34->___settingsGroup;
@@ -17256,12 +17256,12 @@ IL_00d2:
 
 IL_0111:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:116>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:116>
 		SettingsScreenController_tB6493385E35DB621CA4DBC2CB6DADD8431244E00* L_36 = V_1;
 		NullCheck(L_36);
 		L_36->___animRoutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_36->___animRoutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SettingsScreenController.cs:117>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SettingsScreenController.cs:117>
 		return (bool)0;
 	}
 }
@@ -17311,7 +17311,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_OnValidate_m6D64B457F346B99F1
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:41>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:41>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___fillImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17322,7 +17322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_OnValidate_m6D64B457F346B99F1
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:43>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:43>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___fillImage;
 		float L_3 = __this->___currentValue;
 		float L_4;
@@ -17333,7 +17333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_OnValidate_m6D64B457F346B99F1
 
 IL_0025:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:46>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:46>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___movingImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -17354,30 +17354,30 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:48>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:48>
 		float L_9 = __this->___currentValue;
 		float L_10;
 		L_10 = SliderFill_GetFillFromValue_m4992A30B95BAAEDBC349549096946BF437937708(__this, L_9, NULL);
 		V_0 = L_10;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:49>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:49>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = __this->___movingImage;
 		NullCheck(L_11);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12;
 		L_12 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_11, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:50>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_13 = L_12;
 		NullCheck(L_13);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
 		L_14 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_13, NULL);
 		V_1 = L_14;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:51>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:51>
 		float L_15 = __this->___movingMinX;
 		float L_16 = __this->___movingMaxX;
 		float L_17 = V_0;
 		float L_18;
 		L_18 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_15, L_16, L_17, NULL);
 		(&V_1)->___x = L_18;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:52>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_1;
 		NullCheck(L_13);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_13, L_19, NULL);
@@ -17385,10 +17385,10 @@ IL_0025:
 
 IL_007f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:55>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:55>
 		float L_20 = __this->___currentValue;
 		SliderFill_UpdateIterationTexts_mF255D9EF551B293C6A3252E981185B5180D3E2D8(__this, L_20, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:56>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:56>
 		return;
 	}
 }
@@ -17405,7 +17405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_Update_mBCDBDF093EA568D722146
 	memset((&V_0), 0, sizeof(V_0));
 	float V_1 = 0.0f;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:60>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___fillImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -17416,19 +17416,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_Update_mBCDBDF093EA568D722146
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:60>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:60>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:62>
 		float L_2 = __this->___currentValue;
 		float L_3;
 		L_3 = SliderFill_GetFillFromValue_m4992A30B95BAAEDBC349549096946BF437937708(__this, L_2, NULL);
 		__this->___targetFill = L_3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:64>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:65>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:64>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:65>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___fillImage;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___fillImage;
 		NullCheck(L_5);
@@ -17442,7 +17442,7 @@ IL_000f:
 		L_10 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_6, L_7, ((float)il2cpp_codegen_multiply(L_8, L_9)), NULL);
 		NullCheck(L_4);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_4, L_10, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:67>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_11 = __this->___movingImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -17453,31 +17453,31 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:69>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:69>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13 = __this->___movingImage;
 		NullCheck(L_13);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14;
 		L_14 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_13, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:70>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_15 = L_14;
 		NullCheck(L_15);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
 		L_16 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_15, NULL);
 		V_0 = L_16;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:71>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:71>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_17 = __this->___fillImage;
 		NullCheck(L_17);
 		float L_18;
 		L_18 = Image_get_fillAmount_mDEE52490D07124E21E7CB36718A5E3714D8B9788_inline(L_17, NULL);
 		V_1 = L_18;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:72>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:72>
 		float L_19 = __this->___movingMinX;
 		float L_20 = __this->___movingMaxX;
 		float L_21 = V_1;
 		float L_22;
 		L_22 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_19, L_20, L_21, NULL);
 		(&V_0)->___x = L_22;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:73>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:73>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = V_0;
 		NullCheck(L_15);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_15, L_23, NULL);
@@ -17485,7 +17485,7 @@ IL_000f:
 
 IL_0099:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:77>
 		bool L_24 = __this->___applyRewardOnFull;
 		if (!L_24)
 		{
@@ -17500,7 +17500,7 @@ IL_0099:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:79>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:79>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_26 = __this->___fillImage;
 		NullCheck(L_26);
 		float L_27;
@@ -17514,20 +17514,20 @@ IL_0099:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:81>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:81>
 		__this->___rewardApplied = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:82>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:82>
 		__this->___applyRewardOnFull = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:83>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:83>
 		SliderFill_ApplyRewardForCurrentValue_m78911614BA3F4463C7857276D48188335FF517AA(__this, NULL);
 	}
 
 IL_00db:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:87>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:87>
 		float L_30 = __this->___currentValue;
 		SliderFill_UpdateIterationTexts_mF255D9EF551B293C6A3252E981185B5180D3E2D8(__this, L_30, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:88>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:88>
 		return;
 	}
 }
@@ -17577,13 +17577,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SliderFill_GetFillFromValue_m4992A30B95
 	float G_B39_0 = 0.0f;
 	float G_B43_0 = 0.0f;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:96>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:96>
 		float L_0 = ___0_value;
 		float L_1 = __this->___maxValue;
 		float L_2;
 		L_2 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_0, (0.0f), L_1, NULL);
 		___0_value = L_2;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:103>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:103>
 		float L_3 = ___0_value;
 		if ((!(((float)L_3) <= ((float)(200.0f)))))
 		{
@@ -17591,23 +17591,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SliderFill_GetFillFromValue_m4992A30B95
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:105>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:105>
 		V_0 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:106>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:106>
 		V_1 = (100.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:107>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:107>
 		V_2 = (150.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:108>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:108>
 		V_3 = (200.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:110>
 		V_4 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:111>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:111>
 		V_5 = (0.252999991f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:112>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:112>
 		V_6 = (0.56099999f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:113>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:113>
 		V_7 = (0.869000018f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:115>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:115>
 		float L_4 = ___0_value;
 		float L_5 = V_1;
 		if ((!(((float)L_4) <= ((float)L_5))))
@@ -17616,7 +17616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float SliderFill_GetFillFromValue_m4992A30B95
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:117>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:117>
 		float L_6 = V_1;
 		float L_7 = V_0;
 		if ((((float)((float)il2cpp_codegen_subtract(L_6, L_7))) > ((float)(9.99999975E-05f))))
@@ -17641,7 +17641,7 @@ IL_0067:
 IL_006e:
 	{
 		V_8 = G_B5_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:118>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:118>
 		float L_12 = V_4;
 		float L_13 = V_5;
 		float L_14 = V_8;
@@ -17652,7 +17652,7 @@ IL_006e:
 
 IL_007c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:120>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:120>
 		float L_16 = ___0_value;
 		float L_17 = V_2;
 		if ((!(((float)L_16) <= ((float)L_17))))
@@ -17661,7 +17661,7 @@ IL_007c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:122>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:122>
 		float L_18 = V_2;
 		float L_19 = V_1;
 		if ((((float)((float)il2cpp_codegen_subtract(L_18, L_19))) > ((float)(9.99999975E-05f))))
@@ -17686,7 +17686,7 @@ IL_0091:
 IL_0098:
 	{
 		V_9 = G_B10_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:123>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:123>
 		float L_24 = V_5;
 		float L_25 = V_6;
 		float L_26 = V_9;
@@ -17697,7 +17697,7 @@ IL_0098:
 
 IL_00a6:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:127>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:127>
 		float L_28 = V_3;
 		float L_29 = V_2;
 		if ((((float)((float)il2cpp_codegen_subtract(L_28, L_29))) > ((float)(9.99999975E-05f))))
@@ -17722,7 +17722,7 @@ IL_00b7:
 IL_00be:
 	{
 		V_10 = G_B14_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:128>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:128>
 		float L_34 = V_6;
 		float L_35 = V_7;
 		float L_36 = V_10;
@@ -17733,7 +17733,7 @@ IL_00be:
 
 IL_00cc:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:137>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:137>
 		float L_38 = ___0_value;
 		if ((!(((float)L_38) <= ((float)(400.0f)))))
 		{
@@ -17741,23 +17741,23 @@ IL_00cc:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:139>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:139>
 		V_11 = (200.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:140>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:140>
 		V_12 = (250.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:141>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:141>
 		V_13 = (300.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:142>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:142>
 		V_14 = (400.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:144>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:144>
 		V_15 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:145>
 		V_16 = (0.252999991f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:146>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:146>
 		V_17 = (0.56099999f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:147>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:147>
 		V_18 = (0.869000018f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:149>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:149>
 		float L_39 = ___0_value;
 		float L_40 = V_12;
 		if ((!(((float)L_39) <= ((float)L_40))))
@@ -17766,7 +17766,7 @@ IL_00cc:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:151>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:151>
 		float L_41 = V_12;
 		float L_42 = V_11;
 		if ((((float)((float)il2cpp_codegen_subtract(L_41, L_42))) > ((float)(9.99999975E-05f))))
@@ -17791,7 +17791,7 @@ IL_0127:
 IL_0131:
 	{
 		V_19 = G_B20_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:152>
 		float L_47 = V_15;
 		float L_48 = V_16;
 		float L_49 = V_19;
@@ -17802,7 +17802,7 @@ IL_0131:
 
 IL_013f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:154>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:154>
 		float L_51 = ___0_value;
 		float L_52 = V_13;
 		if ((!(((float)L_51) <= ((float)L_52))))
@@ -17811,7 +17811,7 @@ IL_013f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:156>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:156>
 		float L_53 = V_13;
 		float L_54 = V_12;
 		if ((((float)((float)il2cpp_codegen_subtract(L_53, L_54))) > ((float)(9.99999975E-05f))))
@@ -17836,7 +17836,7 @@ IL_0157:
 IL_0161:
 	{
 		V_20 = G_B25_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:157>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:157>
 		float L_59 = V_16;
 		float L_60 = V_17;
 		float L_61 = V_20;
@@ -17847,7 +17847,7 @@ IL_0161:
 
 IL_016f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:161>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:161>
 		float L_63 = V_14;
 		float L_64 = V_13;
 		if ((((float)((float)il2cpp_codegen_subtract(L_63, L_64))) > ((float)(9.99999975E-05f))))
@@ -17872,7 +17872,7 @@ IL_0182:
 IL_018c:
 	{
 		V_21 = G_B29_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:162>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:162>
 		float L_69 = V_17;
 		float L_70 = V_18;
 		float L_71 = V_21;
@@ -17883,23 +17883,23 @@ IL_018c:
 
 IL_019a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:172>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:172>
 		V_22 = (400.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:173>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:173>
 		V_23 = (500.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:174>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:174>
 		V_24 = (700.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:175>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:175>
 		V_25 = (1000.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:177>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:177>
 		V_26 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:178>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:178>
 		V_27 = (0.252999991f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:179>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:179>
 		V_28 = (0.56099999f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:180>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:180>
 		V_29 = (0.869000018f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:182>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:182>
 		float L_73 = ___0_value;
 		float L_74 = V_23;
 		if ((!(((float)L_73) <= ((float)L_74))))
@@ -17908,7 +17908,7 @@ IL_019a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:184>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:184>
 		float L_75 = V_23;
 		float L_76 = V_22;
 		if ((((float)((float)il2cpp_codegen_subtract(L_75, L_76))) > ((float)(9.99999975E-05f))))
@@ -17933,7 +17933,7 @@ IL_01ea:
 IL_01f4:
 	{
 		V_30 = G_B34_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:185>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:185>
 		float L_81 = V_26;
 		float L_82 = V_27;
 		float L_83 = V_30;
@@ -17944,7 +17944,7 @@ IL_01f4:
 
 IL_0202:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:187>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:187>
 		float L_85 = ___0_value;
 		float L_86 = V_24;
 		if ((!(((float)L_85) <= ((float)L_86))))
@@ -17953,7 +17953,7 @@ IL_0202:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:189>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:189>
 		float L_87 = V_24;
 		float L_88 = V_23;
 		if ((((float)((float)il2cpp_codegen_subtract(L_87, L_88))) > ((float)(9.99999975E-05f))))
@@ -17978,7 +17978,7 @@ IL_021a:
 IL_0224:
 	{
 		V_31 = G_B39_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:190>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:190>
 		float L_93 = V_27;
 		float L_94 = V_28;
 		float L_95 = V_31;
@@ -17989,7 +17989,7 @@ IL_0224:
 
 IL_0232:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:194>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:194>
 		float L_97 = V_25;
 		float L_98 = V_24;
 		if ((((float)((float)il2cpp_codegen_subtract(L_97, L_98))) > ((float)(9.99999975E-05f))))
@@ -18014,7 +18014,7 @@ IL_0245:
 IL_024f:
 	{
 		V_32 = G_B43_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:195>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:195>
 		float L_103 = V_28;
 		float L_104 = V_29;
 		float L_105 = V_32;
@@ -18050,7 +18050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_UpdateIterationTexts_mF255D9E
 	int32_t V_6 = 0;
 	int32_t V_7 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:204>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:204>
 		float L_0 = ___0_value;
 		if ((!(((float)L_0) <= ((float)(200.0f)))))
 		{
@@ -18058,24 +18058,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_UpdateIterationTexts_mF255D9E
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:207>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:207>
 		V_0 = _stringLiteral8FE94193A3EF39943F898714AC9062F7EBD96279;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:208>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:208>
 		V_1 = _stringLiteral5E696457ACA34F9A438A4F107A537E40DDCDD335;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:209>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:209>
 		V_2 = _stringLiteralFF422A9E006CB794118A967A65E02B9FA07C4F6D;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:213>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:213>
 		V_3 = 2;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:214>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:214>
 		V_4 = 3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:215>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:215>
 		V_5 = 4;
 		goto IL_0065;
 	}
 
 IL_0024:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:217>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:217>
 		float L_1 = ___0_value;
 		if ((!(((float)L_1) <= ((float)(400.0f)))))
 		{
@@ -18083,40 +18083,40 @@ IL_0024:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:220>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:220>
 		V_0 = _stringLiteralE35537EB2FA1778807CB10E1F27D6797DD9C200C;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:221>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:221>
 		V_1 = _stringLiteralCCCCF33EB5EC47B0ED7F5E7A0E412ADA4244752F;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:222>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:222>
 		V_2 = _stringLiteral1E21F4B49768AD7D30A7C5FD56FEA14D5B05B1DA;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:225>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:225>
 		V_3 = 5;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:226>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:226>
 		V_4 = 6;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:227>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:227>
 		V_5 = 8;
 		goto IL_0065;
 	}
 
 IL_0048:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:232>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:232>
 		V_0 = _stringLiteral50863FE64FB84E5522BDDE89CF1B95FBD9FEBDCA;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:233>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:233>
 		V_1 = _stringLiteralAAFA708B0521E200C43A1A60034587C289990CD3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:234>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:234>
 		V_2 = _stringLiteral8739AB73E27D444291AAFE563DFBA8832AD5D722;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:237>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:237>
 		V_3 = ((int32_t)20);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:238>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:238>
 		V_4 = ((int32_t)60);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:239>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:239>
 		V_5 = ((int32_t)100);
 	}
 
 IL_0065:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:243>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:243>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___iteration1Text;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -18127,7 +18127,7 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:243>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:243>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___iteration1Text;
 		String_t* L_5 = V_0;
 		NullCheck(L_4);
@@ -18136,7 +18136,7 @@ IL_0065:
 
 IL_007f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:244>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:244>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_6 = __this->___iteration2Text;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -18147,7 +18147,7 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:244>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:244>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_8 = __this->___iteration2Text;
 		String_t* L_9 = V_1;
 		NullCheck(L_8);
@@ -18156,7 +18156,7 @@ IL_007f:
 
 IL_0099:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:245>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:245>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_10 = __this->___iteration3Text;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -18167,7 +18167,7 @@ IL_0099:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:245>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:245>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_12 = __this->___iteration3Text;
 		String_t* L_13 = V_2;
 		NullCheck(L_12);
@@ -18176,9 +18176,9 @@ IL_0099:
 
 IL_00b3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:248>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:248>
 		V_6 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:249>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:249>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_14;
 		L_14 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -18190,7 +18190,7 @@ IL_00b3:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:251>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:251>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_16;
 		L_16 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		NullCheck(L_16);
@@ -18201,7 +18201,7 @@ IL_00b3:
 
 IL_00cf:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:255>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:255>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_18 = __this->___betText1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -18212,7 +18212,7 @@ IL_00cf:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:255>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:255>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_20 = __this->___betText1;
 		int32_t L_21 = V_6;
 		int32_t L_22 = V_3;
@@ -18225,7 +18225,7 @@ IL_00cf:
 
 IL_00f5:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:256>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:256>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_24 = __this->___betText2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
@@ -18236,7 +18236,7 @@ IL_00f5:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:256>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:256>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_26 = __this->___betText2;
 		int32_t L_27 = V_6;
 		int32_t L_28 = V_4;
@@ -18249,7 +18249,7 @@ IL_00f5:
 
 IL_011c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:257>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:257>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_30 = __this->___betText3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_31;
@@ -18260,7 +18260,7 @@ IL_011c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:257>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:257>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_32 = __this->___betText3;
 		int32_t L_33 = V_6;
 		int32_t L_34 = V_5;
@@ -18273,7 +18273,7 @@ IL_011c:
 
 IL_0143:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:258>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:258>
 		return;
 	}
 }
@@ -18290,16 +18290,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_AnimateFromTotalResult_m27C1A
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:263>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:263>
 		int32_t L_0 = ___0_amount;
 		float L_1 = __this->___maxValue;
 		float L_2;
 		L_2 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)L_0), (0.0f), L_1, NULL);
 		V_0 = L_2;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:264>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:264>
 		float L_3 = V_0;
 		__this->___currentValue = L_3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:266>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:266>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = __this->___fillImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -18310,7 +18310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_AnimateFromTotalResult_m27C1A
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:269>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:269>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_6 = __this->___fillImage;
 		NullCheck(L_6);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_6, (0.0f), NULL);
@@ -18318,7 +18318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_AnimateFromTotalResult_m27C1A
 
 IL_0038:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:272>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:272>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_7 = __this->___movingImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -18329,21 +18329,21 @@ IL_0038:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:274>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:274>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9 = __this->___movingImage;
 		NullCheck(L_9);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10;
 		L_10 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:275>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:275>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = L_10;
 		NullCheck(L_11);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
 		L_12 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_11, NULL);
 		V_1 = L_12;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:276>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:276>
 		float L_13 = __this->___movingMinX;
 		(&V_1)->___x = L_13;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:277>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:277>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = V_1;
 		NullCheck(L_11);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_11, L_14, NULL);
@@ -18351,14 +18351,14 @@ IL_0038:
 
 IL_006b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:281>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:281>
 		__this->___rewardApplied = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:282>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:282>
 		__this->___applyRewardOnFull = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:285>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:285>
 		float L_15 = __this->___currentValue;
 		SliderFill_UpdateIterationTexts_mF255D9EF551B293C6A3252E981185B5180D3E2D8(__this, L_15, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:286>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:286>
 		return;
 	}
 }
@@ -18388,7 +18388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_ApplyRewardForCurrentValue_m7
 	int32_t V_6 = 0;
 	int32_t V_7 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:300>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:300>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0;
 		L_0 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -18400,20 +18400,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_ApplyRewardForCurrentValue_m7
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:301>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:301>
 		return;
 	}
 
 IL_000e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:303>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:303>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2;
 		L_2 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = GameManager_get_CurrentBet_m3DD1458B3C275C39B7E5E2434C0545F1B4AFA248_inline(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:304>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:304>
 		int32_t L_4 = V_0;
 		if ((((int32_t)L_4) > ((int32_t)0)))
 		{
@@ -18421,51 +18421,51 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:305>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:305>
 		return;
 	}
 
 IL_001e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:308>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:308>
 		float L_5 = __this->___currentValue;
 		float L_6 = __this->___maxValue;
 		float L_7;
 		L_7 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_5, (0.0f), L_6, NULL);
 		V_1 = L_7;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:311>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:311>
 		float L_8 = V_1;
 		int32_t L_9;
 		L_9 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(L_8, NULL);
 		V_2 = L_9;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:312>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:312>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_10;
 		L_10 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_11 = V_2;
 		NullCheck(L_10);
 		GameManager_AddPoints_mB74DEF715A06C9313BB84882EBF13ED32F991A21(L_10, L_11, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:314>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:314>
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_12 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = L_12;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_14 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____8ECE5145BE5805BE9CC0F7EDC015213700B4766B4432B2B61A8EFB4CFEEACFFD_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_13, L_14, NULL);
 		V_3 = L_13;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:315>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:315>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_15 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = L_15;
 		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_17 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D719CAFF5203C73A5B7E83CAED0E6200F97E8BBEA27DBAE1F9D72D27E81ED773_FieldInfo_var) };
 		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_16, L_17, NULL);
 		V_4 = L_16;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:317>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:317>
 		V_5 = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:318>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:318>
 		V_7 = 0;
 		goto IL_0087;
 	}
 
 IL_0076:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:320>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:320>
 		float L_18 = V_1;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_19 = V_3;
 		int32_t L_20 = V_7;
@@ -18478,17 +18478,17 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:322>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:322>
 		int32_t L_23 = V_7;
 		V_5 = L_23;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:318>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:318>
 		int32_t L_24 = V_7;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_0087:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:318>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:318>
 		int32_t L_25 = V_7;
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_26 = V_3;
 		NullCheck(L_26);
@@ -18500,7 +18500,7 @@ IL_0087:
 
 IL_008e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:331>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:331>
 		int32_t L_27 = V_5;
 		if ((((int32_t)L_27) >= ((int32_t)0)))
 		{
@@ -18508,7 +18508,7 @@ IL_008e:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:333>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:333>
 		float L_28 = V_1;
 		float L_29 = L_28;
 		RuntimeObject* L_30 = Box(il2cpp_defaults.single_class, &L_29);
@@ -18519,18 +18519,18 @@ IL_008e:
 		L_34 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralEC255CEC978A696FFEFEB648CB469F20CE1E724A, L_30, L_33, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_34, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:334>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:334>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_35;
 		L_35 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		NullCheck(L_35);
 		GameManager_ExitPlayMode_m901D1B24BE7987D42AE7767B229A7A0BD58CE5A7(L_35, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:335>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:335>
 		return;
 	}
 
 IL_00b9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:339>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:339>
 		int32_t L_36 = V_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = V_4;
 		int32_t L_38 = V_5;
@@ -18538,7 +18538,7 @@ IL_00b9:
 		int32_t L_39 = L_38;
 		int32_t L_40 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_39));
 		V_6 = ((int32_t)il2cpp_codegen_multiply(L_36, L_40));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:341>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:341>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_41 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_42 = L_41;
 		float L_43 = V_1;
@@ -18594,13 +18594,13 @@ IL_00b9:
 		L_72 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteralC91F8EE273301EA0955C04BA5BF4C690A99D30CF, L_68, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_72, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:343>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:343>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_73;
 		L_73 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_74 = V_6;
 		NullCheck(L_73);
 		GameManager_AddWinToBalance_m09D8F4C04023749C8FD79A9F227B22DF7491CEF9(L_73, L_74, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:345>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:345>
 		return;
 	}
 }
@@ -18616,15 +18616,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_ResetToZero_mA597E1EAA94B3A1F
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:350>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:350>
 		__this->___currentValue = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:351>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:351>
 		__this->___targetFill = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:354>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:354>
 		__this->___rewardApplied = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:355>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:355>
 		__this->___applyRewardOnFull = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:358>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:358>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___fillImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18635,7 +18635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_ResetToZero_mA597E1EAA94B3A1F
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:359>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:359>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___fillImage;
 		NullCheck(L_2);
 		Image_set_fillAmount_m8A9B55F47F966A3214EAC4ACBFE198776A98FAA7(L_2, (0.0f), NULL);
@@ -18643,7 +18643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill_ResetToZero_mA597E1EAA94B3A1F
 
 IL_0042:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:362>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:362>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_3 = __this->___movingImage;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -18654,21 +18654,21 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:364>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:364>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = __this->___movingImage;
 		NullCheck(L_5);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_6;
 		L_6 = Graphic_get_rectTransform_mF4752E8934267D630810E84CE02CDFB81EB1FD6D(L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:365>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:365>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = L_6;
 		NullCheck(L_7);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		L_8 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_7, NULL);
 		V_0 = L_8;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:366>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:366>
 		float L_9 = __this->___movingMinX;
 		(&V_0)->___x = L_9;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:367>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:367>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = V_0;
 		NullCheck(L_7);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_7, L_10, NULL);
@@ -18676,10 +18676,10 @@ IL_0042:
 
 IL_0075:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:371>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:371>
 		float L_11 = __this->___currentValue;
 		SliderFill_UpdateIterationTexts_mF255D9EF551B293C6A3252E981185B5180D3E2D8(__this, L_11, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:372>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:372>
 		return;
 	}
 }
@@ -18687,13 +18687,13 @@ IL_0075:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill__ctor_m848D0D2A30EFF39AA5E92064F97A168175CC340D (SliderFill_t38BDFB4CE61C7A5F7D7557C8D4DC80168F20C6F5* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:12>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:12>
 		__this->___movingMinX = (-100.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:13>
 		__this->___movingMaxX = (100.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:16>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:16>
 		__this->___maxValue = (1000.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/SliderFill.cs:19>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/SliderFill.cs:19>
 		__this->___fillLerpSpeed = (10.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -18711,9 +18711,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SliderFill__ctor_m848D0D2A30EFF39AA5E920
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopCanvas_Awake_m66E918C2709D157903550ED30E7F112BB4C57B77 (TopCanvas_t43BC3252E003C1DE2B8EA18F7AC2736904B86917* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:13>
 		TopCanvas_Init_m477B0296B4E0CACE83FBA9293EE8C049853AF372(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:14>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:14>
 		return;
 	}
 }
@@ -18721,9 +18721,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopCanvas_Awake_m66E918C2709D157903550ED
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopCanvas_OnValidate_m8964F5164351896071CB4E36A15736258816AAB7 (TopCanvas_t43BC3252E003C1DE2B8EA18F7AC2736904B86917* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:18>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:18>
 		TopCanvas_Init_m477B0296B4E0CACE83FBA9293EE8C049853AF372(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:19>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:19>
 		return;
 	}
 }
@@ -18740,7 +18740,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopCanvas_Init_m477B0296B4E0CACE83FBA929
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:23>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:23>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___canvas;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18751,7 +18751,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopCanvas_Init_m477B0296B4E0CACE83FBA929
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:24>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_2;
 		L_2 = Component_GetComponent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m209BA4F663AB98A4504995B5BD3EADEDEFB92BF2(__this, Component_GetComponent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m209BA4F663AB98A4504995B5BD3EADEDEFB92BF2_RuntimeMethod_var);
 		__this->___canvas = L_2;
@@ -18760,7 +18760,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopCanvas_Init_m477B0296B4E0CACE83FBA929
 
 IL_001a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:26>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:26>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_3 = __this->___canvas;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -18771,25 +18771,25 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:28>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral388DAAE584993FEAA436C2899A0B82C9F876C02A, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:29>
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:32>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:32>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_5 = __this->___canvas;
 		NullCheck(L_5);
 		Canvas_set_renderMode_mD73E953F8A115CF469508448A00D0EDAFAF5AB47(L_5, 0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:33>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:33>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_6 = __this->___canvas;
 		int32_t L_7 = __this->___sortOrder;
 		NullCheck(L_6);
 		Canvas_set_sortingOrder_m70D89DB61A3C0589C0FAB525E613DE9D0C799AAC(L_6, L_7, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:34>
 		return;
 	}
 }
@@ -18797,7 +18797,7 @@ IL_0033:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TopCanvas__ctor_mBE05B3ACC878230E91E7749F1B98F555B19F3816 (TopCanvas_t43BC3252E003C1DE2B8EA18F7AC2736904B86917* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/TopCanvas.cs:7>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/TopCanvas.cs:7>
 		__this->___sortOrder = ((int32_t)9999);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -18827,7 +18827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_Awake_m2F6F68F3D44AB94A6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:11>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:11>
 		SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC* L_0 = ((SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_StaticFields*)il2cpp_codegen_static_fields_for(SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18848,7 +18848,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_Awake_m2F6F68F3D44AB94A6
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:13>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_4);
@@ -18858,36 +18858,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_Awake_m2F6F68F3D44AB94A6
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0A6FC3B3906CD17D509272A22A9195409355E936, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:14>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:14>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_7, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:15>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:15>
 		return;
 	}
 
 IL_0040:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:18>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:18>
 		((SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_StaticFields*)il2cpp_codegen_static_fields_for(SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_il2cpp_TypeInfo_var))->___instance = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&((SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_StaticFields*)il2cpp_codegen_static_fields_for(SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_il2cpp_TypeInfo_var))->___instance), (void*)__this);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:21>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:21>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_8);
 		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_8, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:24>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
 		L_9 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:27>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:27>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_10 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_10, __this, (intptr_t)((void*)SettingsCarrier_OnSceneLoaded_mF93DCEB42A61C10EE16ED9BA903BF95697C056CA_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_10, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:28>
 		return;
 	}
 }
@@ -18895,9 +18895,9 @@ IL_0040:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_Start_m88551F84B62EB8E511D8B6BE38E9C46C81666B42 (SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:33>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:33>
 		SettingsCarrier_AttachToCanvasInCurrentScene_m1511463CC9CC08AFEE6336C646127AF2BABF0376(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:34>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:34>
 		return;
 	}
 }
@@ -18915,7 +18915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_OnDestroy_mF8BC72703AA86
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:38>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:38>
 		SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC* L_0 = ((SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_StaticFields*)il2cpp_codegen_static_fields_for(SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -18926,7 +18926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_OnDestroy_mF8BC72703AA86
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:40>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:40>
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_2 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_2, __this, (intptr_t)((void*)SettingsCarrier_OnSceneLoaded_mF93DCEB42A61C10EE16ED9BA903BF95697C056CA_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
@@ -18935,7 +18935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_OnDestroy_mF8BC72703AA86
 
 IL_001e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:42>
 		return;
 	}
 }
@@ -18943,9 +18943,9 @@ IL_001e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_OnSceneLoaded_mF93DCEB42A61C10EE16ED9BA903BF95697C056CA (SettingsCarrier_t0E34BE23D1736611850C0060C1903C9D52FF4DAC* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:47>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:47>
 		SettingsCarrier_AttachToCanvasInCurrentScene_m1511463CC9CC08AFEE6336C646127AF2BABF0376(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:48>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:48>
 		return;
 	}
 }
@@ -18968,12 +18968,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_AttachToCanvasInCurrentS
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:53>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0;
 		L_0 = Object_FindObjectOfType_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m4AD0E4AD3F779EA1CBA37403B0244126814EA6D1(Object_FindObjectOfType_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m4AD0E4AD3F779EA1CBA37403B0244126814EA6D1_RuntimeMethod_var);
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:54>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:54>
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_1 = V_0;
 		bool L_2;
 		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -18983,7 +18983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_AttachToCanvasInCurrentS
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:56>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_3;
 		L_3 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -18994,13 +18994,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier_AttachToCanvasInCurrentS
 		L_5 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral1CB183E57E02C6C09ED0297A6331787E612AA2FA, L_4, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:57>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:57>
 		return;
 	}
 
 IL_0031:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:61>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:61>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_7 = V_0;
@@ -19009,12 +19009,12 @@ IL_0031:
 		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
 		NullCheck(L_6);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_6, L_8, (bool)0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:62>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
 		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		NullCheck(L_9);
 		Transform_SetAsLastSibling_m848AF1A0B4C7912FE88D8CBCF92B83D57B2B917E(L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:64>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:64>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_10;
 		L_10 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
@@ -19025,7 +19025,7 @@ IL_0031:
 		L_12 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral2C78A8D996B3E17FC7BB97E025DE477E4B78D78C, L_11, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_12, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:65>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/using UnityEngine;  public class DestroyAfterStart _ MonoBehaviour {     void Start()     {         Destroy(gameObject, 2f);  уничтожит объект через 2 секунды     } }.cs:65>
 		return;
 	}
 }
@@ -19049,19 +19049,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SettingsCarrier__ctor_m917B4B6596C157C64
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_Awake_m26E98D6F57994F78E36CF5920F8457ADAEE8424B (WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:65>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:65>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = __this->___outerWheel;
 		WheelFortune_FixWheelDefaults_m2B5542053DF71099FFEFEF5B95EE4069D354909C(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:66>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:66>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_1 = __this->___middleWheel;
 		WheelFortune_FixWheelDefaults_m2B5542053DF71099FFEFEF5B95EE4069D354909C(__this, L_1, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:67>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:67>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_2 = __this->___innerWheel;
 		WheelFortune_FixWheelDefaults_m2B5542053DF71099FFEFEF5B95EE4069D354909C(__this, L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:70>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:70>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_3 = __this->___outerWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_3, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:71>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:71>
 		return;
 	}
 }
@@ -19069,7 +19069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_Awake_m26E98D6F57994F78E36C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_FixWheelDefaults_m2B5542053DF71099FFEFEF5B95EE4069D354909C (WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* __this, WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* ___0_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:75>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:75>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = ___0_data;
 		if (L_0)
 		{
@@ -19077,13 +19077,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_FixWheelDefaults_m2B5542053
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:75>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:75>
 		return;
 	}
 
 IL_0004:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:76>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_1 = ___0_data;
 		NullCheck(L_1);
 		int32_t L_2 = L_1->___segments;
@@ -19093,7 +19093,7 @@ IL_0004:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:76>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_3 = ___0_data;
 		NullCheck(L_3);
 		L_3->___segments = ((int32_t)12);
@@ -19101,7 +19101,7 @@ IL_0004:
 
 IL_0015:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:77>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:77>
 		return;
 	}
 }
@@ -19120,7 +19120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SetWheelActive_mEAC035A5BB3
 	memset((&G_B6_0), 0, sizeof(G_B6_0));
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B6_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:81>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:81>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = ___0_data;
 		if (!L_0)
 		{
@@ -19142,13 +19142,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SetWheelActive_mEAC035A5BB3
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:82>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:82>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:84>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:84>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_4 = ___0_data;
 		NullCheck(L_4);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5 = L_4->___fillImage;
@@ -19182,7 +19182,7 @@ IL_0029:
 	{
 		NullCheck(G_B6_1);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, G_B6_1, G_B6_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:85>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:85>
 		return;
 	}
 }
@@ -19190,22 +19190,22 @@ IL_0029:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1 (WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* __this, WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* ___0_active, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:90>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:90>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = __this->___outerWheel;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_1 = ___0_active;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_2 = __this->___outerWheel;
 		WheelFortune_SetWheelActive_mEAC035A5BB353698CD3D49D6260F5B9E0F340C3B(__this, L_0, (bool)((((RuntimeObject*)(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)L_1) == ((RuntimeObject*)(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)L_2))? 1 : 0), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:93>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:93>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_3 = __this->___middleWheel;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_4 = ___0_active;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_5 = __this->___middleWheel;
 		WheelFortune_SetWheelActive_mEAC035A5BB353698CD3D49D6260F5B9E0F340C3B(__this, L_3, (bool)((((RuntimeObject*)(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)L_4) == ((RuntimeObject*)(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)L_5))? 1 : 0), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:96>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:96>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_6 = __this->___innerWheel;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_7 = ___0_active;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_8 = __this->___innerWheel;
 		WheelFortune_SetWheelActive_mEAC035A5BB353698CD3D49D6260F5B9E0F340C3B(__this, L_6, (bool)((((RuntimeObject*)(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)L_7) == ((RuntimeObject*)(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)L_8))? 1 : 0), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:97>
 		return;
 	}
 }
@@ -19220,9 +19220,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SpinOuter_m97DE710019EA58DA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:110>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:111>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:112>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:111>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:112>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = __this->___outerWheel;
 		if (!L_0)
 		{
@@ -19277,76 +19277,76 @@ IL_002a:
 
 IL_003f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:114>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:114>
 		return;
 	}
 
 IL_0040:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:118>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:118>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_9 = __this->___outerWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:120>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:121>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:122>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:123>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:124>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:125>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:126>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:127>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:128>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:129>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:130>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:131>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:132>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:133>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:134>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:135>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:136>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:137>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:138>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:139>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:140>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:141>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:142>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:143>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:144>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:145>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:146>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:147>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:148>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:149>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:150>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:151>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:152>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:153>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:154>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:155>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:156>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:157>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:158>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:159>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:160>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:161>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:162>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:163>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:164>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:165>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:166>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:167>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:168>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:169>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:170>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:171>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:172>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:173>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:174>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:175>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:120>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:121>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:122>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:123>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:124>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:125>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:126>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:127>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:128>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:129>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:130>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:131>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:132>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:133>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:134>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:135>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:136>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:137>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:138>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:139>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:140>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:141>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:142>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:143>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:144>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:146>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:147>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:148>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:149>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:150>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:151>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:153>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:154>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:155>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:156>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:157>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:158>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:159>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:160>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:161>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:162>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:163>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:164>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:165>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:166>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:167>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:168>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:169>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:170>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:171>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:172>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:173>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:174>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:175>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_10 = __this->___outerWheel;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_11 = (Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8*)il2cpp_codegen_object_new(Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8_il2cpp_TypeInfo_var);
 		Action_2__ctor_m83CEE170A5B9427B596A04F9F50676B044223927(L_11, __this, (intptr_t)((void*)WheelFortune_U3CSpinOuterU3Eb__14_0_m99C3104A2D462C9BB5B47E67F1E4AC7BCF9980E5_RuntimeMethod_var), NULL);
 		WheelFortune_StartSpin_m3A255550AD6F1BD67866688E149F35EE78295473(__this, L_10, L_11, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:176>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:176>
 		return;
 	}
 }
@@ -19413,18 +19413,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SpinMiddle_m1148EA404AF958B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:202>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:202>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = __this->___middleWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:203>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:204>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:205>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:206>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:203>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:204>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:205>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:206>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_1 = __this->___middleWheel;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_2 = (Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8*)il2cpp_codegen_object_new(Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8_il2cpp_TypeInfo_var);
 		Action_2__ctor_m83CEE170A5B9427B596A04F9F50676B044223927(L_2, __this, (intptr_t)((void*)WheelFortune_U3CSpinMiddleU3Eb__17_0_m5FC78BC8F02A1CA10DC750FB150464858404E541_RuntimeMethod_var), NULL);
 		WheelFortune_StartSpin_m3A255550AD6F1BD67866688E149F35EE78295473(__this, L_1, L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:207>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:207>
 		return;
 	}
 }
@@ -19439,18 +19439,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SpinInner_m0441CEBEF94ADB47
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:214>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:214>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = __this->___innerWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_0, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:215>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:216>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:217>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:218>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:215>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:216>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:217>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:218>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_1 = __this->___innerWheel;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_2 = (Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8*)il2cpp_codegen_object_new(Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8_il2cpp_TypeInfo_var);
 		Action_2__ctor_m83CEE170A5B9427B596A04F9F50676B044223927(L_2, __this, (intptr_t)((void*)WheelFortune_U3CSpinInnerU3Eb__18_0_m08C839D9EEB590FF5C3696B5125EB4B3F02DDD85_RuntimeMethod_var), NULL);
 		WheelFortune_StartSpin_m3A255550AD6F1BD67866688E149F35EE78295473(__this, L_1, L_2, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:219>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:219>
 		return;
 	}
 }
@@ -19458,13 +19458,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SpinInner_m0441CEBEF94ADB47
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_SpinAll_m6EE54E2D4FE1D21C8536AB1D43BBAA8EB23D6423 (WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:224>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:224>
 		WheelFortune_SpinOuter_m97DE710019EA58DA0478C60EDAA7F74E8DA05E86(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:225>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:225>
 		WheelFortune_SpinMiddle_m1148EA404AF958BD2FA46713A5D0F9CDFAA18F20(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:226>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:226>
 		WheelFortune_SpinInner_m0441CEBEF94ADB473830F634E84AA355003660B7(__this, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:227>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:227>
 		return;
 	}
 }
@@ -19478,7 +19478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_StartSpin_m3A255550AD6F1BD6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:233>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:233>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = ___0_data;
 		if (!L_0)
 		{
@@ -19500,13 +19500,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_StartSpin_m3A255550AD6F1BD6
 
 IL_0011:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:234>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:234>
 		return;
 	}
 
 IL_0012:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:236>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:236>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_4 = ___0_data;
 		NullCheck(L_4);
 		bool L_5 = L_4->___isSpinning;
@@ -19516,20 +19516,20 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:237>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:237>
 		return;
 	}
 
 IL_001b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:239>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:239>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_6 = ___0_data;
 		WheelFortune_FixWheelDefaults_m2B5542053DF71099FFEFEF5B95EE4069D354909C(__this, L_6, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:241>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:241>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_7 = ___0_data;
 		NullCheck(L_7);
 		L_7->___isSpinning = (bool)1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:244>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:244>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_8 = ___0_data;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_9 = ___0_data;
 		NullCheck(L_9);
@@ -19541,7 +19541,7 @@ IL_001b:
 		L_13 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_10, L_12, NULL);
 		NullCheck(L_8);
 		L_8->___currentSpeed = L_13;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:247>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:247>
 		float L_14;
 		L_14 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
 		if ((!(((float)L_14) > ((float)(0.5f)))))
@@ -19550,7 +19550,7 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:248>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:248>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_15 = ___0_data;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_16 = L_15;
 		NullCheck(L_16);
@@ -19561,14 +19561,14 @@ IL_001b:
 
 IL_005e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:250>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:250>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_18 = ___0_data;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_19 = ___1_onStopped;
 		RuntimeObject* L_20;
 		L_20 = WheelFortune_SpinRoutine_m05BDB33783C2F5B94C62386C393949BD0D86AF5C(__this, L_18, L_19, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_21;
 		L_21 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_20, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:251>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:251>
 		return;
 	}
 }
@@ -19633,10 +19633,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* WheelFortune_SnapToAngle_mCEF4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelFortune_NormalizeAngle_m9938993C95ED938CF8859B127FE5748EFCDAEAC4 (WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* __this, float ___0_angle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:536>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:536>
 		float L_0 = ___0_angle;
 		___0_angle = (fmodf(L_0, (360.0f)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:537>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:537>
 		float L_1 = ___0_angle;
 		if ((!(((float)L_1) < ((float)(0.0f)))))
 		{
@@ -19644,14 +19644,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float WheelFortune_NormalizeAngle_m9938993C95
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:537>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:537>
 		float L_2 = ___0_angle;
 		___0_angle = ((float)il2cpp_codegen_add(L_2, (360.0f)));
 	}
 
 IL_001a:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:538>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:538>
 		float L_3 = ___0_angle;
 		return L_3;
 	}
@@ -19666,24 +19666,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune__ctor_m69B3B1F109262074C131
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:36>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:36>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_0 = (WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)il2cpp_codegen_object_new(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51_il2cpp_TypeInfo_var);
 		WheelData__ctor_mC9197179D91445A1293DE0DADB86EA33E09F08A3(L_0, NULL);
 		__this->___outerWheel = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___outerWheel), (void*)L_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:39>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:39>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_1 = (WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)il2cpp_codegen_object_new(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51_il2cpp_TypeInfo_var);
 		WheelData__ctor_mC9197179D91445A1293DE0DADB86EA33E09F08A3(L_1, NULL);
 		__this->___middleWheel = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___middleWheel), (void*)L_1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:42>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_2 = (WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51*)il2cpp_codegen_object_new(WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51_il2cpp_TypeInfo_var);
 		WheelData__ctor_mC9197179D91445A1293DE0DADB86EA33E09F08A3(L_2, NULL);
 		__this->___innerWheel = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___innerWheel), (void*)L_2);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:48>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:48>
 		__this->___closeDelay = (2.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:58>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:58>
 		__this->___chainSpinDelay = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -19704,7 +19704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_U3CSpinOuterU3Eb__14_0_m99C
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B1_0 = NULL;
 	int32_t G_B8_0 = 0;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:123>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:123>
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_0 = __this->___onOuterStopped;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_1 = L_0;
 		if (L_1)
@@ -19728,11 +19728,11 @@ IL_000c:
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:126>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:127>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:128>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:129>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:130>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:126>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:127>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:128>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:129>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:130>
 		int32_t L_4 = ___0_outerSectorNumber;
 		if ((((int32_t)L_4) == ((int32_t)1)))
 		{
@@ -19766,40 +19766,40 @@ IL_0026:
 
 IL_0027:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:132>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:132>
 		if (!G_B8_0)
 		{
 			goto IL_005b;
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:135>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:135>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_8 = __this->___middleWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_8, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:138>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:139>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:140>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:141>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:142>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:143>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:144>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:145>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:146>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:147>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:148>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:149>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:150>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:151>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:152>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:153>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:154>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:155>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:156>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:157>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:158>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:159>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:160>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:161>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:138>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:139>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:140>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:141>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:142>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:143>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:144>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:146>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:147>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:148>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:149>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:150>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:151>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:153>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:154>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:155>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:156>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:157>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:158>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:159>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:160>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:161>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_9 = __this->___middleWheel;
 		float L_10 = __this->___chainSpinDelay;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_11 = (Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8*)il2cpp_codegen_object_new(Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8_il2cpp_TypeInfo_var);
@@ -19813,7 +19813,7 @@ IL_0027:
 
 IL_005b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:166>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:166>
 		int32_t L_14 = ___1_outerPoints;
 		if ((((int32_t)L_14) <= ((int32_t)0)))
 		{
@@ -19832,7 +19832,7 @@ IL_005b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:168>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:168>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_17;
 		L_17 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_18 = ___1_outerPoints;
@@ -19842,15 +19842,15 @@ IL_005b:
 
 IL_0077:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:172>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:172>
 		RuntimeObject* L_19;
 		L_19 = WheelFortune_CloseAfterDelay_mA291A4C2711C37EFCD7A9DC8E39683451EAF548B(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_20;
 		L_20 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_19, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:173>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:173>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_21 = __this->___outerWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_21, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:175>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:175>
 		return;
 	}
 }
@@ -19867,7 +19867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_U3CSpinOuterU3Eb__14_1_mF99
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B2_0 = NULL;
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B1_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:140>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:140>
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_0 = __this->___onMiddleStopped;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_1 = L_0;
 		if (L_1)
@@ -19891,7 +19891,7 @@ IL_000c:
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:143>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:143>
 		int32_t L_4 = ___0_middleSectorNumber;
 		if ((!(((uint32_t)L_4) == ((uint32_t)2))))
 		{
@@ -19899,15 +19899,15 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:145>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:145>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_5 = __this->___innerWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_5, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:147>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:148>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:149>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:150>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:151>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:147>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:148>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:149>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:150>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:151>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:152>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_6 = __this->___innerWheel;
 		float L_7 = __this->___chainSpinDelay;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_8 = (Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8*)il2cpp_codegen_object_new(Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8_il2cpp_TypeInfo_var);
@@ -19921,15 +19921,15 @@ IL_0013:
 
 IL_0049:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:158>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:158>
 		RuntimeObject* L_11;
 		L_11 = WheelFortune_CloseAfterDelay_mA291A4C2711C37EFCD7A9DC8E39683451EAF548B(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_12;
 		L_12 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_11, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:159>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:159>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_13 = __this->___middleWheel;
 		WheelFortune_SetActiveWheel_m69A56AF7B4DC92A0E3250A25004E667F2D8322E1(__this, L_13, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:161>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:161>
 		return;
 	}
 }
@@ -19939,7 +19939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_U3CSpinOuterU3Eb__14_2_m193
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B2_0 = NULL;
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B1_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:149>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:149>
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_0 = __this->___onInnerStopped;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_1 = L_0;
 		if (L_1)
@@ -19963,12 +19963,12 @@ IL_000c:
 
 IL_0013:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:150>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:150>
 		RuntimeObject* L_4;
 		L_4 = WheelFortune_CloseAfterDelay_mA291A4C2711C37EFCD7A9DC8E39683451EAF548B(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_5;
 		L_5 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_4, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:152>
 		return;
 	}
 }
@@ -19978,7 +19978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_U3CSpinMiddleU3Eb__17_0_m5F
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B2_0 = NULL;
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B1_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:205>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:205>
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_0 = __this->___onMiddleStopped;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_1 = L_0;
 		if (L_1)
@@ -19998,7 +19998,7 @@ IL_000b:
 		int32_t L_3 = ___1_value;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_m728A2437F181FBC56F4D617249B47F513AC9FC43_inline(G_B2_0, L_2, L_3, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:206>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:206>
 		return;
 	}
 }
@@ -20008,7 +20008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelFortune_U3CSpinInnerU3Eb__18_0_m08C
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B2_0 = NULL;
 	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* G_B1_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:217>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:217>
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_0 = __this->___onInnerStopped;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_1 = L_0;
 		if (L_1)
@@ -20028,7 +20028,7 @@ IL_000b:
 		int32_t L_3 = ___1_value;
 		NullCheck(G_B2_0);
 		Action_2_Invoke_m728A2437F181FBC56F4D617249B47F513AC9FC43_inline(G_B2_0, L_2, L_3, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:218>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:218>
 		return;
 	}
 }
@@ -20044,21 +20044,21 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WheelData__ctor_mC9197179D91445A1293DE0DADB86EA33E09F08A3 (WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:14>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:14>
 		__this->___segments = ((int32_t)12);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:21>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:21>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
 		L_0 = Color_get_white_m068F5AF879B0FCA584E3693F762EA41BB65532C6_inline(NULL);
 		__this->___activeColor = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:24>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:24>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
 		L_1 = Color_get_gray_m6D01087E0F20F34718EBA5B213853B4BB49F1DEF(NULL);
 		__this->___inactiveColor = L_1;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:27>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:27>
 		__this->___minSpinForce = (800.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:28>
 		__this->___maxSpinForce = (1500.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:29>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:29>
 		__this->___deceleration = (350.0f);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -20126,7 +20126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CCloseAfterDelayU3Ed__15_MoveNext_mDE8
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:181>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:181>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_4 = V_1;
 		NullCheck(L_4);
 		float L_5 = L_4->___closeDelay;
@@ -20136,7 +20136,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:182>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:182>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_6 = V_1;
 		NullCheck(L_6);
 		float L_7 = L_6->___closeDelay;
@@ -20155,7 +20155,7 @@ IL_0045:
 
 IL_004c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:184>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:184>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_9 = V_1;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = L_9->___closeOnFinish;
@@ -20168,7 +20168,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:185>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:185>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_12 = V_1;
 		NullCheck(L_12);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = L_12->___closeOnFinish;
@@ -20178,7 +20178,7 @@ IL_004c:
 
 IL_0066:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:186>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:186>
 		return (bool)0;
 	}
 }
@@ -20263,11 +20263,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSnapToAngleU3Ed__22_MoveNext_mA369C8F
 IL_001a:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:518>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:518>
 		__this->___U3CdurationU3E5__2 = (0.300000012f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:519>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:519>
 		__this->___U3CtU3E5__3 = (0.0f);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:521>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:521>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_4 = V_1;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___wheel;
 		NullCheck(L_5);
@@ -20283,12 +20283,12 @@ IL_001a:
 
 IL_0055:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:525>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:525>
 		float L_9 = __this->___U3CtU3E5__3;
 		float L_10;
 		L_10 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___U3CtU3E5__3 = ((float)il2cpp_codegen_add(L_9, L_10));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:526>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:526>
 		float L_11 = __this->___U3CstartAngleU3E5__4;
 		float L_12 = __this->___targetAngle;
 		float L_13 = __this->___U3CtU3E5__3;
@@ -20296,7 +20296,7 @@ IL_0055:
 		float L_15;
 		L_15 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_11, L_12, ((float)(L_13/L_14)), NULL);
 		V_2 = L_15;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:527>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:527>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16 = __this->___wheel;
 		float L_17 = V_2;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
@@ -20304,7 +20304,7 @@ IL_0055:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_18), (0.0f), (0.0f), L_17, NULL);
 		NullCheck(L_16);
 		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_16, L_18, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:528>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:528>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -20318,7 +20318,7 @@ IL_00b1:
 
 IL_00b8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:523>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:523>
 		float L_19 = __this->___U3CtU3E5__3;
 		float L_20 = __this->___U3CdurationU3E5__2;
 		if ((((float)L_19) < ((float)L_20)))
@@ -20327,7 +20327,7 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:531>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:531>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = __this->___wheel;
 		float L_22 = __this->___targetAngle;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
@@ -20335,7 +20335,7 @@ IL_00b8:
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_23), (0.0f), (0.0f), L_22, NULL);
 		NullCheck(L_21);
 		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_21, L_23, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:532>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:532>
 		return (bool)0;
 	}
 }
@@ -20451,7 +20451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSpinRoutineU3Ed__21_MoveNext_mDD9070D
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:255>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:255>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_3 = __this->___data;
 		if (!L_3)
 		{
@@ -20473,13 +20473,13 @@ IL_0022:
 
 IL_0047:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:256>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:256>
 		return (bool)0;
 	}
 
 IL_0049:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:261>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:261>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_7 = __this->___data;
 		NullCheck(L_7);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = L_7->___wheel;
@@ -20490,7 +20490,7 @@ IL_0049:
 		L_11 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_8);
 		Transform_Rotate_m7EA47AD57F43D478CCB0523D179950EE49CDA3E2(L_8, (0.0f), (0.0f), ((float)il2cpp_codegen_multiply(L_10, L_11)), NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:264>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:264>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_12 = __this->___data;
 		NullCheck(L_12);
 		float L_13 = L_12->___currentSpeed;
@@ -20500,7 +20500,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:266>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:266>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_14 = __this->___data;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_15 = L_14;
 		NullCheck(L_15);
@@ -20512,7 +20512,7 @@ IL_0049:
 		L_19 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_15);
 		L_15->___currentSpeed = ((float)il2cpp_codegen_subtract(L_16, ((float)il2cpp_codegen_multiply(L_18, L_19))));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:267>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:267>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_20 = __this->___data;
 		NullCheck(L_20);
 		float L_21 = L_20->___currentSpeed;
@@ -20522,7 +20522,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:267>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:267>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_22 = __this->___data;
 		NullCheck(L_22);
 		L_22->___currentSpeed = (0.0f);
@@ -20531,7 +20531,7 @@ IL_0049:
 
 IL_00cd:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:269>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:269>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_23 = __this->___data;
 		NullCheck(L_23);
 		float L_24 = L_23->___currentSpeed;
@@ -20541,7 +20541,7 @@ IL_00cd:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:271>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:271>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_25 = __this->___data;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_26 = L_25;
 		NullCheck(L_26);
@@ -20553,7 +20553,7 @@ IL_00cd:
 		L_30 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		NullCheck(L_26);
 		L_26->___currentSpeed = ((float)il2cpp_codegen_add(L_27, ((float)il2cpp_codegen_multiply(L_29, L_30))));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:272>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:272>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_31 = __this->___data;
 		NullCheck(L_31);
 		float L_32 = L_31->___currentSpeed;
@@ -20563,7 +20563,7 @@ IL_00cd:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:272>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:272>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_33 = __this->___data;
 		NullCheck(L_33);
 		L_33->___currentSpeed = (0.0f);
@@ -20571,7 +20571,7 @@ IL_00cd:
 
 IL_0124:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:275>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:275>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -20585,7 +20585,7 @@ IL_0134:
 
 IL_013b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:258>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:258>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_34 = __this->___data;
 		NullCheck(L_34);
 		float L_35 = L_34->___currentSpeed;
@@ -20597,7 +20597,7 @@ IL_013b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:279>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:279>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_37 = V_1;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_38 = __this->___data;
 		NullCheck(L_38);
@@ -20610,22 +20610,22 @@ IL_013b:
 		float L_42;
 		L_42 = WheelFortune_NormalizeAngle_m9938993C95ED938CF8859B127FE5748EFCDAEAC4(L_37, L_41, NULL);
 		V_2 = L_42;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:280>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:280>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_43 = __this->___data;
 		NullCheck(L_43);
 		int32_t L_44 = L_43->___segments;
 		V_3 = ((float)((360.0f)/((float)L_44)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:282>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:282>
 		float L_45 = V_2;
 		float L_46 = V_3;
 		int32_t L_47;
 		L_47 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(((float)(L_45/L_46)), NULL);
 		__this->___U3CrawIndexU3E5__2 = L_47;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:283>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:283>
 		int32_t L_48 = __this->___U3CrawIndexU3E5__2;
 		float L_49 = V_3;
 		V_4 = ((float)il2cpp_codegen_multiply(((float)L_48), L_49));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:286>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:286>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_50 = V_1;
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_51 = V_1;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_52 = __this->___data;
@@ -20647,11 +20647,11 @@ IL_013b:
 IL_01c5:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:288>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:288>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_57 = __this->___data;
 		NullCheck(L_57);
 		L_57->___isSpinning = (bool)0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:293>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:293>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_58 = __this->___data;
 		NullCheck(L_58);
 		int32_t L_59 = L_58->___segments;
@@ -20660,7 +20660,7 @@ IL_01c5:
 		NullCheck(L_61);
 		int32_t L_62 = L_61->___segments;
 		V_5 = ((int32_t)(((int32_t)il2cpp_codegen_subtract(L_59, L_60))%L_62));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:294>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:294>
 		int32_t L_63 = V_5;
 		if ((((int32_t)L_63) >= ((int32_t)0)))
 		{
@@ -20668,7 +20668,7 @@ IL_01c5:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:294>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:294>
 		int32_t L_64 = V_5;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_65 = __this->___data;
 		NullCheck(L_65);
@@ -20678,14 +20678,14 @@ IL_01c5:
 
 IL_020d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:297>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:297>
 		int32_t L_67 = V_5;
 		V_6 = ((int32_t)il2cpp_codegen_add(L_67, 1));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:300>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:300>
 		V_7 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:302>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:302>
 		V_8 = _stringLiteral1938FDF81D9EFE09E9786A7A7DDFFBD755961098;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:303>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:303>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_68 = __this->___data;
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_69 = V_1;
 		NullCheck(L_69);
@@ -20696,14 +20696,14 @@ IL_020d:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:303>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:303>
 		V_8 = _stringLiteralE8CEA3DB5409A979078D857117BEBAD8D555D2C8;
 		goto IL_0260;
 	}
 
 IL_0234:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:304>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:304>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_71 = __this->___data;
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_72 = V_1;
 		NullCheck(L_72);
@@ -20714,14 +20714,14 @@ IL_0234:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:304>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:304>
 		V_8 = _stringLiteral76CD74DBE8D7822A907F0861ECAA8F725931B9A7;
 		goto IL_0260;
 	}
 
 IL_024b:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:305>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:305>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_74 = __this->___data;
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_75 = V_1;
 		NullCheck(L_75);
@@ -20732,13 +20732,13 @@ IL_024b:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:305>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:305>
 		V_8 = _stringLiteral854B0343FD7B9D1DB80D17EC3C22F1F14561250C;
 	}
 
 IL_0260:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:320>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:320>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_77 = __this->___data;
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_78 = V_1;
 		NullCheck(L_78);
@@ -20749,9 +20749,9 @@ IL_0260:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:322>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:322>
 		V_9 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:323>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:323>
 		V_10 = 0;
 		int32_t L_80 = V_6;
 		switch (((int32_t)il2cpp_codegen_subtract(L_80, 2)))
@@ -20808,72 +20808,72 @@ IL_0260:
 
 IL_02ae:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:327>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:327>
 		V_9 = ((int32_t)100);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:328>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:328>
 		goto IL_02e2;
 	}
 
 IL_02b4:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:330>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:330>
 		V_9 = ((int32_t)20);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:331>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:331>
 		goto IL_02e2;
 	}
 
 IL_02ba:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:333>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:333>
 		V_9 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:334>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:334>
 		goto IL_02e2;
 	}
 
 IL_02c0:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:336>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:336>
 		V_9 = ((int32_t)140);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:337>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:337>
 		goto IL_02e2;
 	}
 
 IL_02c9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:339>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:339>
 		V_9 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:340>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:340>
 		goto IL_02e2;
 	}
 
 IL_02cf:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:342>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:342>
 		V_9 = ((int32_t)140);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:343>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:343>
 		goto IL_02e2;
 	}
 
 IL_02d8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:345>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:345>
 		V_9 = ((int32_t)20);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:346>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:346>
 		goto IL_02e2;
 	}
 
 IL_02de:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:348>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:348>
 		V_9 = ((int32_t)100);
 	}
 
 IL_02e2:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:352>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:352>
 		int32_t L_81 = V_9;
 		V_7 = L_81;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:353>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:353>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_82 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_83 = L_82;
 		String_t* L_84 = V_8;
@@ -20905,7 +20905,7 @@ IL_02e2:
 		L_97 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(_stringLiteral33F4D2CAE392A2A6F5DC210A7D29434BB7248FA2, L_93, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_97, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:355>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:355>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_98;
 		L_98 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -20924,7 +20924,7 @@ IL_02e2:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:357>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:357>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_101;
 		L_101 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_102 = V_9;
@@ -20935,7 +20935,7 @@ IL_02e2:
 
 IL_0347:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:363>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:363>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_103 = __this->___data;
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_104 = V_1;
 		NullCheck(L_104);
@@ -20946,9 +20946,9 @@ IL_0347:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:365>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:365>
 		V_11 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:366>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:366>
 		V_12 = 0;
 		int32_t L_106 = V_6;
 		switch (((int32_t)il2cpp_codegen_subtract(L_106, 1)))
@@ -21009,93 +21009,93 @@ IL_0347:
 
 IL_0399:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:372>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:372>
 		V_11 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:373>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:373>
 		goto IL_03d9;
 	}
 
 IL_039f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:379>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:379>
 		V_12 = ((int32_t)100);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:380>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:380>
 		goto IL_03d9;
 	}
 
 IL_03a5:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:383>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:383>
 		V_11 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:384>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:384>
 		goto IL_03d9;
 	}
 
 IL_03ab:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:387>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:387>
 		V_11 = ((int32_t)40);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:388>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:388>
 		goto IL_03d9;
 	}
 
 IL_03b1:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:391>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:391>
 		V_12 = ((int32_t)100);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:392>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:392>
 		goto IL_03d9;
 	}
 
 IL_03b7:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:395>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:395>
 		V_11 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:396>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:396>
 		goto IL_03d9;
 	}
 
 IL_03bd:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:399>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:399>
 		V_11 = ((int32_t)40);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:400>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:400>
 		goto IL_03d9;
 	}
 
 IL_03c3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:403>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:403>
 		V_12 = ((int32_t)100);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:404>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:404>
 		goto IL_03d9;
 	}
 
 IL_03c9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:407>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:407>
 		V_11 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:408>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:408>
 		goto IL_03d9;
 	}
 
 IL_03cf:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:411>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:411>
 		V_12 = ((int32_t)100);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:412>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:412>
 		goto IL_03d9;
 	}
 
 IL_03d5:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:415>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:415>
 		V_11 = ((int32_t)40);
 	}
 
 IL_03d9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:420>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:420>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_107;
 		L_107 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -21107,7 +21107,7 @@ IL_03d9:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:422>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:422>
 		int32_t L_109 = V_11;
 		if ((((int32_t)L_109) <= ((int32_t)0)))
 		{
@@ -21115,7 +21115,7 @@ IL_03d9:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:424>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:424>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_110;
 		L_110 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_111 = V_11;
@@ -21125,7 +21125,7 @@ IL_03d9:
 
 IL_03f7:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:427>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:427>
 		int32_t L_112 = V_12;
 		if ((((int32_t)L_112) <= ((int32_t)0)))
 		{
@@ -21133,7 +21133,7 @@ IL_03f7:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:429>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:429>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_113;
 		L_113 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_114 = V_12;
@@ -21143,11 +21143,11 @@ IL_03f7:
 
 IL_0408:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:434>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:434>
 		int32_t L_115 = V_11;
 		int32_t L_116 = V_12;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_115, L_116));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:435>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:435>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_117 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_118 = L_117;
 		String_t* L_119 = V_8;
@@ -21184,7 +21184,7 @@ IL_0408:
 
 IL_044c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:437>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:437>
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_133 = __this->___data;
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_134 = V_1;
 		NullCheck(L_134);
@@ -21195,9 +21195,9 @@ IL_044c:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:439>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:439>
 		V_13 = 0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:440>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:440>
 		V_14 = 0;
 		int32_t L_136 = V_6;
 		switch (((int32_t)il2cpp_codegen_subtract(L_136, 1)))
@@ -21258,101 +21258,101 @@ IL_044c:
 
 IL_049e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:458>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:458>
 		V_14 = ((int32_t)200);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:459>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:459>
 		goto IL_04f6;
 	}
 
 IL_04a7:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:461>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:461>
 		V_13 = ((int32_t)200);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:462>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:462>
 		goto IL_04f6;
 	}
 
 IL_04b0:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:464>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:464>
 		V_14 = ((int32_t)500);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:465>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:465>
 		goto IL_04f6;
 	}
 
 IL_04b9:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:467>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:467>
 		V_13 = ((int32_t)200);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:468>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:468>
 		goto IL_04f6;
 	}
 
 IL_04c2:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:470>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:470>
 		V_13 = ((int32_t)60);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:471>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:471>
 		goto IL_04f6;
 	}
 
 IL_04c8:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:473>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:473>
 		V_14 = ((int32_t)200);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:474>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:474>
 		goto IL_04f6;
 	}
 
 IL_04d1:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:476>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:476>
 		V_13 = ((int32_t)60);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:477>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:477>
 		goto IL_04f6;
 	}
 
 IL_04d7:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:479>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:479>
 		V_13 = ((int32_t)20);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:480>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:480>
 		goto IL_04f6;
 	}
 
 IL_04dd:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:482>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:482>
 		V_13 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:483>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:483>
 		goto IL_04f6;
 	}
 
 IL_04e3:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:485>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:485>
 		V_14 = ((int32_t)200);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:486>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:486>
 		goto IL_04f6;
 	}
 
 IL_04ec:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:488>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:488>
 		V_13 = ((int32_t)120);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:489>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:489>
 		goto IL_04f6;
 	}
 
 IL_04f2:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:491>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:491>
 		V_13 = ((int32_t)20);
 	}
 
 IL_04f6:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:495>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:495>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_137;
 		L_137 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -21364,7 +21364,7 @@ IL_04f6:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:497>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:497>
 		int32_t L_139 = V_13;
 		if ((((int32_t)L_139) <= ((int32_t)0)))
 		{
@@ -21372,7 +21372,7 @@ IL_04f6:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:499>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:499>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_140;
 		L_140 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_141 = V_13;
@@ -21382,7 +21382,7 @@ IL_04f6:
 
 IL_0514:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:502>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:502>
 		int32_t L_142 = V_14;
 		if ((((int32_t)L_142) <= ((int32_t)0)))
 		{
@@ -21390,7 +21390,7 @@ IL_0514:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:504>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:504>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_143;
 		L_143 = GameManager_get_Instance_m076FE4D98E785B5AEE0B4C360C7857F824E7FBD0_inline(NULL);
 		int32_t L_144 = V_14;
@@ -21400,11 +21400,11 @@ IL_0514:
 
 IL_0525:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:508>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:508>
 		int32_t L_145 = V_13;
 		int32_t L_146 = V_14;
 		V_7 = ((int32_t)il2cpp_codegen_add(L_145, L_146));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:509>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:509>
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_147 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_148 = L_147;
 		String_t* L_149 = V_8;
@@ -21440,7 +21440,7 @@ IL_0525:
 
 IL_0564:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:513>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:513>
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_163 = __this->___onStopped;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_164 = L_163;
 		if (L_164)
@@ -21464,7 +21464,7 @@ IL_0570:
 
 IL_0579:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:514>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:514>
 		return (bool)0;
 	}
 }
@@ -21554,7 +21554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CSpinWithDelayU3Ed__16_MoveNext_m56816
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:189>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:189>
 		float L_4 = __this->___delay;
 		if ((!(((float)L_4) > ((float)(0.0f)))))
 		{
@@ -21562,7 +21562,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:190>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:190>
 		float L_5 = __this->___delay;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_6 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
 		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_6, L_5, NULL);
@@ -21579,13 +21579,13 @@ IL_0045:
 
 IL_004c:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:192>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:192>
 		WheelFortune_t45FC3AE322532218540C2944535DB05B0848DD55* L_7 = V_1;
 		WheelData_t253DFB27489550F8C52B9C21BBF3AA42948C3D51* L_8 = __this->___data;
 		Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* L_9 = __this->___onStopped;
 		NullCheck(L_7);
 		WheelFortune_StartSpin_m3A255550AD6F1BD67866688E149F35EE78295473(L_7, L_8, L_9, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/WheelFortune.cs:193>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/WheelFortune.cs:193>
 		return (bool)0;
 	}
 }
@@ -21795,7 +21795,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AudioManager_t4BE66A4A0E184D85AF7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:8>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:8>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_0 = ((AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_StaticFields*)il2cpp_codegen_static_fields_for(AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
 		return L_0;
 	}
@@ -21810,7 +21810,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AudioManager_set_Instance_m6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/AudioManager.cs:8>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/AudioManager.cs:8>
 		AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B* L_0 = ___0_value;
 		((AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_StaticFields*)il2cpp_codegen_static_fields_for(AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_StaticFields*)il2cpp_codegen_static_fields_for(AudioManager_t4BE66A4A0E184D85AF74C37BC93BFBEC52953C7B_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
@@ -21944,7 +21944,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameManager_tFE129A0017AF5BBD30FD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:17>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField;
 		return L_0;
 	}
@@ -21959,7 +21959,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameManager_set_Instance_mCF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:17>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:17>
 		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = ___0_value;
 		((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields*)il2cpp_codegen_static_fields_for(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_il2cpp_TypeInfo_var))->___U3CInstanceU3Ek__BackingField), (void*)L_0);
@@ -21970,7 +21970,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameManager_set_Instance_mCF
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlayField_GetCurrentWin_m6BE6CDB0752F676C844139C191E7894AF9825591_inline (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:110>
 		int32_t L_0 = __this->___currentWin;
 		return L_0;
 	}
@@ -22328,7 +22328,7 @@ IL_0021:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlayField_get_ResetTotalDuration_m8F614D3324AAB7B36022CC70794D88C787DA9BBF_inline (PlayField_t58F5A91D2F0B00AB6D1C4657EEDCC53822FF31F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/PlayField.cs:15>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/PlayField.cs:15>
 		float L_0 = __this->___resetTotalDuration;
 		return L_0;
 	}
@@ -22337,7 +22337,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float PlayField_get_ResetTotalDur
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameManager_get_CurrentBet_m3DD1458B3C275C39B7E5E2434C0545F1B4AFA248_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Scripts/GameManager.cs:139>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Scripts/GameManager.cs:139>
 		int32_t L_0 = __this->___currentBet;
 		return L_0;
 	}
