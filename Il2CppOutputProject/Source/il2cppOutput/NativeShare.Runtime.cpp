@@ -787,7 +787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:68>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:68>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		String_t* L_1 = L_0;
 		V_0 = L_1;
@@ -806,18 +806,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 		String_t* L_6 = V_0;
 		__this->___subject = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___subject), (void*)L_6);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:75>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:75>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_7 = __this->___files;
 		NullCheck(L_7);
 		List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_7, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:76>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:76>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_8 = __this->___mimes;
 		NullCheck(L_8);
 		List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_8, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:78>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:78>
 		__this->___callback = (ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___callback), (void*)(ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5*)NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:80>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:80>
 		return __this;
 	}
 }
@@ -829,7 +829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 	String_t* G_B1_0 = NULL;
 	NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* G_B1_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:85>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:85>
 		String_t* L_0 = ___0_subject;
 		String_t* L_1 = L_0;
 		if (L_1)
@@ -852,7 +852,7 @@ IL_000b:
 		NullCheck(G_B2_1);
 		G_B2_1->___subject = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___subject), (void*)G_B2_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:86>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:86>
 		return __this;
 	}
 }
@@ -864,7 +864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 	String_t* G_B1_0 = NULL;
 	NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* G_B1_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:91>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:91>
 		String_t* L_0 = ___0_text;
 		String_t* L_1 = L_0;
 		if (L_1)
@@ -887,7 +887,7 @@ IL_000b:
 		NullCheck(G_B2_1);
 		G_B2_1->___text = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___text), (void*)G_B2_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:92>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:92>
 		return __this;
 	}
 }
@@ -899,7 +899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 	String_t* G_B1_0 = NULL;
 	NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* G_B1_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:97>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:97>
 		String_t* L_0 = ___0_url;
 		String_t* L_1 = L_0;
 		if (L_1)
@@ -922,7 +922,7 @@ IL_000b:
 		NullCheck(G_B2_1);
 		G_B2_1->___url = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___url), (void*)G_B2_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:98>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:98>
 		return __this;
 	}
 }
@@ -934,7 +934,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 	String_t* G_B1_0 = NULL;
 	NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* G_B1_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:103>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:103>
 		String_t* L_0 = ___0_title;
 		String_t* L_1 = L_0;
 		if (L_1)
@@ -957,7 +957,7 @@ IL_000b:
 		NullCheck(G_B2_1);
 		G_B2_1->___title = G_B2_0;
 		Il2CppCodeGenWriteBarrier((void**)(&G_B2_1->___title), (void*)G_B2_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:104>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:104>
 		return __this;
 	}
 }
@@ -965,11 +965,11 @@ IL_000b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* NativeShare_SetCallback_m546C0EEF61664E6B0B4A0318044A16BBBA0B5179 (NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* __this, ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* ___0_callback, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:109>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:109>
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_0 = ___0_callback;
 		__this->___callback = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___callback), (void*)L_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:110>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:110>
 		return __this;
 	}
 }
@@ -977,7 +977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* NativeShare_AddTarget_m115A3444918C4130A6BE25218E8966C131784FE5 (NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* __this, String_t* ___0_androidPackageName, String_t* ___1_androidClassName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:139>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:139>
 		return __this;
 	}
 }
@@ -997,7 +997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 	String_t* G_B3_0 = NULL;
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* G_B3_1 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:144>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:144>
 		String_t* L_0 = ___0_filePath;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -1016,12 +1016,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:146>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:146>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = __this->___files;
 		String_t* L_5 = ___0_filePath;
 		NullCheck(L_4);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_4, L_5, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:147>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:147>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_6 = __this->___mimes;
 		String_t* L_7 = ___1_mime;
 		String_t* L_8 = L_7;
@@ -1049,7 +1049,7 @@ IL_002c:
 
 IL_0033:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:150>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:150>
 		String_t* L_10 = ___0_filePath;
 		String_t* L_11;
 		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralAFF4CC9F1E1AA16CF56E4F5C85A3BDCA0CB896FB, L_10, NULL);
@@ -1059,7 +1059,7 @@ IL_0033:
 
 IL_0043:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:152>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:152>
 		return __this;
 	}
 }
@@ -1092,7 +1092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 	String_t* G_B13_1 = NULL;
 	NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* G_B13_2 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:157>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:157>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = ___0_texture;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -1103,7 +1103,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:158>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:158>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralEB70548E100BA47AF6084FE872DCFC01E2DFFEBB, NULL);
 		goto IL_0091;
@@ -1111,7 +1111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B97
 
 IL_0014:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:161>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:161>
 		String_t* L_2 = ___1_createdFileName;
 		bool L_3;
 		L_3 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_2, NULL);
@@ -1121,13 +1121,13 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:162>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:162>
 		___1_createdFileName = _stringLiteralF37E86612B08131A4171D70D9CCCAF41191D0B4F;
 	}
 
 IL_0023:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:165>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:165>
 		String_t* L_4 = ___1_createdFileName;
 		NullCheck(L_4);
 		bool L_5;
@@ -1150,14 +1150,14 @@ IL_0023:
 
 IL_003f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:166>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:166>
 		V_0 = (bool)1;
 		goto IL_0060;
 	}
 
 IL_0043:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:169>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:169>
 		String_t* L_8 = ___1_createdFileName;
 		NullCheck(L_8);
 		bool L_9;
@@ -1168,7 +1168,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:170>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:170>
 		String_t* L_10 = ___1_createdFileName;
 		String_t* L_11;
 		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_10, _stringLiteralA15C898F015A9B0BC3268E8883CD03008A56DE26, NULL);
@@ -1177,13 +1177,13 @@ IL_0043:
 
 IL_005e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:172>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:172>
 		V_0 = (bool)0;
 	}
 
 IL_0060:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:175>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:175>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		String_t* L_12;
 		L_12 = Application_get_temporaryCachePath_mE4483A939988E69570C19F8B31AB9FB17B0FD97D(NULL);
@@ -1192,14 +1192,14 @@ IL_0060:
 		String_t* L_14;
 		L_14 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_12, L_13, NULL);
 		V_1 = L_14;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:176>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:176>
 		String_t* L_15 = V_1;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = ___0_texture;
 		bool L_17 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18;
 		L_18 = NativeShare_GetTextureBytes_m5E2AE3535B50014A6BC5C326F6202FC7E2BEFB9C(__this, L_16, L_17, NULL);
 		File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_15, L_18, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:178>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:178>
 		String_t* L_19 = V_1;
 		bool L_20 = V_0;
 		if (L_20)
@@ -1234,7 +1234,7 @@ IL_008b:
 
 IL_0091:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:181>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:181>
 		return __this;
 	}
 }
@@ -1242,7 +1242,7 @@ IL_0091:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* NativeShare_AddEmailRecipient_m4BAC97D4BD7EDF171B1C3BED1DD4E690E74EB205 (NativeShare_t89B79EA6B0A34E197A0FF3815CEE1B970D30960B* __this, String_t* ___0_emailAddress, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:191>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:191>
 		return __this;
 	}
 }
@@ -1261,7 +1261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeShare_Share_m3DB5879D819C16FC4325D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:196>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:196>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = __this->___files;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -1302,19 +1302,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeShare_Share_m3DB5879D819C16FC4325D
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:198>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:198>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral537DA31EA009D26D0F870996AEBF3B39A97F284F, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:199>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:199>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:210>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:210>
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_8 = __this->___callback;
 		NSShareResultCallbackiOS_Initialize_m3FA021ED002961E3B26B716515B5A77CF9B8BA06(L_8, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:211>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:211>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = __this->___files;
 		NullCheck(L_9);
 		int32_t L_10;
@@ -1325,7 +1325,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:212>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:212>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)0);
 		String_t* L_12 = __this->___subject;
 		String_t* L_13 = __this->___text;
@@ -1337,7 +1337,7 @@ IL_003f:
 
 IL_0076:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:217>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:217>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_15 = __this->___files;
 		NullCheck(L_15);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16;
@@ -1350,7 +1350,7 @@ IL_0076:
 		String_t* L_20;
 		L_20 = NativeShare_CombineURLWithText_mBD3218FD4796ACD1E82A56023ACFD1D50E0B3E6D(__this, NULL);
 		NativeShare__NativeShare_Share_m338576D82E461725B4E2CE7262FA34C005B886DC(L_16, L_18, L_19, L_20, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:222>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:222>
 		return;
 	}
 }
@@ -1358,7 +1358,7 @@ IL_0076:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeShare_TargetExists_mD182ABC83C00CF5FBCC07E80ED2AC9128C84B285 (String_t* ___0_androidPackageName, String_t* ___1_androidClassName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:236>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:236>
 		return (bool)1;
 	}
 }
@@ -1366,15 +1366,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeShare_TargetExists_mD182ABC83C00CF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeShare_FindTarget_m848E039C88ACA928EE1440B0F788D011426402ED (String_t** ___0_androidPackageName, String_t** ___1_androidClassName, String_t* ___2_packageNameRegex, String_t* ___3_classNameRegex, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:242>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:242>
 		String_t** L_0 = ___0_androidPackageName;
 		*((RuntimeObject**)L_0) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)(RuntimeObject*)NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:243>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:243>
 		String_t** L_1 = ___1_androidClassName;
 		*((RuntimeObject**)L_1) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_1, (void*)(RuntimeObject*)NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:265>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:265>
 		return (bool)0;
 	}
 }
@@ -1389,7 +1389,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NativeShare_GetURLWithScheme_mFB311
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:273>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:273>
 		String_t* L_0 = __this->___url;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -1432,7 +1432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NativeShare_CombineURLWithText_mBD3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:278>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:278>
 		String_t* L_0 = __this->___url;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -1456,14 +1456,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NativeShare_CombineURLWithText_mBD3
 
 IL_0022:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:279>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:279>
 		String_t* L_5 = __this->___text;
 		return L_5;
 	}
 
 IL_0029:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:280>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:280>
 		String_t* L_6 = __this->___text;
 		NullCheck(L_6);
 		int32_t L_7;
@@ -1474,7 +1474,7 @@ IL_0029:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:281>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:281>
 		String_t* L_8;
 		L_8 = NativeShare_GetURLWithScheme_mFB311627815D47656BEB6DBC2C131D8E64668CD4(__this, NULL);
 		return L_8;
@@ -1482,7 +1482,7 @@ IL_0029:
 
 IL_003d:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:283>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:283>
 		String_t* L_9 = __this->___text;
 		String_t* L_10;
 		L_10 = NativeShare_GetURLWithScheme_mFB311627815D47656BEB6DBC2C131D8E64668CD4(__this, NULL);
@@ -1500,7 +1500,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	try
 	{
 		{
-			//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:290>
+			//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:290>
 			bool L_0 = ___1_isJpeg;
 			if (L_0)
 			{
@@ -1547,8 +1547,8 @@ IL_0013_1:
 CATCH_0016:
 	{
 		UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067* L_5 = ((UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067*)IL2CPP_GET_ACTIVE_EXCEPTION(UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067*));;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:292>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:294>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:292>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:294>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_6 = ___0_texture;
 		bool L_7 = ___1_isJpeg;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8;
@@ -1561,8 +1561,8 @@ CATCH_0016:
 CATCH_0022:
 	{
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_9 = ((ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)IL2CPP_GET_ACTIVE_EXCEPTION(ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*));;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:296>
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:298>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:296>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:298>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_10 = ___0_texture;
 		bool L_11 = ___1_isJpeg;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12;
@@ -1574,7 +1574,7 @@ CATCH_0022:
 
 IL_002e:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:304>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:304>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = V_0;
 		return L_13;
 	}
@@ -1606,12 +1606,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	int32_t G_B4_2 = 0;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B11_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:309>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:309>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral6307B090E7219A907073428ED745FD41EFA179DE, NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:311>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:311>
 		V_0 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)NULL;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:312>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:312>
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_0 = ___0_texture;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -1623,7 +1623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_4;
 		L_4 = RenderTexture_GetTemporary_m82379FD4C767A36F0677CAF4E68319EAE16ADF7F(L_1, L_3, NULL);
 		V_1 = L_4;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:313>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:313>
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_5;
 		L_5 = RenderTexture_get_active_mA4434B3E79DEF2C01CAE0A53061598B16443C9E7(NULL);
 		V_2 = L_5;
@@ -1634,13 +1634,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 
 FINALLY_008a:
 			{
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:333>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:333>
 				RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_6 = V_2;
 				RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_6, NULL);
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:334>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:334>
 				RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7 = V_1;
 				RenderTexture_ReleaseTemporary_mEEF2C1990196FF06FDD0DC190928AD3A023EBDD2(L_7, NULL);
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:335>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:335>
 				return;
 			}
 		});
@@ -1649,15 +1649,15 @@ FINALLY_008a:
 			try
 			{
 				{
-					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:317>
+					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:317>
 					Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_8 = ___0_texture;
 					RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_9 = V_1;
 					il2cpp_codegen_runtime_class_init_inline(Graphics_t99CD970FFEA58171C70F54DF0C06D315BD452F2C_il2cpp_TypeInfo_var);
 					Graphics_Blit_m8D99E16B74C7D3C8F79F4F142C59DB6B38114504(L_8, L_9, NULL);
-					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:318>
+					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:318>
 					RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_10 = V_1;
 					RenderTexture_set_active_m5EE8E2327EF9B306C1425014CC34C41A8384E7AB(L_10, NULL);
-					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:320>
+					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:320>
 					Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_11 = ___0_texture;
 					NullCheck(L_11);
 					int32_t L_12;
@@ -1695,7 +1695,7 @@ IL_0044_2:
 					Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 					Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917(L_16, G_B4_2, G_B4_1, G_B4_0, (bool)0, NULL);
 					V_0 = L_16;
-					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:321>
+					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:321>
 					Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_17 = V_0;
 					Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = ___0_texture;
 					NullCheck(L_18);
@@ -1710,11 +1710,11 @@ IL_0044_2:
 					Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_22), (0.0f), (0.0f), ((float)L_19), ((float)L_21), NULL);
 					NullCheck(L_17);
 					Texture2D_ReadPixels_m7483DB211233F02E46418E9A6077487925F0024C(L_17, L_22, 0, 0, (bool)0, NULL);
-					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:322>
+					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:322>
 					Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_23 = V_0;
 					NullCheck(L_23);
 					Texture2D_Apply_m36EE27E6F1BF7FB8C70A1D749DC4EE249810AA3A(L_23, (bool)0, (bool)0, NULL);
-					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:323>
+					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:323>
 					goto IL_0097;
 				}
 			}
@@ -1731,14 +1731,14 @@ IL_0044_2:
 CATCH_007b_1:
 			{
 				Exception_t* L_24 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:326>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:326>
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 				Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_24, NULL);
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:328>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:328>
 				Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_25 = V_0;
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var)));
 				Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_25, NULL);
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:329>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:329>
 				V_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_00be;
@@ -1759,11 +1759,11 @@ IL_0097:
 
 FINALLY_00b7:
 			{
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:348>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:348>
 				Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_26 = V_0;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_26, NULL);
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:349>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:349>
 				return;
 			}
 		});
@@ -1772,7 +1772,7 @@ FINALLY_00b7:
 			try
 			{
 				{
-					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:339>
+					//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:339>
 					bool L_27 = ___1_isJpeg;
 					if (L_27)
 					{
@@ -1814,10 +1814,10 @@ IL_00ab_2:
 CATCH_00ae_1:
 			{
 				Exception_t* L_32 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:343>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:343>
 				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 				Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_32, NULL);
-				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:344>
+				//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:344>
 				V_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 				goto IL_00be;
@@ -1831,7 +1831,7 @@ CATCH_00ae_1:
 
 IL_00be:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:350>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:350>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_33 = V_3;
 		return L_33;
 	}
@@ -1847,28 +1847,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeShare__ctor_m7808C679AB06B9BE0BFF3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:49>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:49>
 		String_t* L_0 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___subject = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___subject), (void*)L_0);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:50>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:50>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___text = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___text), (void*)L_1);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:51>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:51>
 		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___title = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___title), (void*)L_2);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:52>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:52>
 		String_t* L_3 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		__this->___url = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___url), (void*)L_3);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:61>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:61>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_m1A062F45FE926079CE2D4FD38A3BF15F7AEB89AF(L_4, 0, List_1__ctor_m1A062F45FE926079CE2D4FD38A3BF15F7AEB89AF_RuntimeMethod_var);
 		__this->___files = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___files), (void*)L_4);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/NativeShare.cs:62>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/NativeShare.cs:62>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_5 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_m1A062F45FE926079CE2D4FD38A3BF15F7AEB89AF(L_5, 0, List_1__ctor_m1A062F45FE926079CE2D4FD38A3BF15F7AEB89AF_RuntimeMethod_var);
 		__this->___mimes = L_5;
@@ -2123,7 +2123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_Initialize_m3FA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:13>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:13>
 		NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93* L_0 = ((NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_StaticFields*)il2cpp_codegen_static_fields_for(NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_il2cpp_TypeInfo_var))->___instance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2134,7 +2134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_Initialize_m3FA
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:15>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:15>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_2, _stringLiteral8302A0571E7DCC9204775D1D077FC0075A94BCAF, NULL);
 		NullCheck(L_2);
@@ -2142,7 +2142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_Initialize_m3FA
 		L_3 = GameObject_AddComponent_TisNSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_mBA3A6C295C2F09CF7215BFB664EA31C071266E99(L_2, GameObject_AddComponent_TisNSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_mBA3A6C295C2F09CF7215BFB664EA31C071266E99_RuntimeMethod_var);
 		((NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_StaticFields*)il2cpp_codegen_static_fields_for(NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_il2cpp_TypeInfo_var))->___instance = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_StaticFields*)il2cpp_codegen_static_fields_for(NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_il2cpp_TypeInfo_var))->___instance), (void*)L_3);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:16>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:16>
 		NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93* L_4 = ((NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_StaticFields*)il2cpp_codegen_static_fields_for(NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_4);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
@@ -2154,7 +2154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_Initialize_m3FA
 
 IL_0032:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:18>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:18>
 		NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93* L_6 = ((NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_StaticFields*)il2cpp_codegen_static_fields_for(NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_6);
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_7 = L_6->___callback;
@@ -2164,7 +2164,7 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:19>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:19>
 		NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93* L_8 = ((NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_StaticFields*)il2cpp_codegen_static_fields_for(NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_il2cpp_TypeInfo_var))->___instance;
 		NullCheck(L_8);
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_9 = L_8->___callback;
@@ -2174,13 +2174,13 @@ IL_0032:
 
 IL_004f:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:21>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:21>
 		NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93* L_10 = ((NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_StaticFields*)il2cpp_codegen_static_fields_for(NSShareResultCallbackiOS_tFE57F585C7F749D90CB7847C17DF73C6463B6F93_il2cpp_TypeInfo_var))->___instance;
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_11 = ___0_callback;
 		NullCheck(L_10);
 		L_10->___callback = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&L_10->___callback), (void*)L_11);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:22>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:22>
 		return;
 	}
 }
@@ -2192,13 +2192,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_OnShareComplete
 	String_t* V_2 = NULL;
 	String_t* G_B6_0 = NULL;
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:27>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:27>
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_0 = __this->___callback;
 		V_0 = L_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:28>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:28>
 		__this->___callback = (ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___callback), (void*)(ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5*)NULL);
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:30>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:30>
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_1 = V_0;
 		if (!L_1)
 		{
@@ -2206,7 +2206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_OnShareComplete
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:32>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:32>
 		String_t* L_2 = ___0_message;
 		bool L_3;
 		L_3 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_2, NULL);
@@ -2216,7 +2216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_OnShareComplete
 		}
 	}
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:33>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:33>
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_4 = V_0;
 		NullCheck(L_4);
 		ShareResultCallback_Invoke_mD1BF5CCE67D2D8A0C4930E3344896606BF4E9F6A_inline(L_4, 0, (String_t*)NULL, NULL);
@@ -2225,13 +2225,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NSShareResultCallbackiOS_OnShareComplete
 
 IL_0022:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:36>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:36>
 		String_t* L_5 = ___0_message;
 		NullCheck(L_5);
 		Il2CppChar L_6;
 		L_6 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_5, 0, NULL);
 		V_1 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_6, ((int32_t)48)));
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:37>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:37>
 		String_t* L_7 = ___0_message;
 		NullCheck(L_7);
 		int32_t L_8;
@@ -2258,7 +2258,7 @@ IL_0039:
 IL_0040:
 	{
 		V_2 = G_B6_0;
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:39>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:39>
 		ShareResultCallback_t9BEF49D9F4FF6C26758394EA70E84DD6339733C5* L_11 = V_0;
 		int32_t L_12 = V_1;
 		String_t* L_13 = V_2;
@@ -2268,7 +2268,7 @@ IL_0040:
 
 IL_0049:
 	{
-		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/App17-Dev/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:42>
+		//<source_info:/Users/x/Desktop/WORK/ASOLAB/App17/MagicFruit/Assets/Plugins/NativeShare/iOS/NSShareResultCallbackiOS.cs:42>
 		return;
 	}
 }
